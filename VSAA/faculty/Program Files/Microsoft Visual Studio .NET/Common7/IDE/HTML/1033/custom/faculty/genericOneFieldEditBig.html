@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title></title>
+	<LINK REL="StyleSheet" HREF="dialogs.css" type="text/css">
+        <script language="JavaScript" src="faculty.js"></script><script language="VBScript" src="faculty.vbs"></script>
+</head>
+
+<body leftmargin="0" topmargin="0" onload="OnLoad()">
+<table id="EditFieldTable"  class="tableStyle"  width="100%" height="100%" cellpadding="8">
+	<tr>
+		<td class="boxStyle1" id='GenericEditTitle'></td>
+	</tr>
+	<tr>
+		<td class="tableItem" id='GenericEditFieldName'>
+	                <span id='GenericEditFieldTitle'></span>
+			<BR>
+	                <textarea tabindex="1" cols="52"  id="editValue" rows="15" onkeydown="HandleKeyDown()"></textarea>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="tableItem" align="right"> 
+		  <button tabindex="1" class="webButton" onClick="OnOk()" style="position:relative; top:0;left:0; width: 5em;" id = "OkButton">
+		  OK
+		  </button>
+		  &nbsp;
+		  <button tabindex="1" class="webButton" onClick="OnCancel()" style="position:relative; top:0;left:0; width: 5em;" id="CancelButton">
+		  Cancel
+		  </button>
+		  &nbsp;
+		  <button tabindex="1" class="webButton" onClick="OnHelp()" style="position:relative; top:0;left:0; width: 5em;" id = "HelpButton">
+		  Help
+		  </button>
+		</td>
+	</tr>
+</table>
+
+<script language="JavaScript">
+
+function OnLoad() {
+  var title = window.dialogArguments[2];
+  window.returnValue = null;
+  GenericEditTitle.innerText = title;
+  GenericEditFieldTitle.innerText = window.dialogArguments[3];
+  editValue.value = window.dialogArguments[4];
+}
+
+function OnHelp() {
+  try {
+    var help = window.dialogArguments[0].GetObject("Help");
+    help.DisplayTopicFromF1Keyword(window.dialogArguments[1]);
+  } catch(e) {
+    // falling in here simply means that the topic did not exist -- the
+    // VS shell will provide an appropriate error topic to the user.
+  }
+}
+
+function OnOk() {
+  if (editValue.value != null && editValue.value.length > 4000) {
+    alert(L_ErrorDescriptionFieldTooLong_Text);
+    return;
+  }
+
+  window.returnValue = editValue.value;
+  window.close();
+}
+
+function OnCancel() {
+  window.returnValue = null;
+  window.close();
+}
+
+// When they hit esc, we want to trigger the cancel button.
+function HandleKeyDown() {
+  var i = window.event.keyCode;
+
+  switch (i) {
+  case 27: // ESC
+    CancelButton.click();
+    break;
+  default:
+    break;
+  }
+}
+
+</script>
+
+</body>
+</html>

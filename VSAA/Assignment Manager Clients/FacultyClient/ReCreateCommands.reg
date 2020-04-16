@@ -1,0 +1,11 @@
+;
+; Copyright © 2000-2003 Microsoft Corporation.  All rights reserved.
+;
+;
+; This source code is licensed under Microsoft Shared Source License
+; for the Visual Studio .NET Academic Tools Source Licensing Program
+; For a copy of the license, see http://www.msdnaa.net/assignmentmanager/sourcelicense/
+;
+REGEDIT4
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\VisualStudio\7.1\PreloadAddinState]
+"FacultyClient.Connect"=dword:1

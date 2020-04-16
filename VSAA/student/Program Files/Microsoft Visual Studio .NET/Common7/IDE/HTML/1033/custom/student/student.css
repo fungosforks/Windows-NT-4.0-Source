@@ -1,0 +1,29 @@
+.studentWebButton {
+	border: 1 solid #336699;
+	background-color: #6699CC;
+	color: #FFFFFF;
+	font-family: verdana;
+	font-size: 70%;
+	font-weight:normal;
+	letter-spacing:0;
+	cursor: default;
+	width: 150;
+}
+
+.studentBodyText {
+	color: #000000;
+	font-family: verdana;
+	font-size: 70%;
+	font-weight:normal;
+	letter-spacing:0;
+}
+
+.studentContentHead {
+	color: #336699;
+	font-family: verdana;
+	font-size: 70%;
+	font-weight:bold;
+	letter-spacing:0;
+	line-height:300%;
+}
+

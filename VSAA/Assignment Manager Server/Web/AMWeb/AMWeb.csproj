@@ -1,0 +1,799 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.2287"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{28764479-B64A-4972-9189-07C435CDA387}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "AMWeb"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "AMWeb"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "true"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = "0169;0649"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "true"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "D:\WINDOWS\Microsoft.NET\Framework\v1.0.3508\System.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "D:\WINDOWS\Microsoft.NET\Framework\v1.0.3508\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "D:\WINDOWS\Microsoft.NET\Framework\v1.0.3508\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "D:\WINDOWS\Microsoft.NET\Framework\v1.0.3508\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "D:\WINDOWS\Microsoft.NET\Framework\v1.0.3508\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Messaging"
+                    AssemblyName = "System.Messaging"
+                    HintPath = "D:\WINDOWS\Microsoft.NET\Framework\v1.0.3530\System.Messaging.dll"
+                />
+                <Reference
+                    Name = "System.ServiceProcess"
+                    AssemblyName = "System.ServiceProcess"
+                    HintPath = "D:\WINDOWS\Microsoft.NET\Framework\v1.0.3530\System.ServiceProcess.dll"
+                />
+                <Reference
+                    Name = "Microsoft.VisualStudio.Academic.AssignmentManager.Localization"
+                    AssemblyName = "Microsoft.VisualStudio.Academic.AssignmentManager.Localization"
+                    HintPath = "..\..\Resources\Microsoft.VisualStudio.Academic.AssignmentManager.Localization.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AMVersion.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Error.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Error.aspx.cs"
+                    DependentUpon = "Error.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Error.aspx.resx"
+                    DependentUpon = "Error.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login.cs"
+                    DependentUpon = "Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Login.resx"
+                    DependentUpon = "Login.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Logoff.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Logoff.aspx.cs"
+                    DependentUpon = "Logoff.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Logoff.aspx.resx"
+                    DependentUpon = "Logoff.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssignmentManager\AssignmentList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\AssignmentM.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\Constants.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\CourseM.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\DatabaseCall.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\ImportUsers.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\LSAUtil.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\MessageM.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\RoleM.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\ServiceControl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\SharedSupport.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\StudentAssignmentM.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\UserList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssignmentManager\UserM.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\constants.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\Functions.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\AddCourse.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\AddCourse.cs"
+                    DependentUpon = "AddCourse.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\AddCourse.resx"
+                    DependentUpon = "AddCourse.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\AddEditAssignment.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\AddEditAssignment.cs"
+                    DependentUpon = "AddEditAssignment.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\AddEditAssignment.resx"
+                    DependentUpon = "AddEditAssignment.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\AddEditCourse.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\AddEditCourse.cs"
+                    DependentUpon = "AddEditCourse.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\AddEditCourse.resx"
+                    DependentUpon = "AddEditCourse.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\AddEditUser.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\AddEditUser.cs"
+                    DependentUpon = "AddEditUser.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\AddEditUser.resx"
+                    DependentUpon = "AddEditUser.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\AddResource.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\AddResource.aspx.cs"
+                    DependentUpon = "AddResource.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\AddResource.aspx.resx"
+                    DependentUpon = "AddResource.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\Assignments.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\Assignments.cs"
+                    DependentUpon = "Assignments.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\ChangePassword.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\ChangePassword.aspx.cs"
+                    DependentUpon = "ChangePassword.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\ChangePassword.aspx.resx"
+                    DependentUpon = "ChangePassword.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\ConfirmAssignmentDelete.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\ConfirmAssignmentDelete.aspx.cs"
+                    DependentUpon = "ConfirmAssignmentDelete.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\ConfirmResourceDelete.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\ConfirmResourceDelete.aspx.cs"
+                    DependentUpon = "ConfirmResourceDelete.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\ConfirmUserDelete.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\ConfirmUserDelete.aspx.cs"
+                    DependentUpon = "ConfirmUserDelete.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\ConfirmUserDelete.aspx.resx"
+                    DependentUpon = "ConfirmUserDelete.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\DeleteCourse.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\DeleteCourse.cs"
+                    DependentUpon = "DeleteCourse.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\DeleteCourse.resx"
+                    DependentUpon = "DeleteCourse.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\GradeSubmission.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\GradeSubmission.cs"
+                    DependentUpon = "GradeSubmission.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\GradeSubmission.resx"
+                    DependentUpon = "GradeSubmission.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\ImportForm.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\ImportForm.cs"
+                    DependentUpon = "ImportForm.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\ImportForm.resx"
+                    DependentUpon = "ImportForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\ImportFormPreview.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\ImportFormPreview.aspx.cs"
+                    DependentUpon = "ImportFormPreview.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\ImportFormPreview.aspx.resx"
+                    DependentUpon = "ImportFormPreview.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\Results.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\Results.cs"
+                    DependentUpon = "Results.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\Results.resx"
+                    DependentUpon = "Results.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\Settings.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\Settings.cs"
+                    DependentUpon = "Settings.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\Settings.resx"
+                    DependentUpon = "Settings.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\Submissions.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\Submissions.cs"
+                    DependentUpon = "Submissions.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\Submissions.resx"
+                    DependentUpon = "Submissions.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\UploadDownload.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\UploadDownload.cs"
+                    DependentUpon = "UploadDownload.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\UploadDownload.resx"
+                    DependentUpon = "UploadDownload.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\Users.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\Users.cs"
+                    DependentUpon = "Users.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faculty\Users.resx"
+                    DependentUpon = "Users.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Faculty\WorkWithCourse.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Faculty\WorkWithCourse.cs"
+                    DependentUpon = "WorkWithCourse.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Images\0.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\2.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\activeTab_Corner.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\delete_ICON.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\downloadProject.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\goBack.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\inActiveTab_Corner.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\inActiveTab_CornerRO.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\mns.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\pls.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\required.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\student_back.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\topCenter.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\topLeft.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\upload.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\assnMan.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\assnMan.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\assnManStudent.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\Download.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\Miscellaneous.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\popUp.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\Upload.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Student\AddCourse.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Student\AddCourse.aspx.cs"
+                    DependentUpon = "AddCourse.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Student\AddCourse.aspx.resx"
+                    DependentUpon = "AddCourse.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Student\AssignmentGrade.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Student\AssignmentGrade.aspx.cs"
+                    DependentUpon = "AssignmentGrade.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Student\AssignmentGrade.aspx.resx"
+                    DependentUpon = "AssignmentGrade.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Student\Assignments.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Student\Assignments.aspx.cs"
+                    DependentUpon = "Assignments.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Student\Assignments.aspx.resx"
+                    DependentUpon = "Assignments.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Student\ChangePassword.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Student\ChangePassword.aspx.cs"
+                    DependentUpon = "ChangePassword.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Student\ChangePassword.aspx.resx"
+                    DependentUpon = "ChangePassword.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Student\CourseInfo.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Student\CourseInfo.aspx.cs"
+                    DependentUpon = "CourseInfo.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Student\CourseInfo.aspx.resx"
+                    DependentUpon = "CourseInfo.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Student\UploadDownload.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Student\UploadDownload.cs"
+                    DependentUpon = "UploadDownload.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Student\UploadDownload.resx"
+                    DependentUpon = "UploadDownload.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Student\WorkWithCourse.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Student\WorkWithCourse.aspx.cs"
+                    DependentUpon = "WorkWithCourse.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\faculty.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\faculty.ascx.cs"
+                    DependentUpon = "faculty.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\faculty.ascx.resx"
+                    DependentUpon = "faculty.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\goBack.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\goBack.ascx.cs"
+                    DependentUpon = "goBack.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\goBack.ascx.resx"
+                    DependentUpon = "goBack.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\student.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\student.ascx.cs"
+                    DependentUpon = "student.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\student.ascx.resx"
+                    DependentUpon = "student.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

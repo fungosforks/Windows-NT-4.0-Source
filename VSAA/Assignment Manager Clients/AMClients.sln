@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacultyClient", "FacultyClient\FacultyClient.csproj", "{D6B185B3-0FA2-4AE6-8908-04BBA7FE64AA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentClient", "StudentClient\StudentClient.csproj", "{FE48EEB4-3F45-4CB5-98D2-AF15B56B1664}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FacultyClientSetup", "FacultyClientSetup\FacultyClientSetup.vdproj", "{EB88DE75-15F6-49F3-811A-0F20B17B1102}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "StudentClientSetup", "StudentClientSetup\StudentClientSetup.vdproj", "{06635D8F-7662-4C5C-896E-6D17172A3A79}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddinResources", "AddinResources\AddinResources.vcproj", "{4E4B2D0F-7E74-4712-8473-2900A7A75368}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D6B185B3-0FA2-4AE6-8908-04BBA7FE64AA}.Debug.ActiveCfg = Debug|.NET
+		{D6B185B3-0FA2-4AE6-8908-04BBA7FE64AA}.Debug.Build.0 = Debug|.NET
+		{D6B185B3-0FA2-4AE6-8908-04BBA7FE64AA}.Release.ActiveCfg = Release|.NET
+		{D6B185B3-0FA2-4AE6-8908-04BBA7FE64AA}.Release.Build.0 = Release|.NET
+		{FE48EEB4-3F45-4CB5-98D2-AF15B56B1664}.Debug.ActiveCfg = Debug|.NET
+		{FE48EEB4-3F45-4CB5-98D2-AF15B56B1664}.Debug.Build.0 = Debug|.NET
+		{FE48EEB4-3F45-4CB5-98D2-AF15B56B1664}.Release.ActiveCfg = Release|.NET
+		{FE48EEB4-3F45-4CB5-98D2-AF15B56B1664}.Release.Build.0 = Release|.NET
+		{EB88DE75-15F6-49F3-811A-0F20B17B1102}.Debug.ActiveCfg = Debug
+		{EB88DE75-15F6-49F3-811A-0F20B17B1102}.Debug.Build.0 = Debug
+		{EB88DE75-15F6-49F3-811A-0F20B17B1102}.Release.ActiveCfg = Release
+		{EB88DE75-15F6-49F3-811A-0F20B17B1102}.Release.Build.0 = Release
+		{06635D8F-7662-4C5C-896E-6D17172A3A79}.Debug.ActiveCfg = Debug
+		{06635D8F-7662-4C5C-896E-6D17172A3A79}.Debug.Build.0 = Debug
+		{06635D8F-7662-4C5C-896E-6D17172A3A79}.Release.ActiveCfg = Release
+		{06635D8F-7662-4C5C-896E-6D17172A3A79}.Release.Build.0 = Release
+		{4E4B2D0F-7E74-4712-8473-2900A7A75368}.Debug.ActiveCfg = Debug|Win32
+		{4E4B2D0F-7E74-4712-8473-2900A7A75368}.Debug.Build.0 = Debug|Win32
+		{4E4B2D0F-7E74-4712-8473-2900A7A75368}.Release.ActiveCfg = Release|Win32
+		{4E4B2D0F-7E74-4712-8473-2900A7A75368}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

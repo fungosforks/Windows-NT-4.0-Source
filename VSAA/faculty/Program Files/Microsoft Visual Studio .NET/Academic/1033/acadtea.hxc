@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE HelpCollection>
+
+<HelpCollection Id="acadtea" 
+	DTDVersion="1.0" 
+	FileVersion="1.0.0.0" 
+	LangId="1033" 
+	Title="Visual Studio .NET Teaching Edition" 
+	Copyright="Microsoft">
+
+   <AttributeDef File="vs70.HxA"/>
+
+   <TOCDef File="acadtea.HxT"/>
+
+   <KeywordIndexDef File="acadteaKLinks.HxK"/>
+   <KeywordIndexDef File="acadteaALinks.HxK"/>
+   <KeywordIndexDef File="acadteaFLinks.HxK"/>
+   <KeywordIndexDef File="acadteaNamedUrls.HxK"/>
+
+   <ItemMoniker Name="!DefaultToc" ProgId="HxDs.HxHierarchy" InitData="AnyString"/>
+   <ItemMoniker Name="!DefaultFullTextSearch" ProgId="HxDs.HxFullTextSearch" InitData="AnyString"/>
+   <ItemMoniker Name="!DefaultKeywordIndex" ProgId="HxDs.HxIndex" InitData="K"/>
+   <ItemMoniker Name="!DefaultAssociativeIndex" ProgId="HxDs.HxIndex" InitData="A"/>
+   <ItemMoniker Name="!DefaultContextWindowIndex" ProgId="HxDs.HxIndex" InitData="F"/>
+   <ItemMoniker Name="!DefaultNamedUrlIndex" ProgId="HxDs.HxIndex" InitData="acadteaNamedUrls"/>
+   <ItemMoniker Name="!SampleInfo" ProgId="HxDS.HxSampleCollection" InitData="AnyString"/>
+
+</HelpCollection>

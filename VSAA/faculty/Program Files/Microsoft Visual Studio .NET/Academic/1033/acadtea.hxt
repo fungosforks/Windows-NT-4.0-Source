@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE HelpTOC>
+<HelpTOC DTDVersion = "1.0" Id="acadtea_TOC" PluginStyle="Flat">
+   <HelpTOCNode Title="Visual Studio .NET Academic Tools Guides" Url="/acateacommon/html/vsoriVisualStudioNETTeachingStudentEditions.htm">
+	<HelpTOCNode Id="acafaculty" NodeType="TOC" Url="acafaculty"/>
+	<HelpTOCNode Id="acastudent" NodeType="TOC" Url="acastudent"/>
+   </HelpTOCNode>
+</HelpTOC>

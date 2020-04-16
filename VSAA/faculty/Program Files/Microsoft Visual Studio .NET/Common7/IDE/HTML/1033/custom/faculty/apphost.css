@@ -1,0 +1,293 @@
+
+
+body
+{
+	background-color: white;
+	font-family: verdana;
+	font-color: black;
+}
+
+#activeTabName	{
+	background-color: transparent;
+	z-index:99;
+	position:absolute; left:12; top:13;
+	font-family: verdana; 
+	font-weight:normal; 
+	letter-spacing:-1; 
+	color: #FFFFFF; 
+	font-size: 1.7em;
+}
+
+
+#tabMenuTable	{
+	background-color: transparent;
+	z-index: 9;
+	position:relative; left:0;top:20;
+}
+
+.inActiveTab	{
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 0.7em;
+	font-family: tahoma;
+	font-weight: normal;
+	border-top: 5 solid #333366; 
+	border-bottom: 5 solid #333366;
+	border-right: 0 solid #FFCC99;
+	padding-left: 10;
+	cursor:hand;
+	text-decoration: none;
+}
+
+.activeTab	{
+	background-color: #FFFFFF;
+	color: #333366;
+	font-size: 0.7em;
+	font-family: tahoma;
+	font-weight: bold;
+	border-right: 0 solid #ffffff; 
+	border-top: 5 solid #333366; 
+	border-bottom: 5 solid #333366;
+	padding-left: 10;
+	cursor:default;
+	text-decoration: none;
+}
+
+.mOverTab	{
+	background-color: #ff9900;
+	font-size: 0.7em;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-right: 0 solid #ffffff; 
+	border-top: 5 solid #333366; 
+	border-bottom: 5 solid #333366;
+	padding-left: 10;
+	cursor:hand;
+	text-decoration: none;
+}
+
+
+.innerTabBar	{
+	border: 0 solid #336699;
+	background-color: transparent;
+	position:relative; left:0; top:25;
+	width:300;
+}
+
+
+
+.editLinkText	{
+	color: #00309C;
+	font-family: verdana;
+	line-height: 1.5em;
+	font-weight:normal;
+	letter-spacing:0;
+	text-decoration:underline;
+	cursor:hand;
+	z-index:9;
+}
+
+
+.activeInnTab	{
+	background-color: #FFFFFF;
+	font-family: Tahoma;
+	color: #336699;
+	font-size: 0.7em;
+	text-decoration: none;
+	font-weight:bold;
+	border-left: 1 solid #336699;
+	border-right: 1 solid #336699;
+	border-top: 1 solid #336699;
+	border-bottom: 0 solid #336699;
+	cursor:default;
+	padding-left:10;
+	padding-right:10;
+}
+
+
+.activeInnTabA
+{
+	background-color: #FFFFFF;
+}
+
+.inActiveInnTab
+{
+	background-color: #336699;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	font-size: 0.7em;
+	text-decoration: none;
+	font-weight:normal;
+	border-left: 0 solid #336699;
+	border-right: 1 solid #336699;
+	border-top: 1 solid #336699;
+	border-bottom: 1 solid #336699;
+	cursor:hand;
+	padding-left:10;
+	padding-right:10;
+}
+
+.inActiveInnTabA
+{
+	border-bottom: 1 solid #336699;
+}
+
+.tabRow
+{
+	height:30;
+}
+
+
+.courseDiv	{
+	position: relative; left:0; top:0; 
+	font-family: verdana;
+	line-height: 200%;
+}
+
+
+.infoText
+{
+	line-height: 1.5em;
+	font-family:verdana;
+	font-size: 0.7em;
+	color: #336699;
+}
+
+.HeaderText
+{
+	line-height: 1.5em;
+	font-family:verdana;
+	font-size: 1.1em;
+	font-weight:bold;
+	color: black;
+}
+.courseName
+{
+	font-weight:bold;
+}
+
+.webButton
+{
+	border-left: 2 solid #DEDEDE;
+	border-top: 2 solid #DEDEDE;
+	border-right: 2 solid #818181;
+	border-bottom: 2 solid #818181;
+	background-color: #CCCCCC;
+	color: #00309C;
+	font-family: verdana;
+	font-weight:bold;
+	letter-spacing:0;
+	cursor: default;
+	padding-left:5;
+	padding-right:5;
+}
+
+.boxStyle1
+{
+	border: 1 solid #818181;
+	background-color: #ffffff;
+	padding-left:10;
+	padding-top: 5;
+	padding-bottom: 5;
+}
+
+.softText
+{
+	color: #336699;
+}
+
+.expandBox
+{
+	cursor:hand;
+}
+
+.iconStyle
+{
+	cursor:hand;
+	position:relative; top:2;
+}
+
+.iconStyle2
+{
+	cursor:hand;
+}
+
+.workWithCourseHead
+{
+	border-left: 1 solid #336699;
+	border-top: 1 solid #336699;
+	border-right: 1 solid #336699;
+	background-color: #8CB3D9;
+	
+}
+
+.workWithCourseBody
+{
+	border-left: 1 solid #336699;
+	border-right: 1 solid #336699;
+	border-bottom: 1 solid #336699;
+	background-color: #ffffff;
+	padding-bottom:10;
+}
+
+.intentText
+{
+	padding-left:30;
+}
+
+.emptySpace
+{
+	height:30;
+}
+
+.tableStyle
+{
+background-color:transparent;
+FONT-FAMILY: verdana; 
+FONT-SIZE: 0.7em;
+line-height:135%;
+}
+.columnHead
+{
+border-bottom: 0 solid #336699; border-top: 1 solid #336699;
+border-left: 1 solid #336699;
+border-right: 1 solid #336699;
+background-color: #8CB3D9;
+color: #000000;
+text-decoration: none;
+cursor:default;
+}
+.columnFoot
+{
+border-top: 1 solid #336699;
+}
+.tableItem0
+{
+border-left: 1 solid #336699; border-right: 1 solid #336699; 
+background-color: #FFFFFF;
+}
+.tableItem1
+{
+border-left: 1 solid #336699; border-right: 1 solid #336699; 
+background-color: #EAEAEA;
+}
+
+.rowStyleNone
+{
+border-left: 0 solid transparent; 
+border-top: 0 solid transparent; 
+border-right: 0 solid #CCCC99;
+border-bottom: 0 solid transparent; 
+background-color: transparent;
+}
+
+.itemHotStyle
+{
+cursor:hand; text-decoration: underline;color:#666699;
+}
+.itemStyle
+{
+cursor:default; text-decoration: none;color:#000000;
+}
+

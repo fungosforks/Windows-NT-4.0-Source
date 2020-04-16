@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabDefinition>
+	<Tab ID="vs_my_courses" Name="Student Course Tools" Filterable="false">
+		<Application Title="Student Course Tools" ID="vs_my_courses_app">
+			<Pane ID="MyCoursesMainPane" Title="Student Course Tools">
+				<LinkGroupSet ID="MyCoursesList" Layout="list" Priority="500">
+					<LinkGroup ID="MyCourses" Title="Student Course Tools" Priority="900"/>
+				</LinkGroupSet>
+				<Break/>
+				<HRule/>
+				<TextSpan ID="MyCoursesDescriptiveText">If your course uses the Visual Studio.NET Academic tools, your instructor will provide you with a URL to set up your course.</TextSpan>
+				<Break/>
+				<Break/>
+				<TextSpan ID="MyCoursesTextDiv">No courses available.</TextSpan>
+			</Pane>
+			<Data>
+				<Context>
+					<Links>
+						<LItemEx>
+							<LItem LinkGroup="MyCourses" ID="StudentAddCourseButton" URL="vs:/studentaddcourse.html">Add Course</LItem>
+						</LItemEx>
+						<LItemEx>
+							<LItem LinkGroup="MyCourses" ID="StudentDeleteCourseButton" URL="vs:/studentdeletecourse.html">Delete Course</LItem>
+						</LItemEx>
+					</Links>
+				</Context>
+			</Data>
+		</Application>
+		<Feeds>
+			<Feed Expires="0">
+				<Source RootDir="AppData" URL="/Microsoft/VisualStudio/7.1/Academic/StudentCourseToolsStartPage.xml" LCID="1033"/>
+			</Feed>
+		</Feeds>
+	</Tab>
+</TabDefinition>

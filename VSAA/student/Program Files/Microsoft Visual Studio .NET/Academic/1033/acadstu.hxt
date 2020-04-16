@@ -1,0 +1,5 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE HelpTOC>
+<HelpTOC DTDVersion = "1.0" Id="acadstu_TOC" PluginStyle="Flat">
+	<HelpTOCNode Id="acastudent" NodeType="TOC" Url="acastudent"/>
+</HelpTOC>

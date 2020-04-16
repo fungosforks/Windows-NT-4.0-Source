@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TabDefinition>
+	<Tab ID="vs_faculty_resources" Name="Faculty Resources" Filterable="false">
+		<Application Title="Faculty Resources" ID="id780C773B09AA418494698EF952041A6B">
+				<Pane ID="NewsPane" Title="Faculty Resources">
+					<LinkGroupSet ID="NewsList" Layout="list" Priority="500">
+						<LinkGroup ID="FacNews" Title="Faculty Resources" Priority="900" />
+					</LinkGroupSet>
+				</Pane>
+
+			<Data>
+				<Context>
+					<Links>
+						<LItemEx>
+							<LItem ID="LItem40" LinkGroup="FacNews" Priority="600">This feature requires that you have connected to the internet previously or are currently online</LItem>
+						</LItemEx>
+					</Links>
+				</Context>
+			</Data>
+		</Application>
+		<Feeds>
+			<Feed Expires="6681827931">
+				<Source LCID="1033" URL="http://msdn.microsoft.com/vsdata/vsdata.asp">
+					<Arg Name="tab">vs_faculty_resources</Arg>
+				</Source>
+			</Feed>
+		</Feeds>
+	</Tab>
+</TabDefinition>

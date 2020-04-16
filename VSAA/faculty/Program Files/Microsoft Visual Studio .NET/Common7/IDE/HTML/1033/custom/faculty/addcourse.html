@@ -1,0 +1,158 @@
+<DOCTYPE HTML PUBLIC="-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Add Course</title>
+		<meta name=vs_targetSchema content="Internet Explorer 5.0">
+		<LINK REL="StyleSheet" HREF="apphost.css" type="text/css">
+		<script language="JavaScript" src="faculty.js"></script>
+		<script language="VBScript" src="faculty.vbs"></script>
+	</head>
+	<body bgcolor="#ffffff" leftmargin="0" topmargin="0" onload="FacultyRefreshAddCoursesPage()" onunload="UnloadProvidedAttribute()">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr align="left" valign="top">
+				<td width="419" height="53" align="left" valign="top">
+					<div id="activeTabName" nowrap>
+						Course Management
+					</div>
+					<img src="images/apphost_banner.jpg" width="419" height="53" alt="" border="0" style="z-index:1; position:relative; left:0; top:0;">
+				</td>
+				<td height="53" align="right" valign="middle" nowrap>
+					<div onClick="">
+						&nbsp;
+					</div>
+					<span class="editLinkText" onFocus="facultyMOver(this)" onBlur="facultyMOut(this)" onmouseOver="facultyMOver(this)" onmouseOut="facultyMOut(this)" onClick="FacultyLoadHomePage()" style="position:relative; left:-40; font-size: .7em;" id="GoBack" tabindex="1" onkeypress="AccKeyPressHandler(this)">
+						Back to Start Page
+					</span>
+				</td>
+			</tr>
+		</table>
+		<table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" >
+			<tr align="left" valign="top">
+				<td width="*" align="left" valign="top" colspan="2" style="position:relative; left:45; top:20;">
+						<table id="contentTable" class="innerTabBar" cellpadding="0" cellspacing="0">
+					<tr class="tabRow">
+    					<td class="inActiveInnTab" id="innTab0" nowrap align="center" valign="middle" tabindex="1" onMouseOver="overInnerTabBar(this)" onmouseOut="outInnerTabBar(this)" tabindex="1" onkeypress="AccKeyPressHandler(this)" onClick="FacultyLoadWorkWithCourses(null)">
+							Work With Courses</td>
+						<td class="inActiveInnTabA" nowrap width="3">&nbsp;</td>		
+    					<td class="activeInnTab" id="innTab1" nowrap align="center" valign="middle" >
+							Add Course</td>
+						<td class="inActiveInnTabA" nowrap width="3">&nbsp;</td>		
+    					<td class="inActiveInnTab" id="innTab2" nowrap align="center" valign="middle" onMouseOver="overInnerTabBar(this)" onmouseOut="outInnerTabBar(this)" tabindex="1" onkeypress="AccKeyPressHandler(this)" onClick="FacultyLoadDeleteCourses()">
+							Delete Course</td>
+
+						<td class="inActiveInnTabA" nowrap width="200" >&nbsp;&nbsp;&nbsp;&nbsp;</td>		
+					</tr>
+							<tr>
+								<td height="150" colspan="9" align="left" valign="top" style="BORDER-RIGHT: #336699 1px solid; PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; BORDER-LEFT: #336699 1px solid; PADDING-TOP: 15px; BORDER-BOTTOM: #336699 1px solid; BACKGROUND-COLOR: #ffffff">
+									<table class="tableStyle" width="500" cellspacing="0" cellpadding="8">
+										<tr>
+											<td>
+											    <div class="boxStyle1">
+												<span id="ConnectToExisting" class="editLinkText" style="cursor:hand;" onFocus="facultyMOver(this)" onBlur="facultyMOut(this)" onmouseOver="facultyMOver(this)" onmouseOut="facultyMOut(this)" tabindex="1" onkeypress="AccKeyPressHandler(this)" onclick="FacultyConnectToExisting()">
+													Connect to Existing Course
+												</span>
+												<br>
+											    </div>
+											</td>
+										</tr>
+										<tr id="UseAssignmentManagerField">
+											<td>
+											    <div class="boxStyle1">
+												<input tabindex="1" type="checkbox" id="useAssnMan" value tabindex="1" onClick="toggleCheckAssnMan()" tabindex="1">
+												<span id="useAsnMgrText">Use Assignment Manager</span>
+	  									            </div>
+											</td>
+										</tr>
+										<tr id="CourseNameField">
+											<td>
+												<span id="addCourseNameText">Course Name:</span>
+												<BR>
+												<input tabindex="1" type="text" maxlength="100" size="50" id="courseName" onkeydown="HandleKeyDown()">
+											</td>
+										</tr>
+										<tr>
+											<td id>
+												<span id="addCourseLocationText">Location:</span><br>
+												<span id="serLocText" class="softText">
+												</span>
+											</td>
+										</tr>
+										<tr class="nonAssnMan">
+											<td id>
+												<input tabindex="1" type="text" maxlength="200" size="50" id="serverPath" onkeydown="HandleKeyDown()">
+											</td>
+										</tr>
+										<tr id="hideMe3">
+											<td id>
+												<span id="addCourseHomePageText">Course Homepage:</span><br>
+ 										                <span id="courseURLText" class="softText">
+													Enter URL for the existing course Web site:
+												</span>
+											</td>
+										</tr>
+										<tr id="hideMe4" class="nonAssnMan">
+											<td id>
+												
+												<input tabindex="1" type="text" maxlength="200" size="50" id="courseWeb" onkeydown="HandleKeyDown()">
+											</td>
+										</tr>
+										<tr id="hideMe5" class="nonAssnMan">
+											<td id>
+												<span id="addCourseDescriptionText">Course Description:</span><br>
+										                <span id="courseDescriptionText" class="softText">
+													Enter a brief description for this course. Use the course Web site to provide 
+													additional information.
+												</span>
+											</td>
+										</tr>
+										<tr id="hideMe6" class="nonAssnMan">
+											<td id>
+												
+												<textarea tabindex="1" cols="38" id="newCourseDesc" rows="10"></textarea></td>
+										</tr>
+										<tr id="hideMe7" class="nonAssnMan">
+											<td id>
+												<div style="LEFT:10px; POSITION:relative">
+													<span tabindex="1" onkeypress="AccKeyPressHandler(this)" onClick="showHideAssn(resourceFilesList, addRescArrow )" style="CURSOR:hand">
+														<img src="images/Arrow_closed_Dark.gif" alt border="0" id="addRescArrow">
+														&nbsp;
+														<span id="addResources">
+															Course Links
+														</span>
+													</span>
+													&nbsp;
+													<span tabindex="1" id="addResourceSpan" onkeypress="AccKeyPressHandler(this)" class="editLinkText" onFocus="facultyMOver(this)" onBlur="facultyMOut(this)" onmouseOver="facultyMOver(this)" onmouseOut="facultyMOut(this)" onClick="addResources()">
+														Add
+													</span>
+													<BR> 
+													<div class="assnText" id="resourceFilesList" style="DISPLAY:none;LEFT:13px;POSITION:relative">
+														<div class="adlItemsEmpty" id="allResources">
+															[empty]
+														</div>
+													</div>
+												</div>
+												<span id="addResourceText" class="softText">
+													Course links are Web sites, newsgroups, email addresses, and so on, which 
+													provide students with supplemental course resources. Enter a course link in the 
+													form of a URL.
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td align="right">
+												<button tabindex="1" onClick="FacultyAddNewCourse()" class="webButton" style="LEFT:-8px; WIDTH:5em; POSITION:relative; TOP:0px" id="OkButton" type=button>
+													OK
+												</button>
+												<button tabindex="1" onClick="FacultyRefreshAddCoursesPage()" class="webButton" style="LEFT:0px; WIDTH:5em; POSITION:relative; TOP:0px" id="CancelButton" type=button>
+													Cancel
+												</button>
+											</td>
+										</tr>
+									</table>
+							</tr>
+						</table>
+						</td>
+						</tr>
+						</table>
+	</body>
+</html>

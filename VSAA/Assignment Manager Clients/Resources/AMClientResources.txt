@@ -1,0 +1,136 @@
+;Faculty Client
+
+;Top Level menu item
+AMFacultyMenuItem=Assignment Manager Fac&ulty
+AMStudentMenuItem=Ass&ignment Manager Student
+
+;All Dialogs
+BtnCancel=&Cancel
+BtnAdd=&Add
+HttpText=http://
+
+;Add Course Dialog
+AddCourse_DialogCaption=Assignment Manager Add Course
+AddCourse_LblCourseName=Course name
+AddCourse_LblAMUrl=Assignment Manager URL (http:// or https://)
+AddCourse_WrongVersion=The version of Assignment Manager installed on the server is not compatible with the version you are using.  Contact your system administrator to verify that the most recent release of Visual Studio .NET is installed on the server.
+AddCourse_WrongVersionCaption=Assignment Manager
+AddCourse_ErrorWrongServerName=Unable to load the url '%1', check to make sure the server name is correct.
+AddCourse_ErrorWrongServerNameCaption=Assignment Manager
+AddCourse_UnableToConnectToServer=Unable to connect to the server, verify that the url is correct.
+AddCourse_ErrorBlankField=You must enter a course name and URL
+
+;Add Existing Course Dialog
+AddExistingCourse_DialogCaption=Assignment Manager Add Existing Course
+AddExistingCourse_LblAMUrl=Assignment Manager URL (http:// or https://)
+AddExistingCourse_ErrorBlankField=You must enter a valid URL
+
+;Delete Course Dialog
+DeleteCourse_DialogCaption=Assignment Manager Delete Course
+DeleteCourse_lblDescription=Select the courses you want to delete and then choose Delete
+DeleteCourse_btnDelete=&Delete
+
+;AddCourse Command
+AMAddCourseName=AMAddCourse
+AMAddCourseItemText=&Add New Course
+AMAddCourseDescription=Add a new Assignment Manager Course.
+
+;DeleteCourse Command
+AMDeleteCourseName=AMDeleteCourse
+AMDeleteCourseItemText=&Delete Course
+AMDeleteCourseDescription=Delete an Assignment Manager Course.
+
+;AddExistingCourse Command
+AMAddExistingCourseName=AMAddExistingCourse
+AMAddExistingCourseItemText=Add &Existing Course
+AMAddExistingCourseDescription=Add an existing Assignment Manager Course.
+AddExisting_Error_UnableToRegisterExistingCourse=Unable to connect to an existing course. Check URL, server status, and server permissions.
+
+;Gotohomepage command
+GotoHomePageName=GotoHomePage
+GotoHomePageItemText=&Course List
+GotoHomePageDescription=Browse to the Course Management page.
+GotoHomePagePageName=Assignment%20Manager%20Faculty%20Course%20List
+
+;Tools Options / Code Extractor
+TagValidationMissingEndAfter=Missing code extraction END tag, {0}, after this line.
+TagValidationMissingEndBefore=Missing code extraction END tag, {0}, before this line.
+TagValidationMissingStartBefore=Missing code extraction BEGIN tag, {0}, before this line.
+CodeExtractorNoBaseProject=Cannot extract code from the starter project. All files in the starter project must be located in the project file directory or in one of its subdirectories.
+CodeExtractorInvalidMarkedTags=Cannot extract code from the starter project because the code extraction tags are incorrectly applied. Code blocks cannot be nested and every code block must start with a BEGIN tag and finish with an END tag.
+CodeExtractorInvalidProjectType=Cannot extract code from the starter project. This project type cannot be used to create a starter project.
+CodeMarkerName=CodeMarker
+CodeMarkerItemText=Mark as Student Code
+CodeMarkerToolsMenuItemText=Mark as St&udent Code
+CodeMarkerDescription=Mark a section of code for extraction.
+NewAssignmentMessageBoxTitle=New Assignment
+ToolsOptionsFileExtensionField=File Extension
+ToolsOptionsBeginCommentsField=BEGIN Comments
+ToolsOptionsEndCommentsField=END Comments
+ToolsOptionsDescriptionLabel=Add and delete rules used by the Code Extraction tool to remove code from your projects. To modify existing rules, click in the appropriate field.
+ToolsOptionsCollapseCombo=&Collapse code when marking for extraction.
+ToolsOptionsTodoCommentCombo=&Prompt for TODO comment.
+ToolsOptionsAddRuleButton=&Add New Rule
+ToolsOptionsDeleteMarkedRulesButton=&Delete Marked Rule(s)
+ToolsOptionsDefaultCPPExtensions=.cpp, .cs, .jsl, .h
+ToolsOptionsDefaultCPPBeginTag=//BEGIN_STUDENT_CODE
+ToolsOptionsDefaultCPPEndTag=//END_STUDENT_CODE
+ToolsOptionsDefaultCExtensions=.c
+ToolsOptionsDefaultCBeginTag=/* BEGIN_STUDENT_CODE */
+ToolsOptionsDefaultCEndTag=/* END_STUDENT_CODE */
+ToolsOptionsDefaultVBExtensions=.vb
+ToolsOptionsDefaultVBBeginTag=' BEGIN_STUDENT_CODE
+ToolsOptionsDefaultVBEndTag=' END_STUDENT_CODE
+TodoText=Code has been marked for extraction. Enter a comment that will appear in the student's Task List as a TODO item
+TodoOKButtonText=OK
+TodoCancelButtonText=Cancel
+TodoTitle=TODO Comment
+ToolsOptionsInvalidExtension=File extensions must begin with a period (.). Multiple file extensions must be separated by commas.
+ToolsOptionsInvalidBegin=Entries must contain a BEGIN tag.
+ToolsOptionsInvalidEnd=Entries must contain an END tag.
+ToolsOptionsInvalidBeginAndEnd=Begin and End tags must be different.
+ToolsOptionsInvalidExtensionAlreadyExists=File extensions can only be assigned to one set of Begin and End tags.
+
+;Start page Faculty Tab. 
+XSLCustomTab=<?xml version="1.0" encoding="UTF-8"?>\n<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">\n<xsl:template match="/">\n  <xsl:apply-templates/>\n</xsl:template>\n\n<xsl:template match="managedcourses">\n<TabDefinition>\n	<Tab ID="vs_course_management" Name="Course Management" Filterable="false">\n		<Application Title="Course Management" ID="vs_course_management_app">\n			<Pane ID="CourseMgtMainPane" Title="Course Management">\n				<LinkGroupSet ID="CourseMgtList" Layout="list" Priority="500">\n					<LinkGroup ID="MGT" Title="Assignment Manager Faculty Course List" Priority="900"/>\n				<Break/>\n				<TextSpan ID="AMStudentCoursesAddCourseText">To add or delete a course, use the Assignment Manager Faculty submenu on the Tools menu.</TextSpan>\n					<LinkGroup ID="MGTDynamic" Title="Course List" Priority="900"/>\n				</LinkGroupSet>\n			</Pane>\n			<Data>\n				<Context>\n					<Links>\n						<LItemEx>\n							<LItem LinkGroup="MGT" ID="FacultyWalkthroughButton" URL="ms-help://MS.VSCC.2003/MS.acaFacultyAM.1033/dv_acaFacultyAM/html/vswlkWalkthroughUsingAssignmentManager.htm">Walkthrough: Using Assignment Manager</LItem>\n						</LItemEx>\n						<xsl:for-each select="course">\n						<LItemEx>\n						        <LItem LinkGroup="MGTDynamic">\n							<xsl:attribute name="ID">MyCourseName<xsl:number/></xsl:attribute>\n							<xsl:choose>\n							   <xsl:when test="assnmgr/amurl != ''">\n 							     <xsl:attribute name="URL"><xsl:value-of select="assnmgr/amurl"/>/Faculty/WorkWithCourse.aspx?CourseID=<xsl:value-of select="assnmgr/guid"/></xsl:attribute>\n							   </xsl:when>\n							</xsl:choose>\n							<xsl:value-of select="name"/>\n							</LItem>\n						</LItemEx>\n						</xsl:for-each>\n					</Links>\n				</Context>\n			</Data>\n		</Application>\n		<Feeds>\n			<Feed Expires="0">\n				<Source RootDir="AppData" URL="/Microsoft/VisualStudio/7.1/Academic/AMFacultyStartPage.xml" LCID="1033"/>\n			</Feed>\n		</Feeds>\n	</Tab>\n</TabDefinition>\n</xsl:template>\n</xsl:stylesheet>\n
+
+;
+;Student Tools
+;
+
+;Dialogs
+
+;Student Add course Dialog
+AMStudentAddCourse_DialogCaption=Assignment Manager Add Course
+AMStudentAddCourse_lblDescription=To add a course enter the URL provided by your instructor and then click Add.
+AMStudentAddCourse_lblAMUrl=Assignment Manager URL (http:// or https://)
+AMStudentAddCourse_ErrorBlankField=You must enter a valid URL.
+
+;Student Remove Course Dialog
+AMStudentRemoveCourse_DialogCaption=Assignment Manager Remove Course
+AMStudentRemoveCourse_lblDescription=Select the courses you want to delete and then choose Remove.
+AMStudentRemoveCourse_btnRemove=&Remove
+
+;Student Gotohomepage Command
+AMStudentGotoHomePageName=GotoHomePage
+AMStudentGotoHomePageItemText=&Student Course List
+AMStudentGotoHomePageDescription=Browse to the Student Courses page.
+AMStudentGotoHomePagePageName=Assignment%20Manager%20Student%20Course%20List
+
+;Student Add Course Command
+AMStudentAddCourseName=AMStudentAddCourse
+AMStudentAddCourseItemText=&Add Course
+AMStudentAddCourseDescription=Add an Assignment Manager Course.
+AddCourseFail=Either the URL is not a valid course file or the server is not accessible.
+AddCourseFailedCaption=Add/Remove Course
+
+;Student Remove Course Command
+AMRemoveCourseName=AMRemoveCourse
+AMRemoveCourseItemText=&Remove Course
+AMRemoveCourseDescription=Remove an Assignment Manager Course.
+ConfirmRemoveCourse=Are you sure you want to delete the selected courses?
+
+;Student Start page custom tab
+XSLStudentCustomTab=<?xml version="1.0" encoding="UTF-8"?>\n<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">\n<xsl:template match="/">\n  <xsl:apply-templates/>\n  </xsl:template>\n  \n  <xsl:template match="studentcourses">\n  <TabDefinition>\n  	<Tab ID="vs_am_student" Name="Assignment Manager Student Course List" Filterable="false">\n  			<Application Title="Assignment Manager Student Course List" ID="vs_am_student_app">\n  						<Pane ID="AMStudentCoursesMainPane" Title="Assignment Manager Student Course List">\n  							<LinkGroupSet ID="AMStudentCoursesList" Layout="list" Priority="500">\n  								<LinkGroup ID="AMCourses" Title="Assignment Manager Student Client" Priority="900"/>\n								<Break/>\n								<TextSpan ID="AMStudentCoursesAddCourseText">To add or remove a course, use the Assignment Manager Student submenu on the Tools menu.</TextSpan>\n								<LinkGroup ID="AMCoursesDynamic" Title="Course List" Priority="900"/>\n							</LinkGroupSet>\n						</Pane>\n						<Data>\n							<Context>\n								<Links>\n									<xsl:for-each select="course">\n										<LItemEx>\n											<LItem LinkGroup="AMCoursesDynamic">\n												<xsl:attribute name="ID">AMCourseListing<xsl:number/>\n												</xsl:attribute>\n												<xsl:choose>\n													<xsl:when test="assnmgr/amurl != ''">\n														<xsl:attribute name="URL"><xsl:value-of select="assnmgr/amurl"/>/Student/WorkWithCourse.aspx?CourseID=<xsl:value-of select="assnmgr/guid"/>\n														</xsl:attribute>\n													</xsl:when>\n												</xsl:choose>\n												<xsl:value-of select="name"/>\n											</LItem>\n										</LItemEx>\n									</xsl:for-each>\n								</Links>\n							</Context>\n						</Data>\n					</Application>\n					<Feeds>\n						<Feed Expires="0">\n							<Source RootDir="AppData" URL="/Microsoft/VisualStudio/7.1/Academic/AMStudentStartPage.xml" LCID="1033"/>\n						</Feed>\n					</Feeds>\n	</Tab>\n</TabDefinition>\n</xsl:template>\n</xsl:stylesheet>\n
+  																																																																																										
+

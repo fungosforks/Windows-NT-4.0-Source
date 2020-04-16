@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabDefinition>
+	<Tab ID="vs_am_student" Name="Assignment Manager Student Course List" Filterable="false">
+		<Application Title="Assignment Manager Student Course List" ID="vs_am_student_app">
+			<Pane ID="AMStudentCoursesMainPane" Title="Assignment Manager Student Course List">
+				<LinkGroupSet ID="AMStudentCoursesList" Layout="list" Priority="500">
+					<LinkGroup ID="AMStudentCourses" Title="Assignment Manager Student Course List" Priority="900"/>
+				</LinkGroupSet>
+				<Break/>
+				<TextSpan ID="AMStudentCoursesAddCourseText">To add or remove a course, use the Assignment Manager Student submenu on the Tools menu.</TextSpan>
+				<HRule/>
+				<Break/>
+				<TextSpan ID="AMStudentCoursesTextDiv">No courses available.</TextSpan>
+			</Pane>
+		</Application>
+		<Feeds>
+			<Feed Expires="0">
+				<Source RootDir="AppData" URL="/Microsoft/VisualStudio/7.1/Academic/AMStudentStartPage.xml" LCID="1033"/>
+			</Feed>
+		</Feeds>
+	</Tab>
+</TabDefinition>

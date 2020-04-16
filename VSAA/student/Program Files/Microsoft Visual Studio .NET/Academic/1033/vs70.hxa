@@ -1,0 +1,1262 @@
+<?xml version="1.0"?>
+<!DOCTYPE HelpAttributes>
+
+<HelpAttributes DTDVersion="1.0">
+
+<AttName Id="4" Name="Build" Display="No" UIString="Context: Build" AttType="Enum">
+	<AttVal Id="4_2" Name="Debug" Display="No" UIString="Debug" />
+	<AttVal Id="4_1" Name="Retail" Display="No" UIString="Retail" />
+</AttName>
+<AttName Id="9" Name="Database" Display="No" UIString="Context: Database" AttType="Enum">
+	<AttVal Id="9_3" Name="DB2" Display="No" UIString="DB2" />
+	<AttVal Id="9_6" Name="FoxPro" Display="No" UIString="FoxPro" />
+	<AttVal Id="9_4" Name="Informix" Display="No" UIString="Informix" />
+	<AttVal Id="9_5" Name="Jet" Display="No" UIString="Jet" />
+	<AttVal Id="9_2" Name="Oracle" Display="No" UIString="Oracle" />
+	<AttVal Id="9_1" Name="SQL" Display="No" UIString="SQL" />
+</AttName>
+<AttName Id="10" Name="DataMode" Display="No" UIString="Context: Data Mode" AttType="Enum">
+	<AttVal Id="10_1" Name="Design" Display="No" UIString="Design" />
+	<AttVal Id="10_2" Name="Edit" Display="No" UIString="Edit" />
+</AttName>
+<AttName Id="12" Name="DevLang" Display="Yes" UIString="Language" AttType="Enum">
+	<AttVal Id="12_13" Name="C" Display="Yes" UIString="C" />
+	<AttVal Id="12_14" Name="C++" Display="Yes" UIString="C++" />
+	<AttVal Id="12_37" Name="CHTML" Display="Yes" UIString="CHTML" />
+	<AttVal Id="12_4" Name="CSharp" Display="Yes" UIString="CSharp" />
+	<AttVal Id="12_31" Name="CSS" Display="Yes" UIString="CSS" />
+	<AttVal Id="12_5" Name="DHTML" Display="Yes" UIString="Dynamic HTML" />
+	<AttVal Id="12_8" Name="HTML" Display="Yes" UIString="HTML" />
+	<AttVal Id="12_9" Name="IDL" Display="Yes" UIString="Interface Definition Language" />
+	<AttVal Id="12_10" Name="Java" Display="Yes" UIString="Java" />
+	<AttVal Id="12_11" Name="JScript" Display="Yes" UIString="JScript" />
+	<AttVal Id="12_23" Name="SQL" Display="Yes" UIString="SQL" />
+	<AttVal Id="12_24" Name="TSQL" Display="Yes" UIString="TSQL" />
+	<AttVal Id="12_16" Name="VB" Display="Yes" UIString="Visual Basic" />
+	<AttVal Id="12_17" Name="VBA" Display="Yes" UIString="VBA" />
+	<AttVal Id="12_26" Name="VBScript" Display="Yes" UIString="VBScript" />
+	<AttVal Id="12_38" Name="WML" Display="Yes" UIString="WML" />
+	<AttVal Id="12_27" Name="Xbase" Display="Yes" UIString="Xbase" />
+	<AttVal Id="12_35" Name="XDR" Display="Yes" UIString="XDR" />
+	<AttVal Id="12_28" Name="XML" Display="Yes" UIString="XML" />
+	<AttVal Id="12_29" Name="XQL" Display="Yes" UIString="XQL" />
+	<AttVal Id="12_34" Name="XSD" Display="Yes" UIString="XSD" />
+	<AttVal Id="12_30" Name="XSL" Display="Yes" UIString="XSL" />
+</AttName>
+<AttName Id="18" Name="Media" Display="No" UIString="Media" AttType="Enum">
+	<AttVal Id="18_1" Name="kbAnimation" Display="No" UIString="Animation" />
+	<AttVal Id="18_2" Name="kbAudio" Display="No" UIString="Audio" />
+	<AttVal Id="18_3" Name="kbDownload" Display="No" UIString="Download" />
+	<AttVal Id="18_4" Name="kbSlides" Display="No" UIString="Presentation Slides" />
+	<AttVal Id="18_5" Name="kbStill" Display="No" UIString="Art" />
+	<AttVal Id="18_6" Name="kbText" Display="No" UIString="Text" />
+	<AttVal Id="18_7" Name="kbVideo" Display="No" UIString="Video" />
+</AttName>
+<AttName Id="23" Name="Item" Display="No" UIString="Context: Item" AttType="Enum">
+	<AttVal Id="23_37" Name="ALX" Display="No" UIString="ALX" />
+	<AttVal Id="23_44" Name="Application" Display="No" UIString="Application" />
+	<AttVal Id="23_36" Name="ASA" Display="No" UIString="ASA" />
+	<AttVal Id="23_59" Name="Asax" Display="No" UIString="Asax" />
+	<AttVal Id="23_91" Name="ascx" Display="No" UIString="ascx" />
+	<AttVal Id="23_73" Name="asm" Display="No" UIString="asm" />
+	<AttVal Id="23_60" Name="Asmx" Display="No" UIString="Asmx" />
+	<AttVal Id="23_35" Name="ASP" Display="No" UIString="ASP" />
+	<AttVal Id="23_61" Name="Aspx" Display="No" UIString="Aspx" />
+	<AttVal Id="23_42" Name="Audio" Display="No" UIString="Audio" />
+	<AttVal Id="23_62" Name="Bas" Display="No" UIString="Bas" />
+	<AttVal Id="23_38" Name="BMP" Display="No" UIString="BMP" />
+	<AttVal Id="23_93" Name="BrokenReference" Display="No" UIString="BrokenReference" />
+	<AttVal Id="23_10" Name="C" Display="No" UIString="C" />
+	<AttVal Id="23_1" Name="Class" Display="No" UIString="Class" />
+	<AttVal Id="23_51" Name="Cls" Display="No" UIString="Cls" />
+	<AttVal Id="23_34" Name="Column" Display="No" UIString="Column" />
+	<AttVal Id="23_83" Name="config" Display="No" UIString="config" />
+	<AttVal Id="23_6" Name="CPP" Display="No" UIString="CPP" />
+	<AttVal Id="23_52" Name="Cs" Display="No" UIString="Cs" />
+	<AttVal Id="23_40" Name="CSS" Display="No" UIString="CSS" />
+	<AttVal Id="23_84" Name="cur" Display="No" UIString="cur" />
+	<AttVal Id="23_13" Name="Data" Display="No" UIString="Data" />
+	<AttVal Id="23_72" Name="def" Display="No" UIString="def" />
+	<AttVal Id="23_26" Name="Dependencies" Display="No" UIString="Dependencies" />
+	<AttVal Id="23_69" Name="Disco" Display="No" UIString="Disco" />
+	<AttVal Id="23_16" Name="EventLog" Display="No" UIString="EventLog" />
+	<AttVal Id="23_24" Name="File" Display="No" UIString="File" />
+	<AttVal Id="23_17" Name="Filter" Display="No" UIString="Filter" />
+	<AttVal Id="23_47" Name="folder" Display="No" UIString="Folder" />
+	<AttVal Id="23_2" Name="Form" Display="No" UIString="Form" />
+	<AttVal Id="23_5" Name="Function" Display="No" UIString="Function" />
+	<AttVal Id="23_9" Name="Help" Display="No" UIString="Help" />
+	<AttVal Id="23_68" Name="HTM" Display="No" UIString="HTM" />
+	<AttVal Id="23_48" Name="HTML" Display="No" UIString="HTML" />
+	<AttVal Id="23_11" Name="ICO" Display="No" UIString="ICO" />
+	<AttVal Id="23_7" Name="IDL" Display="No" UIString="IDL" />
+	<AttVal Id="23_45" Name="Image" Display="No" UIString="Image" />
+	<AttVal Id="23_74" Name="inc" Display="No" UIString="inc" />
+	<AttVal Id="23_78" Name="inf" Display="No" UIString="inf" />
+	<AttVal Id="23_46" Name="Java" Display="No" UIString="Java" />
+	<AttVal Id="23_63" Name="Js" Display="No" UIString="Js" />
+	<AttVal Id="23_92" Name="licx" Display="No" UIString="licx" />
+	<AttVal Id="23_18" Name="Machine" Display="No" UIString="Machine" />
+	<AttVal Id="23_28" Name="Macro" Display="No" UIString="Macro" />
+	<AttVal Id="23_39" Name="MAP" Display="No" UIString="MAP" />
+	<AttVal Id="23_23" Name="MergeModule" Display="No" UIString="MergeModule" />
+	<AttVal Id="23_19" Name="Model" Display="No" UIString="Model" />
+	<AttVal Id="23_3" Name="Module" Display="No" UIString="Module" />
+	<AttVal Id="23_55" Name="MSHWHxa" Display="No" UIString="Hxa" />
+	<AttVal Id="23_57" Name="MSHWHxe" Display="No" UIString="Hxe" />
+	<AttVal Id="23_56" Name="MSHWHxk" Display="No" UIString="Hxk" />
+	<AttVal Id="23_54" Name="MSHWHxt" Display="No" UIString="Hxt" />
+	<AttVal Id="23_58" Name="MSHWHxv" Display="No" UIString="Hxv" />
+	<AttVal Id="23_14" Name="Node" Display="No" UIString="Node" />
+	<AttVal Id="23_21" Name="None" Display="No" UIString="None" />
+	<AttVal Id="23_20" Name="Other" Display="No" UIString="Other" />
+	<AttVal Id="23_22" Name="Output" Display="No" UIString="Output" />
+	<AttVal Id="23_27" Name="Project" Display="No" UIString="Project" />
+	<AttVal Id="23_31" Name="Query" Display="No" UIString="Query" />
+	<AttVal Id="23_8" Name="RC" Display="No" UIString="RC" />
+	<AttVal Id="23_85" Name="reference" Display="No" UIString="reference" />
+	<AttVal Id="23_15" Name="Relationship" Display="No" UIString="Relationship" />
+	<AttVal Id="23_25" Name="Requirements" Display="No" UIString="Requirements" />
+	<AttVal Id="23_88" Name="resx" Display="No" UIString="resx" />
+	<AttVal Id="23_86" Name="rpt" Display="No" UIString="rpt" />
+	<AttVal Id="23_4" Name="Script" Display="No" UIString="Script" />
+	<AttVal Id="23_87" Name="snk" Display="No" UIString="snk" />
+	<AttVal Id="23_33" Name="Sproc" Display="No" UIString="Stored Procedure" />
+	<AttVal Id="23_71" Name="SRF" Display="No" UIString="SRF" />
+	<AttVal Id="23_30" Name="Table" Display="No" UIString="Table" />
+	<AttVal Id="23_29" Name="Task" Display="No" UIString="Task" />
+	<AttVal Id="23_12" Name="TLB" Display="No" UIString="TLB" />
+	<AttVal Id="23_41" Name="txt" Display="No" UIString="txt" />
+	<AttVal Id="23_64" Name="Vb" Display="No" UIString="Vb" />
+	<AttVal Id="23_65" Name="Vbs" Display="No" UIString="Vbs" />
+	<AttVal Id="23_77" Name="vcproj" Display="No" UIString="vcproj" />
+	<AttVal Id="23_43" Name="Video" Display="No" UIString="Video" />
+	<AttVal Id="23_32" Name="View" Display="No" UIString="View" />
+	<AttVal Id="23_81" Name="vs.envsdk.figprj.buildfilenode" Display="No" UIString="vs.envsdk.figprj.buildfilenode" />
+	<AttVal Id="23_79" Name="vs.envsdk.figprj.csfilenode" Display="No" UIString="vs.envsdk.figprj.csfilenode" />
+	<AttVal Id="23_80" Name="vs.envsdk.figprj.figfilenode" Display="No" UIString="vs.envsdk.figprj.figfilenode" />
+	<AttVal Id="23_82" Name="vs.envsdk.figprj.projectnode" Display="No" UIString="vs.envsdk.figprj.projectnode" />
+	<AttVal Id="23_76" Name="vsdir" Display="No" UIString="vsdir" />
+	<AttVal Id="23_89" Name="vsdisco" Display="No" UIString="vsdisco" />
+	<AttVal Id="23_75" Name="vsz" Display="No" UIString="vsz" />
+	<AttVal Id="23_70" Name="Web" Display="No" UIString="Web" />
+	<AttVal Id="23_66" Name="Wsf" Display="No" UIString="Wsf" />
+	<AttVal Id="23_50" Name="XML" Display="No" UIString="XML" />
+	<AttVal Id="23_67" Name="Xsd" Display="No" UIString="Xsd" />
+	<AttVal Id="23_90" Name="xslt" Display="No" UIString="xslt" />
+	<AttVal Id="23_49" Name="XSP" Display="No" UIString="XSP" />
+</AttName>
+<AttName Id="25" Name="LinkGroup" Display="No" UIString="Link Group" AttType="Enum">
+	<AttVal Id="25_1" Name="Actions" Display="No" UIString="Actions" />
+	<AttVal Id="25_5" Name="GettingStarted" Display="No" UIString="Getting Started" />
+	<AttVal Id="25_2" Name="Help" Display="No" UIString="Help" />
+	<AttVal Id="25_3" Name="Samples" Display="No" UIString="Samples" />
+	<AttVal Id="25_4" Name="Training" Display="No" UIString="Training" />
+</AttName>
+<AttName Id="26" Name="Locale" Display="Yes" UIString="Locale" AttType="Enum">
+	<AttVal Id="26_3" Name="kbArabic" Display="Yes" UIString="Arabic" />
+	<AttVal Id="26_4" Name="kbBasque" Display="Yes" UIString="Basque" />
+	<AttVal Id="26_5" Name="kbBrazilian" Display="Yes" UIString="Brazilian" />
+	<AttVal Id="26_6" Name="kbBulgarian" Display="Yes" UIString="Bulgarian" />
+	<AttVal Id="26_7" Name="kbCatalan" Display="Yes" UIString="Catalan" />
+	<AttVal Id="26_8" Name="kbChineseSimp" Display="Yes" UIString="Chinese-Simplified" />
+	<AttVal Id="26_9" Name="kbChineseTrad" Display="Yes" UIString="Chinese-Traditional" />
+	<AttVal Id="26_10" Name="kbCroatian" Display="Yes" UIString="Croatian" />
+	<AttVal Id="26_11" Name="kbCzech" Display="Yes" UIString="Czech" />
+	<AttVal Id="26_12" Name="kbDanish" Display="Yes" UIString="Danish" />
+	<AttVal Id="26_13" Name="kbDutch" Display="Yes" UIString="Dutch" />
+	<AttVal Id="26_14" Name="kbEnglish" Display="Yes" UIString="English" />
+	<AttVal Id="26_15" Name="kbEstonian" Display="Yes" UIString="Estonian" />
+	<AttVal Id="26_16" Name="kbFinnish" Display="Yes" UIString="Finnish" />
+	<AttVal Id="26_17" Name="kbFrench" Display="Yes" UIString="French" />
+	<AttVal Id="26_18" Name="kbGalician" Display="Yes" UIString="Galician" />
+	<AttVal Id="26_19" Name="kbGerman" Display="Yes" UIString="German" />
+	<AttVal Id="26_20" Name="kbGreek" Display="Yes" UIString="Greek" />
+	<AttVal Id="26_21" Name="kbHebrew" Display="Yes" UIString="Hebrew" />
+	<AttVal Id="26_1" Name="kbHungarian" Display="Yes" UIString="Hungarian" />
+	<AttVal Id="26_22" Name="kbIndic" Display="Yes" UIString="Indic" />
+	<AttVal Id="26_23" Name="kbItalian" Display="Yes" UIString="Italian" />
+	<AttVal Id="26_24" Name="kbJapanese" Display="Yes" UIString="Japanese" />
+	<AttVal Id="26_25" Name="kbKorean" Display="Yes" UIString="Korean" />
+	<AttVal Id="26_26" Name="kbLatvian" Display="Yes" UIString="Latvian" />
+	<AttVal Id="26_27" Name="kbLithuanian" Display="Yes" UIString="Lithuanian" />
+	<AttVal Id="26_28" Name="kbNorwegian" Display="Yes" UIString="Norwegian" />
+	<AttVal Id="26_29" Name="kbPanChinese" Display="Yes" UIString="Pan-Chinese" />
+	<AttVal Id="26_30" Name="kbPolish" Display="Yes" UIString="Polish" />
+	<AttVal Id="26_31" Name="kbPortuguese" Display="Yes" UIString="Portuguese" />
+	<AttVal Id="26_32" Name="kbRomanian" Display="Yes" UIString="Romanian" />
+	<AttVal Id="26_33" Name="kbRussian" Display="Yes" UIString="Russian" />
+	<AttVal Id="26_34" Name="kbSerbian" Display="Yes" UIString="Serbian" />
+	<AttVal Id="26_2" Name="kbSlovakian" Display="Yes" UIString="Slovakian" />
+	<AttVal Id="26_35" Name="kbSlovenian" Display="Yes" UIString="Slovenian" />
+	<AttVal Id="26_36" Name="kbSouthAsianEnglish" Display="Yes" UIString="South-Asian-English" />
+	<AttVal Id="26_37" Name="kbSpanish" Display="Yes" UIString="Spanish" />
+	<AttVal Id="26_38" Name="kbSwedish" Display="Yes" UIString="Swedish" />
+	<AttVal Id="26_39" Name="kbThai" Display="Yes" UIString="Thai" />
+	<AttVal Id="26_40" Name="kbTurkish" Display="Yes" UIString="Turkish" />
+	<AttVal Id="26_41" Name="kbUkranian" Display="Yes" UIString="Ukranian" />
+</AttName>
+<AttName Id="32" Name="Product" Display="Yes" UIString="Product" AttType="Enum">
+	<AttVal Id="32_2" Name="BackOffice" Display="Yes" UIString="Microsoft BackOffice Suite" />
+	<AttVal Id="32_28" Name="BTS" Display="Yes" UIString="BizTalk Server" />
+	<AttVal Id="32_25" Name="C#" Display="Yes" UIString="C#" />
+	<AttVal Id="32_27" Name="CS" Display="Yes" UIString="Commerce Server" />
+	<AttVal Id="32_21" Name="Exchange" Display="Yes" UIString="Exchange" />
+	<AttVal Id="32_36" Name="Mobile Information Server 2002" Display="Yes" UIString="Mobile Information Server 2002" />
+	<AttVal Id="32_6" Name="MOD" Display="Yes" UIString="Microsoft Office Developer" />
+	<AttVal Id="32_23" Name="MSHWkShop" Display="Yes" UIString="Microsoft Help Workshop" />
+	<AttVal Id="32_38" Name="Smart Device Extensions" Display="Yes" UIString="Smart Device Extensions" />
+	<AttVal Id="32_9" Name="SMS" Display="Yes" UIString="SMS Server" />
+	<AttVal Id="32_10" Name="SNA" Display="Yes" UIString="SNA Server" />
+	<AttVal Id="32_12" Name="SourceSafe" Display="Yes" UIString="Visual SourceSafe" />
+	<AttVal Id="32_37" Name="SQLCE" Display="Yes" UIString="SQL CE" />
+	<AttVal Id="32_11" Name="SQLServer" Display="Yes" UIString="SQL Server" />
+	<AttVal Id="32_14" Name="VB" Display="Yes" UIString="Visual Basic" />
+	<AttVal Id="32_22" Name="VBA" Display="Yes" UIString="VBA" />
+	<AttVal Id="32_15" Name="VC" Display="Yes" UIString="Visual C++" />
+	<AttVal Id="32_16" Name="VFP" Display="Yes" UIString="Visual FoxPro" />
+	<AttVal Id="32_17" Name="VI" Display="Yes" UIString="Visual InterDev" />
+	<AttVal Id="32_24" Name="Visio" Display="Yes" UIString="Visio" />
+	<AttVal Id="32_18" Name="VJ" Display="Yes" UIString="Visual J++" />
+	<AttVal Id="32_19" Name="VS" Display="Yes" UIString="Visual Studio" />
+	<AttVal Id="32_33" Name="VSA" Display="Yes" UIString="VSA" />
+</AttName>
+<AttName Id="33" Name="Project" Display="No" UIString="Context: Project" AttType="Enum">
+	<AttVal Id="33_1" Name="AddIn" Display="No" UIString="AddIn" />
+	<AttVal Id="33_8" Name="Analyzer" Display="No" UIString="Analyzer" />
+	<AttVal Id="33_5" Name="Application" Display="No" UIString="Application" />
+	<AttVal Id="33_12" Name="CABFile" Display="No" UIString="CABFile" />
+	<AttVal Id="33_25" Name="Chm" Display="No" UIString="Chm" />
+	<AttVal Id="33_6" Name="Control" Display="No" UIString="Control" />
+	<AttVal Id="33_23" Name="Data" Display="No" UIString="Database" />
+	<AttVal Id="33_9" Name="Deployment" Display="No" UIString="Deployment" />
+	<AttVal Id="33_19" Name="DLL" Display="No" UIString="DLL" />
+	<AttVal Id="33_20" Name="EXE" Display="No" UIString="EXE" />
+	<AttVal Id="33_18" Name="Form" Display="No" UIString="Form" />
+	<AttVal Id="33_4" Name="Help" Display="No" UIString="Help" />
+	<AttVal Id="33_26" Name="Hlp" Display="No" UIString="Hlp" />
+	<AttVal Id="33_24" Name="HxS" Display="No" UIString="HxS" />
+	<AttVal Id="33_21" Name="LIB" Display="No" UIString="LIB" />
+	<AttVal Id="33_11" Name="MergeModule" Display="No" UIString="MergeModule" />
+	<AttVal Id="33_29" Name="MODDigDash" Display="No" UIString="MOD Digital Dashboard App" />
+	<AttVal Id="33_27" Name="MODExchWF" Display="No" UIString="MOD Exchange Workflow App" />
+	<AttVal Id="33_28" Name="MODSQLWF" Display="No" UIString="MOD SQL Server Workflow App" />
+	<AttVal Id="33_13" Name="None" Display="No" UIString="None" />
+	<AttVal Id="33_22" Name="OCX" Display="No" UIString="OCX" />
+	<AttVal Id="33_2" Name="OLEServer" Display="No" UIString="OLEServer" />
+	<AttVal Id="33_10" Name="Setup" Display="No" UIString="Setup" />
+	<AttVal Id="33_14" Name="VB6" Display="No" UIString="VB Classic" />
+	<AttVal Id="33_16" Name="VB6Mixed" Display="No" UIString="VB6Mixed" />
+	<AttVal Id="33_15" Name="VB7" Display="No" UIString="Visual Basic" />
+	<AttVal Id="33_17" Name="VB7Mixed" Display="No" UIString="VB7Mixed" />
+	<AttVal Id="33_3" Name="WebSite" Display="No" UIString="WebSite" />
+	<AttVal Id="33_7" Name="Wizard" Display="No" UIString="Wizard" />
+</AttName>
+<AttName Id="36" Name="ServerItem" Display="No" UIString="Context: Server Item" AttType="Enum">
+	<AttVal Id="36_9" Name="DataConnection" Display="No" UIString="DataConnection" />
+	<AttVal Id="36_8" Name="EventLog" Display="No" UIString="EventLog" />
+	<AttVal Id="36_4" Name="IndexSvr" Display="No" UIString="IndexSvr" />
+	<AttVal Id="36_6" Name="Machine" Display="No" UIString="Machine" />
+	<AttVal Id="36_3" Name="PerfCounter" Display="No" UIString="PerfCounter" />
+	<AttVal Id="36_10" Name="Process" Display="No" UIString="Process" />
+	<AttVal Id="36_7" Name="Queue" Display="No" UIString="Queue" />
+	<AttVal Id="36_1" Name="Schedule" Display="No" UIString="Schedule" />
+	<AttVal Id="36_5" Name="Server" Display="No" UIString="Server" />
+	<AttVal Id="36_2" Name="Service" Display="No" UIString="Service" />
+	<AttVal Id="36_11" Name="WebMethod" Display="No" UIString="WebMethod" />
+</AttName>
+<AttName Id="37" Name="ShellMode" Display="No" UIString="Context: Environment Mode" AttType="Enum">
+	<AttVal Id="37_3" Name="Break" Display="No" UIString="Break" />
+	<AttVal Id="37_1" Name="Debug" Display="No" UIString="Run" />
+	<AttVal Id="37_2" Name="Design" Display="No" UIString="Design" />
+</AttName>
+<AttName Id="38" Name="Solution" Display="No" UIString="Context: Solution" AttType="Enum">
+	<AttVal Id="38_5" Name="Any" Display="No" UIString="Any" />
+	<AttVal Id="38_2" Name="Empty" Display="No" UIString="Empty" />
+	<AttVal Id="38_3" Name="Multiple" Display="No" UIString="Multiple" />
+	<AttVal Id="38_4" Name="None" Display="No" UIString="None" />
+	<AttVal Id="38_1" Name="Single" Display="No" UIString="Single" />
+</AttName>
+<AttName Id="40" Name="SourceControl" Display="No" UIString="Context: Source Control" AttType="Enum">
+	<AttVal Id="40_1" Name="None" Display="No" UIString="None" />
+	<AttVal Id="40_3" Name="TSS" Display="No" UIString="TSS" />
+	<AttVal Id="40_2" Name="VSS" Display="No" UIString="VSS" />
+</AttName>
+<AttName Id="41" Name="Status" Display="Yes" UIString="Status" AttType="Enum">
+	<AttVal Id="41_1" Name="New" Display="Yes" UIString="New" />
+	<AttVal Id="41_2" Name="Revised" Display="Yes" UIString="Revised" />
+	<AttVal Id="41_3" Name="Same" Display="Yes" UIString="Same" />
+</AttName>
+<AttName Id="42" Name="TargetCPU" Display="No" UIString="Target CPU" AttType="Enum">
+	<AttVal Id="42_1" Name="kb68K" Display="No" UIString="68000 family of processors" />
+	<AttVal Id="42_2" Name="kbARM" Display="No" UIString="ARM/StrongARM processors" />
+	<AttVal Id="42_3" Name="kbDecAlpha" Display="No" UIString="DEC Alpha" />
+	<AttVal Id="42_4" Name="kbIA64" Display="No" UIString="IA64" />
+	<AttVal Id="42_5" Name="kbMerced" Display="No" UIString="Merced" />
+	<AttVal Id="42_6" Name="kbMIPS" Display="No" UIString="MIPS" />
+	<AttVal Id="42_7" Name="kbPowerPC" Display="No" UIString="PowerPC" />
+	<AttVal Id="42_8" Name="kbSuperH" Display="No" UIString="Hitachi SuperH processor" />
+	<AttVal Id="42_9" Name="kbx86" Display="No" UIString="8086-based processors" />
+</AttName>
+<AttName Id="43" Name="TargetOS" Display="Yes" UIString="Target Operating System" AttType="Enum">
+	<AttVal Id="43_1" Name="kbLinux" Display="Yes" UIString="Linux" />
+	<AttVal Id="43_2" Name="kbMAC" Display="Yes" UIString="Macintosh" />
+	<AttVal Id="43_3" Name="kbUNIX" Display="Yes" UIString="UNIX" />
+	<AttVal Id="43_4" Name="WinCE" Display="Yes" UIString="Windows CE" />
+	<AttVal Id="43_5" Name="Windows" Display="Yes" UIString="Windows" />
+</AttName>
+<AttName Id="44" Name="TeamItem" Display="No" UIString="Context: Team Item" AttType="Enum">
+	<AttVal Id="44_5" Name="File" Display="No" UIString="File" />
+	<AttVal Id="44_1" Name="Issue" Display="No" UIString="Issue" />
+	<AttVal Id="44_7" Name="Link" Display="No" UIString="Link" />
+	<AttVal Id="44_4" Name="Name" Display="No" UIString="Name" />
+	<AttVal Id="44_2" Name="Query" Display="No" UIString="Query" />
+	<AttVal Id="44_6" Name="Reuse" Display="No" UIString="Reuse" />
+	<AttVal Id="44_3" Name="Workarea" Display="No" UIString="Workarea" />
+</AttName>
+<AttName Id="45" Name="Technology" Display="Yes" UIString="Technology" AttType="Enum">
+	<AttVal Id="45_1" Name="AccCtl" Display="Yes" UIString="Access Control" />
+	<AttVal Id="45_146" Name="ACT" Display="Yes" UIString="Application Center Test" />
+	<AttVal Id="45_2" Name="ActiveX" Display="Yes" UIString="ActiveX Controls" />
+	<AttVal Id="45_4" Name="AD" Display="Yes" UIString="Active Directory" />
+	<AttVal Id="45_3" Name="ADO" Display="Yes" UIString="ADO" />
+	<AttVal Id="45_197" Name="ADONET" Display="Yes" UIString="ADO.NET" />
+	<AttVal Id="45_189" Name="ADSI" Display="Yes" UIString="ADSI" />
+	<AttVal Id="45_5" Name="Agent" Display="Yes" UIString="Agent" />
+	<AttVal Id="45_6" Name="ASP" Display="Yes" UIString="Active Server Pages" />
+	<AttVal Id="45_198" Name="ASPNET" Display="Yes" UIString="ASP.NET" />
+	<AttVal Id="45_7" Name="AsyncPlug" Display="Yes" UIString="Asynch Pluggable Protocols" />
+	<AttVal Id="45_8" Name="ATLWC" Display="Yes" UIString="VC ATL classes" />
+	<AttVal Id="45_9" Name="Authenticode" Display="Yes" UIString="Authenticode" />
+	<AttVal Id="45_159" Name="Automation" Display="Yes" UIString="Automation" />
+	<AttVal Id="45_191" Name="BITS" Display="Yes" UIString="BITS" />
+	<AttVal Id="45_10" Name="BPC" Display="Yes" UIString="Broadcast Architecture" />
+	<AttVal Id="45_11" Name="Cabinets" Display="Yes" UIString="Cabinets" />
+	<AttVal Id="45_12" Name="CacheTool" Display="Yes" UIString="Cache Container Tool" />
+	<AttVal Id="45_13" Name="CDO" Display="Yes" UIString="Collaboration Data Objects" />
+	<AttVal Id="45_14" Name="CertSrv" Display="Yes" UIString="Certificate Services" />
+	<AttVal Id="45_15" Name="CGI" Display="Yes" UIString="Common Gateway Interface" />
+	<AttVal Id="45_16" Name="Channels" Display="Yes" UIString="CDF and channels" />
+	<AttVal Id="45_17" Name="Chat" Display="Yes" UIString="Chat" />
+	<AttVal Id="45_18" Name="CIS" Display="Yes" UIString="Commercial Internet System" />
+	<AttVal Id="45_19" Name="ClustSrv" Display="Yes" UIString="Cluster Server" />
+	<AttVal Id="45_20" Name="CmnCtrls" Display="Yes" UIString="Windows Common Controls" />
+	<AttVal Id="45_21" Name="CommonMsg" Display="Yes" UIString="Common Messaging Calls" />
+	<AttVal Id="45_22" Name="COMPlus" Display="Yes" UIString="COM+ (Component Services)" />
+	<AttVal Id="45_23" Name="COMt" Display="Yes" UIString="COM" />
+	<AttVal Id="45_24" Name="ContentIndex" Display="Yes" UIString="Content Indexing" />
+	<AttVal Id="45_25" Name="CRT" Display="Yes" UIString="C Run-Time Libraries" />
+	<AttVal Id="45_26" Name="Crypt" Display="Yes" UIString="Cryptography" />
+	<AttVal Id="45_147" Name="CrystalReports" Display="Yes" UIString="Crystal Reports" />
+	<AttVal Id="45_27" Name="CSS" Display="Yes" UIString="Cascading Style Sheets" />
+	<AttVal Id="45_28" Name="DAO" Display="Yes" UIString="DAO" />
+	<AttVal Id="45_142" Name="DatabaseDesigner" Display="Yes" UIString="Database Designer" />
+	<AttVal Id="45_29" Name="DBCS" Display="Yes" UIString="Double-byte character sets" />
+	<AttVal Id="45_30" Name="DCOM" Display="Yes" UIString="DCOM" />
+	<AttVal Id="45_160" Name="DebugErr" Display="Yes" UIString="Debugging and Error Handling" />
+	<AttVal Id="45_31" Name="Delivery" Display="Yes" UIString="Content Delivery" />
+	<AttVal Id="45_161" Name="DHCP" Display="Yes" UIString="DHCP" />
+	<AttVal Id="45_32" Name="DHTML" Display="Yes" UIString="Dynamic HTML" />
+	<AttVal Id="45_33" Name="DirectX" Display="Yes" UIString="DirectX" />
+	<AttVal Id="45_34" Name="DLC" Display="Yes" UIString="DataLink control" />
+	<AttVal Id="45_162" Name="DllProc" Display="Yes" UIString="DLLs, Processes, and Threads" />
+	<AttVal Id="45_163" Name="DNS" Display="Yes" UIString="DNS" />
+	<AttVal Id="45_35" Name="DTC" Display="Yes" UIString="Distributed Transaction Coord" />
+	<AttVal Id="45_36" Name="DTCCtl" Display="Yes" UIString="Design-Time Controls" />
+	<AttVal Id="45_37" Name="DTL" Display="Yes" UIString="Database Template Libraries" />
+	<AttVal Id="45_164" Name="EAP" Display="Yes" UIString="EAP" />
+	<AttVal Id="45_38" Name="EDK" Display="Yes" UIString="Exchange Development Kit" />
+	<AttVal Id="45_208" Name="email" Display="Yes" UIString="email" />
+	<AttVal Id="45_205" Name="EnterpriseTemplates" Display="Yes" UIString="Enterprise Templates" />
+	<AttVal Id="45_39" Name="ETK" Display="Yes" UIString="WinCE Embedded Toolkits" />
+	<AttVal Id="45_203" Name="EVT" Display="Yes" UIString="Event Tracing" />
+	<AttVal Id="45_40" Name="Fax" Display="Yes" UIString="Fax Services" />
+	<AttVal Id="45_41" Name="FFC" Display="Yes" UIString="FoxPro Foundation Classes" />
+	<AttVal Id="45_165" Name="FileIO" Display="Yes" UIString="Files and I/O" />
+	<AttVal Id="45_214" Name="FileSys" Display="Yes" UIString="File System" />
+	<AttVal Id="45_42" Name="GDI" Display="Yes" UIString="GDI" />
+	<AttVal Id="45_188" Name="GDI+" Display="Yes" UIString="GDI+" />
+	<AttVal Id="45_166" Name="GP" Display="Yes" UIString="Group Policy" />
+	<AttVal Id="45_167" Name="HIS" Display="Yes" UIString="Host Integration Server" />
+	<AttVal Id="45_44" Name="HPS" Display="Yes" UIString="ATL Server" />
+	<AttVal Id="45_45" Name="HTMLHelp" Display="Yes" UIString="HTML Help system" />
+	<AttVal Id="45_168" Name="IAS" Display="Yes" UIString="IAS" />
+	<AttVal Id="45_192" Name="ICS" Display="Yes" UIString="Internet Connection Sharing" />
+	<AttVal Id="45_46" Name="IdxServ" Display="Yes" UIString="Indexing Service" />
+	<AttVal Id="45_47" Name="IE" Display="Yes" UIString="Internet Explorer" />
+	<AttVal Id="45_48" Name="IIS" Display="Yes" UIString="Internet Information Services" />
+	<AttVal Id="45_233" Name="ImageMastering" Display="Yes" UIString="ImageMastering" />
+	<AttVal Id="45_49" Name="Imaging" Display="Yes" UIString="Imaging" />
+	<AttVal Id="45_51" Name="InMusic" Display="Yes" UIString="Interactive Music Control" />
+	<AttVal Id="45_169" Name="IPC" Display="Yes" UIString="Interprocess Communication" />
+	<AttVal Id="45_53" Name="IPHelp" Display="Yes" UIString="IP Helper Functions" />
+	<AttVal Id="45_209" Name="IrDA" Display="Yes" UIString="IrDA" />
+	<AttVal Id="45_204" Name="ISA" Display="Yes" UIString="Internet Server Accelerator" />
+	<AttVal Id="45_54" Name="ISAPI" Display="Yes" UIString="Internet Service API (ISAPI)" />
+	<AttVal Id="45_55" Name="JAFC" Display="Yes" UIString="Java Appl. Foundation Classes" />
+	<AttVal Id="45_56" Name="JavaVM" Display="Yes" UIString="Java Virtual Machine" />
+	<AttVal Id="45_57" Name="JDBC" Display="Yes" UIString="Java Database Connectivity" />
+	<AttVal Id="45_58" Name="Jet" Display="Yes" UIString="Jet (Access) Engine" />
+	<AttVal Id="45_59" Name="JRO" Display="Yes" UIString="Jet + Replication Objects" />
+	<AttVal Id="45_148" Name="kb3Ptech" Display="Yes" UIString="Third Party" />
+	<AttVal Id="45_226" Name="kbActiveSync" Display="Yes" UIString="ActiveSync" />
+	<AttVal Id="45_232" Name="kbATLWC" Display="Yes" UIString="ATL (VC template libraries)" />
+	<AttVal Id="45_218" Name="kbCIM" Display="Yes" UIString="CIM" />
+	<AttVal Id="45_227" Name="kbCLR" Display="Yes" UIString="Common Language Runtime (CLR)" />
+	<AttVal Id="45_211" Name="kbFTP" Display="Yes" UIString="File Transport Protocol (FTP)" />
+	<AttVal Id="45_212" Name="kbHTTP" Display="Yes" UIString="HTTP" />
+	<AttVal Id="45_223" Name="kbIDL" Display="Yes" UIString="IDL" />
+	<AttVal Id="45_220" Name="kbKerberos" Display="Yes" UIString="Kerberos" />
+	<AttVal Id="45_231" Name="kbMSHTML" Display="Yes" UIString="MSHTML" />
+	<AttVal Id="45_213" Name="kbMSXML" Display="Yes" UIString="MSXML" />
+	<AttVal Id="45_236" Name="kbNetCompactFramewk" Display="Yes" UIString=".NET Compact Framework" />
+	<AttVal Id="45_228" Name="kbNetFramewk" Display="Yes" UIString=".NET Frameworks" />
+	<AttVal Id="45_210" Name="kbRepository" Display="Yes" UIString="Microsoft Repository" />
+	<AttVal Id="45_219" Name="kbSAX" Display="Yes" UIString="SAX" />
+	<AttVal Id="45_225" Name="kbSMP" Display="Yes" UIString="SMP" />
+	<AttVal Id="45_154" Name="kbSOAP" Display="Yes" UIString="SOAP" />
+	<AttVal Id="45_155" Name="kbSOAPkit" Display="Yes" UIString="SOAP Toolkit" />
+	<AttVal Id="45_230" Name="kbTCPIP" Display="Yes" UIString="TCP/IP" />
+	<AttVal Id="45_229" Name="kbUDDI" Display="Yes" UIString="UDDI" />
+	<AttVal Id="45_222" Name="kbWAS" Display="Yes" UIString="WAS (Web App Stress tool)" />
+	<AttVal Id="45_224" Name="kbWML" Display="Yes" UIString="WML" />
+	<AttVal Id="45_221" Name="kbWQL" Display="Yes" UIString="WQL" />
+	<AttVal Id="45_206" Name="kbWSS" Display="Yes" UIString="Web Storage System" />
+	<AttVal Id="45_190" Name="LDAP" Display="Yes" UIString="LDAP" />
+	<AttVal Id="45_60" Name="LiquidMotion" Display="Yes" UIString="Liquid Motion" />
+	<AttVal Id="45_61" Name="LSA" Display="Yes" UIString="Local Security Authority" />
+	<AttVal Id="45_170" Name="MADCAP" Display="Yes" UIString="MADCAP" />
+	<AttVal Id="45_141" Name="ManagedC" Display="Yes" UIString="Manged Extensions for C++" />
+	<AttVal Id="45_201" Name="ManagedCode" Display="Yes" UIString="Managed Code" />
+	<AttVal Id="45_62" Name="MAPI" Display="Yes" UIString="Messaging API (MAPI)" />
+	<AttVal Id="45_63" Name="MCI" Display="Yes" UIString="Media Control Interface (MCI)" />
+	<AttVal Id="45_64" Name="MDAC" Display="Yes" UIString="MDAC" />
+	<AttVal Id="45_171" Name="Memory" Display="Yes" UIString="Memory Management" />
+	<AttVal Id="45_65" Name="MFC" Display="Yes" UIString="Microsoft Foundation Classes" />
+	<AttVal Id="45_172" Name="MIDL" Display="Yes" UIString="MIDL" />
+	<AttVal Id="45_66" Name="MM" Display="Yes" UIString="Windows Multimedia" />
+	<AttVal Id="45_67" Name="MMC" Display="Yes" UIString="Microsoft Management Console" />
+	<AttVal Id="45_238" Name="MobileDevice" Display="Yes" UIString="Mobile Device Development" />
+	<AttVal Id="45_207" Name="MobileInternetToolkit" Display="Yes" UIString="MS Mobile Internet Toolkit" />
+	<AttVal Id="45_173" Name="MSAA" Display="Yes" UIString="Active Accessibility" />
+	<AttVal Id="45_68" Name="MSDE" Display="Yes" UIString="Microsoft Data Engine" />
+	<AttVal Id="45_69" Name="MSI" Display="Yes" UIString="Microsoft Installer" />
+	<AttVal Id="45_70" Name="MSMQ" Display="Yes" UIString="Message Queueing Services" />
+	<AttVal Id="45_71" Name="MSVM" Display="Yes" UIString="Microsoft Visual Modeler" />
+	<AttVal Id="45_72" Name="MTS" Display="Yes" UIString="Microsoft Transaction Server" />
+	<AttVal Id="45_73" Name="NetBIOS" Display="Yes" UIString="NetBIOS" />
+	<AttVal Id="45_74" Name="NetMan" Display="Yes" UIString="Network Management" />
+	<AttVal Id="45_75" Name="NetMeeting" Display="Yes" UIString="NetMeeting" />
+	<AttVal Id="45_175" Name="NetMon" Display="Yes" UIString="Network Monitor" />
+	<AttVal Id="45_176" Name="NetShell" Display="Yes" UIString="Network Shell" />
+	<AttVal Id="45_177" Name="Network" Display="Yes" UIString="Network API" />
+	<AttVal Id="45_158" Name="Network Load Balancing" Display="Yes" UIString="NLB" />
+	<AttVal Id="45_157" Name="Network Monitor" Display="Yes" UIString="NetMon" />
+	<AttVal Id="45_174" Name="NLB" Display="Yes" UIString="Network Load Balancing" />
+	<AttVal Id="45_178" Name="NLS" Display="Yes" UIString="National Language Support" />
+	<AttVal Id="45_76" Name="ODBC" Display="Yes" UIString="ODBC" />
+	<AttVal Id="45_77" Name="OFC" Display="Yes" UIString="Open Financial Connectivity" />
+	<AttVal Id="45_78" Name="OLAP" Display="Yes" UIString="OLAP Services" />
+	<AttVal Id="45_79" Name="OLE" Display="Yes" UIString="OLE" />
+	<AttVal Id="45_80" Name="OLEDB" Display="Yes" UIString="OLE DB" />
+	<AttVal Id="45_81" Name="OLEDBP" Display="Yes" UIString="OLE DB Providers" />
+	<AttVal Id="45_82" Name="OnNow" Display="Yes" UIString="OnNow" />
+	<AttVal Id="45_83" Name="OpenGL" Display="Yes" UIString="OpenGL" />
+	<AttVal Id="45_84" Name="OSD" Display="Yes" UIString="Open Software Description" />
+	<AttVal Id="45_85" Name="Outlook" Display="Yes" UIString="Outlook" />
+	<AttVal Id="45_179" Name="PerfMon" Display="Yes" UIString="Performance Monitoring" />
+	<AttVal Id="45_88" Name="Pipes" Display="Yes" UIString="Named pipes" />
+	<AttVal Id="45_89" Name="PlugPlay" Display="Yes" UIString="Plug and Play" />
+	<AttVal Id="45_90" Name="Printing" Display="Yes" UIString="Printing" />
+	<AttVal Id="45_91" Name="Protocols" Display="Yes" UIString="Predefined Protocols" />
+	<AttVal Id="45_92" Name="ProxySrv" Display="Yes" UIString="Proxy Server" />
+	<AttVal Id="45_180" Name="QOS" Display="Yes" UIString="QOS" />
+	<AttVal Id="45_94" Name="Query" Display="Yes" UIString="English Query" />
+	<AttVal Id="45_143" Name="QueryDesigner" Display="Yes" UIString="Query Designer" />
+	<AttVal Id="45_95" Name="RAS" Display="Yes" UIString="Remote Access Service (RAS)" />
+	<AttVal Id="45_96" Name="Ratings" Display="Yes" UIString="Internet Ratings" />
+	<AttVal Id="45_97" Name="RDO" Display="Yes" UIString="Remote Data Objects" />
+	<AttVal Id="45_98" Name="RDS" Display="Yes" UIString="Remote Data Service" />
+	<AttVal Id="45_99" Name="Registry" Display="Yes" UIString="Windows Registry Manipulation" />
+	<AttVal Id="45_100" Name="ReplicationSrv" Display="Yes" UIString="Content Replication Server" />
+	<AttVal Id="45_101" Name="RPC" Display="Yes" UIString="Remote Procedure Call (RPC)" />
+	<AttVal Id="45_102" Name="RRAS" Display="Yes" UIString="Routing/RAS (RRAS)" />
+	<AttVal Id="45_215" Name="RTC" Display="Yes" UIString="RTC" />
+	<AttVal Id="45_139" Name="Ruby" Display="Yes" UIString="VB Forms" />
+	<AttVal Id="45_193" Name="SBSCS" Display="Yes" UIString="Side-by-Side Component Sharing" />
+	<AttVal Id="45_103" Name="Scriptlets" Display="Yes" UIString="Windows Scripting Component" />
+	<AttVal Id="45_104" Name="SDKSpeech" Display="Yes" UIString="Speech" />
+	<AttVal Id="45_181" Name="SDKTools" Display="Yes" UIString="SDK Tools" />
+	<AttVal Id="45_182" Name="SDO" Display="Yes" UIString="Server Data Objects" />
+	<AttVal Id="45_105" Name="Security" Display="Yes" UIString="Security" />
+	<AttVal Id="45_106" Name="Setup" Display="Yes" UIString="Setup" />
+	<AttVal Id="45_107" Name="Shell" Display="Yes" UIString="Windows Shell" />
+	<AttVal Id="45_108" Name="SiteSrv" Display="Yes" UIString="Site Server" />
+	<AttVal Id="45_109" Name="SmartCard" Display="Yes" UIString="Smart Card" />
+	<AttVal Id="45_156" Name="SMS" Display="Yes" UIString="System Management Server" />
+	<AttVal Id="45_110" Name="SNMP" Display="Yes" UIString="Simple Net Mgmt Protocol" />
+	<AttVal Id="45_237" Name="Source Control" Display="Yes" UIString="Source Control" />
+	<AttVal Id="45_144" Name="SQLEditor" Display="Yes" UIString="SQL Editor" />
+	<AttVal Id="45_111" Name="SQLSrv" Display="Yes" UIString="SQL Server" />
+	<AttVal Id="45_194" Name="SR" Display="Yes" UIString="System Restore" />
+	<AttVal Id="45_112" Name="SSPI" Display="Yes" UIString="Security Support Provider" />
+	<AttVal Id="45_183" Name="STI" Display="Yes" UIString="Still Image" />
+	<AttVal Id="45_113" Name="STL" Display="Yes" UIString="Standard Template Libraries" />
+	<AttVal Id="45_114" Name="StoredProc" Display="Yes" UIString="SQL stored procedures" />
+	<AttVal Id="45_115" Name="Streaming" Display="Yes" UIString="Multimedia Streaming" />
+	<AttVal Id="45_116" Name="SynchMan" Display="Yes" UIString="Synchronization Manager" />
+	<AttVal Id="45_117" Name="SysInfo" Display="Yes" UIString="System Information" />
+	<AttVal Id="45_145" Name="TableDesigner" Display="Yes" UIString="Table Designer" />
+	<AttVal Id="45_118" Name="TAPI" Display="Yes" UIString="Telephony API (TAPI)" />
+	<AttVal Id="45_119" Name="TaskSchedule" Display="Yes" UIString="Task Scheduler" />
+	<AttVal Id="45_184" Name="TPU" Display="Yes" UIString="TPU" />
+	<AttVal Id="45_195" Name="TSF" Display="Yes" UIString="Text Services Framework" />
+	<AttVal Id="45_140" Name="Unicode" Display="Yes" UIString="Unicode" />
+	<AttVal Id="45_185" Name="UPnP" Display="Yes" UIString="UPnP" />
+	<AttVal Id="45_121" Name="URLZones" Display="Yes" UIString="URL Security Zones" />
+	<AttVal Id="45_122" Name="VoiceData" Display="Yes" UIString="Voice and Data Integration" />
+	<AttVal Id="45_123" Name="WebBrowser" Display="Yes" UIString="Web Browser Control" />
+	<AttVal Id="45_202" Name="WebForms" Display="Yes" UIString="Web Forms" />
+	<AttVal Id="45_199" Name="WebServices" Display="Yes" UIString="Web Services" />
+	<AttVal Id="45_124" Name="WebSrv" Display="Yes" UIString="Personal Web Server" />
+	<AttVal Id="45_125" Name="WebTV" Display="Yes" UIString="WebTV" />
+	<AttVal Id="45_126" Name="WFC" Display="Yes" UIString="Windows Foundation Classes" />
+	<AttVal Id="45_216" Name="WFP" Display="Yes" UIString="Windows File Protection" />
+	<AttVal Id="45_186" Name="WIA" Display="Yes" UIString="Windows Image Acquisition" />
+	<AttVal Id="45_127" Name="Win32API" Display="Yes" UIString="Win32 API" />
+	<AttVal Id="45_128" Name="Win64API" Display="Yes" UIString="Win64 API" />
+	<AttVal Id="45_200" Name="WindowsForms" Display="Yes" UIString="Windows Forms" />
+	<AttVal Id="45_129" Name="WinInet" Display="Yes" UIString="Win32 Internet Functions" />
+	<AttVal Id="45_217" Name="WinInstaller" Display="Yes" UIString="Windows Installer" />
+	<AttVal Id="45_130" Name="WinMedia" Display="Yes" UIString="Windows Media Technologies" />
+	<AttVal Id="45_196" Name="WinMsgr" Display="Yes" UIString="Windows Messenger" />
+	<AttVal Id="45_131" Name="Winsock" Display="Yes" UIString="Windows Sockets" />
+	<AttVal Id="45_132" Name="WinTrust" Display="Yes" UIString="WinTrust" />
+	<AttVal Id="45_133" Name="WinUI" Display="Yes" UIString="Windows User Interface" />
+	<AttVal Id="45_134" Name="WMI" Display="Yes" UIString="WMI" />
+	<AttVal Id="45_135" Name="WNet" Display="Yes" UIString="Windows Networking (WNet)" />
+	<AttVal Id="45_136" Name="WSH" Display="Yes" UIString="Windows Scripting Host" />
+	<AttVal Id="45_187" Name="WTE" Display="Yes" UIString="Web Telephony Engine" />
+	<AttVal Id="45_137" Name="XML" Display="Yes" UIString="XML/XSL" />
+	<AttVal Id="45_138" Name="Zaw" Display="Yes" UIString="Zero Administration Windows" />
+</AttName>
+<AttName Id="46" Name="Template" Display="No" UIString="Context: Template" AttType="Enum">
+	<AttVal Id="46_2" Name="Active" Display="No" UIString="Active" />
+	<AttVal Id="46_1" Name="None" Display="No" UIString="None" />
+</AttName>
+<AttName Id="47" Name="Tier" Display="No" UIString="Context: Tier" AttType="Enum">
+	<AttVal Id="47_2" Name="Client" Display="No" UIString="Presentation" />
+	<AttVal Id="47_4" Name="Data" Display="No" UIString="Data" />
+	<AttVal Id="47_1" Name="None" Display="No" UIString="None" />
+	<AttVal Id="47_3" Name="Server" Display="No" UIString="Business Logic" />
+</AttName>
+<AttName Id="52" Name="TopicType" Display="Yes" UIString="Information Type" AttType="Enum">
+	<AttVal Id="52_1" Name="kbArticle" Display="Yes" UIString="Article" />
+	<AttVal Id="52_2" Name="kbHowTo" Display="Yes" UIString="Procedure" />
+	<AttVal Id="52_3" Name="kbOrient" Display="Yes" UIString="Orientation" />
+	<AttVal Id="52_4" Name="kbRef" Display="Yes" UIString="Reference" />
+	<AttVal Id="52_5" Name="kbSampleProd" Display="Yes" UIString="Sample" />
+	<AttVal Id="52_6" Name="kbSyntax" Display="Yes" UIString="Syntax" />
+</AttName>
+<AttName Id="56" Name="DevLangVers" Display="No" UIString="Language Versions" AttType="Enum">
+	<AttVal Id="56_47" Name="ASP" Display="No" UIString="ASP" />
+	<AttVal Id="56_4" Name="CSharp" Display="No" UIString="CSharp" />
+	<AttVal Id="56_55" Name="kbCHTML" Display="No" UIString="CHTML" />
+	<AttVal Id="56_56" Name="kbCHTML1.0" Display="No" UIString="CHTML 1.0" />
+	<AttVal Id="56_57" Name="kbCHTML2.0" Display="No" UIString="CHTML 2.0" />
+	<AttVal Id="56_58" Name="kbCHTML3.0" Display="No" UIString="CHTML 3.0" />
+	<AttVal Id="56_3" Name="kbCOBOL" Display="No" UIString="COBOL" />
+	<AttVal Id="56_45" Name="kbCSS" Display="No" UIString="CSS" />
+	<AttVal Id="56_5" Name="kbDHTML" Display="No" UIString="Dynamic HTML" />
+	<AttVal Id="56_6" Name="kbDHTML320" Display="No" UIString="Dynamic HTML 3.2" />
+	<AttVal Id="56_7" Name="kbDHTML400" Display="No" UIString="Dynamic HTML 4.0" />
+	<AttVal Id="56_10" Name="kbHTML" Display="No" UIString="HTML" />
+	<AttVal Id="56_12" Name="kbHTML300" Display="No" UIString="HTML 3.0" />
+	<AttVal Id="56_11" Name="kbHTML320" Display="No" UIString="HTML 3.2" />
+	<AttVal Id="56_13" Name="kbHTML400" Display="No" UIString="HTML 4.0" />
+	<AttVal Id="56_14" Name="kbIDL" Display="No" UIString="Interface Definition Language" />
+	<AttVal Id="56_15" Name="kbJava" Display="No" UIString="Java" />
+	<AttVal Id="56_16" Name="kbJScript" Display="No" UIString="JScript" />
+	<AttVal Id="56_17" Name="kbJScript100" Display="No" UIString="Jscript 1.0" />
+	<AttVal Id="56_18" Name="kbJScript110" Display="No" UIString="Jscript 1.1" />
+	<AttVal Id="56_19" Name="kbJScript120" Display="No" UIString="Jscript 2.0" />
+	<AttVal Id="56_49" Name="kbJscript300" Display="No" UIString="Jscript 3.0" />
+	<AttVal Id="56_50" Name="kbJscript400" Display="No" UIString="Jscript 4.0" />
+	<AttVal Id="56_51" Name="kbJscript500" Display="No" UIString="Jscript 5.0" />
+	<AttVal Id="56_52" Name="kbJscript501" Display="No" UIString="Jscript 5.01" />
+	<AttVal Id="56_20" Name="kbLangAssembly" Display="No" UIString="Assembly" />
+	<AttVal Id="56_21" Name="kbLangC" Display="No" UIString="C" />
+	<AttVal Id="56_22" Name="kbLangCPP" Display="No" UIString="C++" />
+	<AttVal Id="56_24" Name="kbLangVB" Display="No" UIString="Visual Basic" />
+	<AttVal Id="56_25" Name="kbLangVBA" Display="No" UIString="VBA" />
+	<AttVal Id="56_29" Name="kbSGML" Display="No" UIString="SGML" />
+	<AttVal Id="56_31" Name="kbSQL" Display="No" UIString="SQL" />
+	<AttVal Id="56_32" Name="kbTSQL" Display="No" UIString="TSQL" />
+	<AttVal Id="56_33" Name="kbUML" Display="No" UIString="UML" />
+	<AttVal Id="56_34" Name="kbVBScript" Display="No" UIString="VBScript" />
+	<AttVal Id="56_35" Name="kbVBScript100" Display="No" UIString="VBScript 1.0" />
+	<AttVal Id="56_36" Name="kbVBScript200" Display="No" UIString="VBScript 2.0" />
+	<AttVal Id="56_37" Name="kbVBScript300" Display="No" UIString="VBScript 3.0" />
+	<AttVal Id="56_38" Name="kbVBScript301" Display="No" UIString="VBScript 3.01" />
+	<AttVal Id="56_39" Name="kbVBScript400" Display="No" UIString="VBScript 4.0" />
+	<AttVal Id="56_40" Name="kbVBScript500" Display="No" UIString="VBScript 5.0" />
+	<AttVal Id="56_48" Name="kbVBScript501" Display="No" UIString="VBScript 5.01" />
+	<AttVal Id="56_59" Name="kbWML" Display="No" UIString="WML" />
+	<AttVal Id="56_41" Name="kbXBase" Display="No" UIString="Xbase" />
+	<AttVal Id="56_54" Name="kbXDR" Display="No" UIString="XDR" />
+	<AttVal Id="56_42" Name="kbXML" Display="No" UIString="XML" />
+	<AttVal Id="56_43" Name="kbXQL" Display="No" UIString="XQL" />
+	<AttVal Id="56_53" Name="kbXSD" Display="No" UIString="XSD" />
+	<AttVal Id="56_44" Name="kbXSL" Display="No" UIString="XSL" />
+	<AttVal Id="56_46" Name="PL/SQL" Display="No" UIString="PL/SQL" />
+</AttName>
+<AttName Id="58" Name="TargetOSVers" Display="No" UIString="Target OS Versions" AttType="Enum">
+	<AttVal Id="58_1" Name="kbLinux" Display="No" UIString="Linux" />
+	<AttVal Id="58_2" Name="kbMAC" Display="No" UIString="Macintosh" />
+	<AttVal Id="58_3" Name="kbNTOS" Display="No" UIString="Windows NT" />
+	<AttVal Id="58_4" Name="kbNTOS310" Display="No" UIString="Windows NT Workstation 3.1" />
+	<AttVal Id="58_5" Name="kbNTOS310Srv" Display="No" UIString="Windows NT Server 3.1" />
+	<AttVal Id="58_6" Name="kbNTOS350" Display="No" UIString="Windows NT Workstation 3.5" />
+	<AttVal Id="58_7" Name="kbNTOS350Srv" Display="No" UIString="Windows NT Server 3.5" />
+	<AttVal Id="58_8" Name="kbNTOS351" Display="No" UIString="Windows NT Workstation 3.51" />
+	<AttVal Id="58_9" Name="kbNTOS351Srv" Display="No" UIString="Windows NT Server 3.51" />
+	<AttVal Id="58_10" Name="kbNTOS400" Display="No" UIString="Windows NT Workstation 4.0" />
+	<AttVal Id="58_12" Name="kbNTOS400Ent" Display="No" UIString="Windows NT Enterprise" />
+	<AttVal Id="58_13" Name="kbNTOS400sp1" Display="No" UIString="Windows NT Workstation 4.0 SP1" />
+	<AttVal Id="58_14" Name="kbNTOS400sp2" Display="No" UIString="Windows NT Workstation 4.0 SP2" />
+	<AttVal Id="58_15" Name="kbNTOS400sp3" Display="No" UIString="Windows NT Workstation 4.0 SP3" />
+	<AttVal Id="58_16" Name="kbNTOS400sp4" Display="No" UIString="Windows NT Workstation 4.0 SP4" />
+	<AttVal Id="58_11" Name="kbNTOS400Srv" Display="No" UIString="Windows NT Server 4.0" />
+	<AttVal Id="58_17" Name="kbUNIX" Display="No" UIString="UNIX" />
+	<AttVal Id="58_18" Name="kbWinCE" Display="No" UIString="Windows CE" />
+	<AttVal Id="58_19" Name="kbWinCE100" Display="No" UIString="Windows CE 1.0" />
+	<AttVal Id="58_20" Name="kbWinCE101" Display="No" UIString="Windows CE 1.01" />
+	<AttVal Id="58_21" Name="kbWinCE200" Display="No" UIString="Windows CE 2.0" />
+	<AttVal Id="58_30" Name="kbWindowsME" Display="No" UIString="Windows ME" />
+	<AttVal Id="58_22" Name="kbWinOS" Display="No" UIString="Windows" />
+	<AttVal Id="58_27" Name="kbWinOS2000" Display="No" UIString="Windows 2000" />
+	<AttVal Id="58_28" Name="kbWinOS2000Pro" Display="No" UIString="Windows 2000 Professional" />
+	<AttVal Id="58_29" Name="kbWinOS2000Srv" Display="No" UIString="Windows 2000 Server" />
+	<AttVal Id="58_31" Name="kbWinOS2KAdvServer" Display="No" UIString="Windows 2000 Advance Server" />
+	<AttVal Id="58_23" Name="kbWinOS310" Display="No" UIString="Windows 3.1" />
+	<AttVal Id="58_24" Name="kbWInOS95" Display="No" UIString="Windows 95" />
+	<AttVal Id="58_25" Name="kbWInOS95sp1" Display="No" UIString="Windows 95 SP1" />
+	<AttVal Id="58_26" Name="kbWinOS98" Display="No" UIString="Windows 98" />
+</AttName>
+<AttName Id="59" Name="ProductVers" Display="No" UIString="Product Versions" AttType="Enum">
+	<AttVal Id="59_1" Name="kbAccess" Display="No" UIString="Access" />
+	<AttVal Id="59_2" Name="kbAccess100" Display="No" UIString="Access 1.0" />
+	<AttVal Id="59_3" Name="kbAccess200" Display="No" UIString="Access 2.0" />
+	<AttVal Id="59_6" Name="kbAccess900" Display="No" UIString="Access 9.0" />
+	<AttVal Id="59_4" Name="kbAccess95" Display="No" UIString="Access 95" />
+	<AttVal Id="59_5" Name="kbAccess97" Display="No" UIString="Access 97" />
+	<AttVal Id="59_7" Name="kbBackOff" Display="No" UIString="Microsoft BackOffice Suite" />
+	<AttVal Id="59_8" Name="kbExcel" Display="No" UIString="Excel" />
+	<AttVal Id="59_9" Name="kbFrontPage" Display="No" UIString="FrontPage" />
+	<AttVal Id="59_10" Name="kbMASM" Display="No" UIString="Microsoft Assembler" />
+	<AttVal Id="59_11" Name="kbMASM610" Display="No" UIString="Microsoft Assembler 6.1" />
+	<AttVal Id="59_12" Name="kbMASM611" Display="No" UIString="Microsoft Assembler 6.11" />
+	<AttVal Id="59_13" Name="kbMASM611d" Display="No" UIString="Microsoft Assembler 6.11d" />
+	<AttVal Id="59_14" Name="kbMASM612" Display="No" UIString="Microsoft Assembler 6.12" />
+	<AttVal Id="59_15" Name="kbMASM613" Display="No" UIString="Microsoft Assembler 6.13" />
+	<AttVal Id="59_116" Name="kbMIS2K" Display="No" UIString="Mobile Information Server 2002" />
+	<AttVal Id="59_16" Name="kbMOD" Display="No" UIString="Microsoft Office Developer" />
+	<AttVal Id="59_17" Name="kbPowerPt" Display="No" UIString="PowerPoint" />
+	<AttVal Id="59_18" Name="kbProject" Display="No" UIString="Project" />
+	<AttVal Id="59_118" Name="kbSmartDeviceExtensions" Display="No" UIString="Smart Device Extensions" />
+	<AttVal Id="59_19" Name="kbSMS" Display="No" UIString="SMS Server" />
+	<AttVal Id="59_20" Name="kbSMS100" Display="No" UIString="SMS Server 1.0" />
+	<AttVal Id="59_21" Name="kbSMS110" Display="No" UIString="SMS Server 1.1" />
+	<AttVal Id="59_22" Name="kbSMS120" Display="No" UIString="SMS Server 1.2" />
+	<AttVal Id="59_23" Name="kbSMS120sp4" Display="No" UIString="SMS Server 1.2 SP4" />
+	<AttVal Id="59_24" Name="kbSMS200" Display="No" UIString="SMS Server 2.0" />
+	<AttVal Id="59_25" Name="kbSNA" Display="No" UIString="SNA Server" />
+	<AttVal Id="59_26" Name="kbSQLServ" Display="No" UIString="SQL Server" />
+	<AttVal Id="59_27" Name="kbSQLServ600" Display="No" UIString="SQL Server 6.0" />
+	<AttVal Id="59_28" Name="kbSQLServ650" Display="No" UIString="SQL Server 6.5" />
+	<AttVal Id="59_29" Name="kbSQLServ650sp5" Display="No" UIString="SQL Server 6.5 SP5" />
+	<AttVal Id="59_30" Name="kbSQLServ700" Display="No" UIString="SQL Server 7.0" />
+	<AttVal Id="59_31" Name="kbSQLServ700sp1" Display="No" UIString="SQL Server 7.0 SP1" />
+	<AttVal Id="59_32" Name="kbSSafe" Display="No" UIString="Visual SourceSafe" />
+	<AttVal Id="59_33" Name="kbSSafe400" Display="No" UIString="Visual SourceSafe 4.0" />
+	<AttVal Id="59_34" Name="kbSSafe500" Display="No" UIString="Visual SourceSafe 5.0" />
+	<AttVal Id="59_35" Name="kbSSafe600" Display="No" UIString="Visual SourceSafe 6.0" />
+	<AttVal Id="59_88" Name="kbVBA" Display="No" UIString="VBA" />
+	<AttVal Id="59_37" Name="kbVBp" Display="No" UIString="Visual Basic" />
+	<AttVal Id="59_38" Name="kbVBp300" Display="No" UIString="Visual Basic 3.0" />
+	<AttVal Id="59_39" Name="kbVBp400" Display="No" UIString="Visual Basic 4.0" />
+	<AttVal Id="59_40" Name="kbVBp500" Display="No" UIString="Visual Basic 5.0" />
+	<AttVal Id="59_41" Name="kbVBp600" Display="No" UIString="Visual Basic 6.0" />
+	<AttVal Id="59_42" Name="kbVBp700" Display="No" UIString="Visual Basic 7.0" />
+	<AttVal Id="59_43" Name="kbVC" Display="No" UIString="Visual C++" />
+	<AttVal Id="59_44" Name="kbVC100" Display="No" UIString="Visual C++ 1.0" />
+	<AttVal Id="59_45" Name="kbVC150" Display="No" UIString="Visual C++ 1.5" />
+	<AttVal Id="59_46" Name="kbVC151" Display="No" UIString="Visual C++ 1.51" />
+	<AttVal Id="59_47" Name="kbVC152" Display="No" UIString="Visual C++ 1.52" />
+	<AttVal Id="59_48" Name="kbVC200" Display="No" UIString="Visual C++ 2.0" />
+	<AttVal Id="59_49" Name="kbVC210" Display="No" UIString="Visual C++ 2.1" />
+	<AttVal Id="59_50" Name="kbVC220" Display="No" UIString="Visual C++ 2.2" />
+	<AttVal Id="59_51" Name="kbVC400" Display="No" UIString="Visual C++ 4.0" />
+	<AttVal Id="59_52" Name="kbVC410" Display="No" UIString="Visual C++ 4.1" />
+	<AttVal Id="59_53" Name="kbVC420" Display="No" UIString="Visual C++ 4.2" />
+	<AttVal Id="59_54" Name="kbVC500" Display="No" UIString="Visual C++ 5.0" />
+	<AttVal Id="59_55" Name="kbVC500QFE" Display="No" UIString="Visual C++ 5.0 QFE" />
+	<AttVal Id="59_56" Name="kbVC600" Display="No" UIString="Visual C++ 6.0" />
+	<AttVal Id="59_57" Name="kbVC600QFE" Display="No" UIString="Visual C++ 6.0 QFE" />
+	<AttVal Id="59_58" Name="kbVC700" Display="No" UIString="Visual C++ 7.0" />
+	<AttVal Id="59_59" Name="kbVFP" Display="No" UIString="Visual FoxPro" />
+	<AttVal Id="59_60" Name="kbVFP300" Display="No" UIString="Visual FoxPro 3.0" />
+	<AttVal Id="59_61" Name="kbVFP300b" Display="No" UIString="Visual FoxPro 3.0b" />
+	<AttVal Id="59_62" Name="kbVFP500" Display="No" UIString="Visual FoxPro 5.0" />
+	<AttVal Id="59_63" Name="kbVFP500a" Display="No" UIString="Visual FoxPro 5.0a" />
+	<AttVal Id="59_64" Name="kbVFP600" Display="No" UIString="Visual FoxPro 6.0" />
+	<AttVal Id="59_65" Name="kbVFP600sp3" Display="No" UIString="Visual FoxPro 6.0 SP3" />
+	<AttVal Id="59_89" Name="kbVFP700" Display="No" UIString="Visual FoxPro 7.0" />
+	<AttVal Id="59_66" Name="kbVisID" Display="No" UIString="Visual InterDev" />
+	<AttVal Id="59_67" Name="kbVisID100" Display="No" UIString="Visual InterDev 1.0" />
+	<AttVal Id="59_68" Name="kbVisID600" Display="No" UIString="Visual InterDev 6.0" />
+	<AttVal Id="59_69" Name="kbVisID700" Display="No" UIString="Visual InterDev 7.0" />
+	<AttVal Id="59_70" Name="kbVJ" Display="No" UIString="Visual J++" />
+	<AttVal Id="59_71" Name="kbVJ100" Display="No" UIString="Visual J++ 1.0" />
+	<AttVal Id="59_72" Name="kbVJ110" Display="No" UIString="Visual J++ 1.1" />
+	<AttVal Id="59_73" Name="kbVJ600" Display="No" UIString="Visual J++ 6.0" />
+	<AttVal Id="59_74" Name="kbVS" Display="No" UIString="Visual Studio" />
+	<AttVal Id="59_75" Name="kbVS600" Display="No" UIString="Visual Studio 6.0" />
+	<AttVal Id="59_76" Name="kbVS600sp1" Display="No" UIString="Visual Studio 6.0 SP1" />
+	<AttVal Id="59_77" Name="kbVS600sp2" Display="No" UIString="Visual Studio 6.0 SP2" />
+	<AttVal Id="59_78" Name="kbVS600sp3" Display="No" UIString="Visual Studio 6.0 SP3" />
+	<AttVal Id="59_83" Name="kbVS700" Display="No" UIString="Visual Studio 7.0" />
+	<AttVal Id="59_79" Name="kbVS97" Display="No" UIString="Visual Studio 97" />
+	<AttVal Id="59_80" Name="kbVS97sp1" Display="No" UIString="Visual Studio 97 SP1" />
+	<AttVal Id="59_81" Name="kbVS97sp2" Display="No" UIString="Visual Studio 97 SP2" />
+	<AttVal Id="59_82" Name="kbVS97sp3" Display="No" UIString="Visual Studio 97 SP3" />
+	<AttVal Id="59_107" Name="kbVSA" Display="No" UIString="VSA" />
+	<AttVal Id="59_84" Name="kbWord" Display="No" UIString="Word" />
+	<AttVal Id="59_85" Name="kbXchge" Display="No" UIString="Exchange" />
+	<AttVal Id="59_86" Name="kbXchge500" Display="No" UIString="Exchange 5.0" />
+	<AttVal Id="59_87" Name="kbXchge550" Display="No" UIString="Exchange 5.5" />
+	<AttVal Id="59_92" Name="MSHWkShop" Display="No" UIString="Microsoft Help Workshop" />
+	<AttVal Id="59_117" Name="SQLCE" Display="No" UIString="SQL CE" />
+</AttName>
+<AttName Id="60" Name="TechnologyVers" Display="No" UIString="Technology Versions" AttType="Enum">
+	<AttVal Id="60_227" Name="ACT" Display="No" UIString="Application Center Test" />
+	<AttVal Id="60_303" Name="bizmessage" Display="No" UIString="BizTalk Messaging Services" />
+	<AttVal Id="60_228" Name="CrystalReports" Display="No" UIString="Crystal Reports" />
+	<AttVal Id="60_1" Name="kbAccCtl" Display="No" UIString="Access Control" />
+	<AttVal Id="60_333" Name="kbActiveSync" Display="No" UIString="ActiveSync" />
+	<AttVal Id="60_2" Name="kbActiveX" Display="No" UIString="ActiveX Controls" />
+	<AttVal Id="60_9" Name="kbAD" Display="No" UIString="Active Directory" />
+	<AttVal Id="60_3" Name="kbADO" Display="No" UIString="ADO" />
+	<AttVal Id="60_4" Name="kbADO100" Display="No" UIString="ADO 1.0" />
+	<AttVal Id="60_5" Name="kbADO150" Display="No" UIString="ADO 1.5" />
+	<AttVal Id="60_6" Name="kbADO200" Display="No" UIString="ADO 2.0" />
+	<AttVal Id="60_7" Name="kbADO201" Display="No" UIString="ADO 2.01" />
+	<AttVal Id="60_8" Name="kbADO210" Display="No" UIString="ADO 2.1" />
+	<AttVal Id="60_224" Name="kbADO250" Display="No" UIString="ADO 2.5" />
+	<AttVal Id="60_285" Name="kbADONET" Display="No" UIString="ADO.NET" />
+	<AttVal Id="60_277" Name="kbADSI" Display="No" UIString="ADSI" />
+	<AttVal Id="60_10" Name="kbAgent" Display="No" UIString="Agent" />
+	<AttVal Id="60_311" Name="kbanalysisservices" Display="No" UIString="Analysis Services" />
+	<AttVal Id="60_11" Name="kbASP" Display="No" UIString="Active Server Pages" />
+	<AttVal Id="60_12" Name="kbASP100" Display="No" UIString="Active Server Pages 1.0" />
+	<AttVal Id="60_229" Name="kbASP200" Display="No" UIString="Active Server Pages 2.0" />
+	<AttVal Id="60_230" Name="kbASP300" Display="No" UIString="Active Server Pages 3.0" />
+	<AttVal Id="60_13" Name="kbASP400" Display="No" UIString="Active Server Pages 4.0" />
+	<AttVal Id="60_286" Name="kbASPNET" Display="No" UIString="ASP.NET" />
+	<AttVal Id="60_336" Name="kbASPplus" Display="No" UIString="ASP+" />
+	<AttVal Id="60_14" Name="kbAsyncPlug" Display="No" UIString="Asynch Pluggable Protocols" />
+	<AttVal Id="60_341" Name="kbATL300" Display="No" UIString="ATL 3.0" />
+	<AttVal Id="60_15" Name="kbATLWC" Display="No" UIString="ATL (VC template libraries)" />
+	<AttVal Id="60_16" Name="kbAuthenticode" Display="No" UIString="Authenticode" />
+	<AttVal Id="60_250" Name="kbAutomation" Display="No" UIString="Automation" />
+	<AttVal Id="60_278" Name="kbBITS" Display="No" UIString="BITS" />
+	<AttVal Id="60_302" Name="kbbizorch" Display="No" UIString="BizTalk Orchestration Services" />
+	<AttVal Id="60_17" Name="kbBPC" Display="No" UIString="Broadcast Architecture" />
+	<AttVal Id="60_18" Name="kbCabinets" Display="No" UIString="Cabinets" />
+	<AttVal Id="60_19" Name="kbCacheTool" Display="No" UIString="Cache Container Tool" />
+	<AttVal Id="60_20" Name="kbCDO" Display="No" UIString="Collaboration Data Objects" />
+	<AttVal Id="60_21" Name="kbCDO100" Display="No" UIString="CDO 1.0" />
+	<AttVal Id="60_22" Name="kbCDO100a" Display="No" UIString="CDO 1.0a" />
+	<AttVal Id="60_23" Name="kbCDO110" Display="No" UIString="CDO 1.1" />
+	<AttVal Id="60_24" Name="kbCDO120" Display="No" UIString="CDO 1.2" />
+	<AttVal Id="60_25" Name="kbCDO121" Display="No" UIString="CDO 1.21" />
+	<AttVal Id="60_26" Name="kbCDO200" Display="No" UIString="CDO 2.0" />
+	<AttVal Id="60_27" Name="kbCertSrv" Display="No" UIString="Certificate Services" />
+	<AttVal Id="60_28" Name="kbCGI" Display="No" UIString="Common Gateway Interface" />
+	<AttVal Id="60_29" Name="kbChannels" Display="No" UIString="CDF and channels" />
+	<AttVal Id="60_30" Name="kbChat" Display="No" UIString="Chat" />
+	<AttVal Id="60_330" Name="kbCIM" Display="No" UIString="CIM" />
+	<AttVal Id="60_31" Name="kbCIS" Display="No" UIString="Commercial Internet System" />
+	<AttVal Id="60_334" Name="kbCLR" Display="No" UIString="Common Language Runtime (CLR)" />
+	<AttVal Id="60_32" Name="kbClustSrv" Display="No" UIString="Cluster Server" />
+	<AttVal Id="60_33" Name="kbClustSrv100" Display="No" UIString="Cluster Server 1.0" />
+	<AttVal Id="60_34" Name="kbClustSrv110" Display="No" UIString="Cluster Server 1.1" />
+	<AttVal Id="60_35" Name="kbCmnCtrls" Display="No" UIString="Windows Common Controls" />
+	<AttVal Id="60_37" Name="kbCommonMsg" Display="No" UIString="Common Messaging Calls" />
+	<AttVal Id="60_39" Name="kbCOMPlus" Display="No" UIString="COM+ (Component Services)" />
+	<AttVal Id="60_40" Name="kbCOMt" Display="No" UIString="COM" />
+	<AttVal Id="60_41" Name="kbContentIndex" Display="No" UIString="Content Indexing" />
+	<AttVal Id="60_42" Name="kbCRT" Display="No" UIString="C Run-Time Libraries" />
+	<AttVal Id="60_43" Name="kbCrypt" Display="No" UIString="Cryptography" />
+	<AttVal Id="60_44" Name="kbCSS" Display="No" UIString="Cascading Style Sheets" />
+	<AttVal Id="60_45" Name="kbDAO" Display="No" UIString="DAO" />
+	<AttVal Id="60_46" Name="kbDAO100" Display="No" UIString="DAO 1.0" />
+	<AttVal Id="60_47" Name="kbDAO110" Display="No" UIString="DAO 1.1" />
+	<AttVal Id="60_48" Name="kbDAO200" Display="No" UIString="DAO 2.0" />
+	<AttVal Id="60_49" Name="kbDAO250" Display="No" UIString="DAO 2.5" />
+	<AttVal Id="60_50" Name="kbDAO300" Display="No" UIString="DAO 3.0" />
+	<AttVal Id="60_51" Name="kbDAO350" Display="No" UIString="DAO 3.5" />
+	<AttVal Id="60_220" Name="kbDatabaseDesigner" Display="No" UIString="Database Designer" />
+	<AttVal Id="60_52" Name="kbDBCS" Display="No" UIString="Double-byte character sets" />
+	<AttVal Id="60_53" Name="kbDCOM" Display="No" UIString="DCOM" />
+	<AttVal Id="60_251" Name="kbDebugErr" Display="No" UIString="Debugging and Error Handling" />
+	<AttVal Id="60_54" Name="kbDelivery" Display="No" UIString="Content Delivery" />
+	<AttVal Id="60_252" Name="kbDHCP" Display="No" UIString="DHCP" />
+	<AttVal Id="60_55" Name="kbDHTML" Display="No" UIString="Dynamic HTML" />
+	<AttVal Id="60_56" Name="kbDirectX" Display="No" UIString="DirectX" />
+	<AttVal Id="60_57" Name="kbDirectX300" Display="No" UIString="DirectX 3.0" />
+	<AttVal Id="60_58" Name="kbDirectX400" Display="No" UIString="DirectX 4.0" />
+	<AttVal Id="60_59" Name="kbDirectX500" Display="No" UIString="DirectX 5.0" />
+	<AttVal Id="60_60" Name="kbDirectX600" Display="No" UIString="DirectX 6.0" />
+	<AttVal Id="60_225" Name="kbDirectX700" Display="No" UIString="DirectX 7.0" />
+	<AttVal Id="60_226" Name="kbDirectX800" Display="No" UIString="DirectX 8.0" />
+	<AttVal Id="60_61" Name="kbDLC" Display="No" UIString="DataLink control" />
+	<AttVal Id="60_253" Name="kbDllProc" Display="No" UIString="DLLs, Processes, and Threads" />
+	<AttVal Id="60_254" Name="kbDNS" Display="No" UIString="DNS" />
+	<AttVal Id="60_310" Name="kbDSO" Display="No" UIString="Decision Support Objects" />
+	<AttVal Id="60_62" Name="kbDTC" Display="No" UIString="Distributed Transaction Coord" />
+	<AttVal Id="60_63" Name="kbDTCCtl" Display="No" UIString="Design-Time Controls" />
+	<AttVal Id="60_64" Name="kbDTL" Display="No" UIString="Database Template Libraries" />
+	<AttVal Id="60_309" Name="kbDTS" Display="No" UIString="Data Transformation Services" />
+	<AttVal Id="60_255" Name="kbEAP" Display="No" UIString="EAP" />
+	<AttVal Id="60_304" Name="kbEDI" Display="No" UIString="Electronic Data Interchange" />
+	<AttVal Id="60_65" Name="kbEDK" Display="No" UIString="Exchange Development Kit" />
+	<AttVal Id="60_66" Name="kbEDK400" Display="No" UIString="Exchange Development Kit 4.0" />
+	<AttVal Id="60_67" Name="kbEDK500" Display="No" UIString="Exchange Development Kit 5.0" />
+	<AttVal Id="60_68" Name="kbEDK550" Display="No" UIString="Exchange Development Kit 5.5" />
+	<AttVal Id="60_297" Name="kbemail" Display="No" UIString="email" />
+	<AttVal Id="60_293" Name="kbEnterpriseTemplates" Display="No" UIString="Enterprise Templates" />
+	<AttVal Id="60_69" Name="kbETK" Display="No" UIString="WinCE Embedded Toolkits" />
+	<AttVal Id="60_70" Name="kbETK201" Display="No" UIString="WinCE Embedded Toolkits 2.01" />
+	<AttVal Id="60_71" Name="kbETK210" Display="No" UIString="WinCE Embedded Toolkits 2.1" />
+	<AttVal Id="60_291" Name="kbEvT" Display="No" UIString="Event Tracing" />
+	<AttVal Id="60_72" Name="kbFax" Display="No" UIString="Fax Services" />
+	<AttVal Id="60_73" Name="kbFFC" Display="No" UIString="FoxPro Foundation Classes" />
+	<AttVal Id="60_256" Name="kbFileIO" Display="No" UIString="Files and I/O" />
+	<AttVal Id="60_319" Name="kbFileSys" Display="No" UIString="File System" />
+	<AttVal Id="60_313" Name="kbFTP" Display="No" UIString="File Transport Protocol (FTP)" />
+	<AttVal Id="60_74" Name="kbGDI" Display="No" UIString="GDI" />
+	<AttVal Id="60_276" Name="kbGDIPlus" Display="No" UIString="GDI+" />
+	<AttVal Id="60_257" Name="kbGP" Display="No" UIString="Group Policy" />
+	<AttVal Id="60_258" Name="kbHIS" Display="No" UIString="Host Integration Server" />
+	<AttVal Id="60_76" Name="kbHPS" Display="No" UIString="ATL Server" />
+	<AttVal Id="60_77" Name="kbHTMLHelp" Display="No" UIString="HTML Help system" />
+	<AttVal Id="60_317" Name="kbHTTP" Display="No" UIString="HTTP" />
+	<AttVal Id="60_259" Name="kbIAS" Display="No" UIString="IAS" />
+	<AttVal Id="60_279" Name="kbICS" Display="No" UIString="Internet Connection Sharing" />
+	<AttVal Id="60_328" Name="kbIDL" Display="No" UIString="IDL (Interface Def Lang)" />
+	<AttVal Id="60_78" Name="kbIdxServ" Display="No" UIString="Indexing Service" />
+	<AttVal Id="60_79" Name="kbIdxServ100" Display="No" UIString="Indexing Service 1.0" />
+	<AttVal Id="60_80" Name="kbIdxServ110" Display="No" UIString="Indexing Service 1.1" />
+	<AttVal Id="60_81" Name="kbIdxServ200" Display="No" UIString="Indexing Service2.0" />
+	<AttVal Id="60_82" Name="kbIE" Display="No" UIString="Internet Explorer" />
+	<AttVal Id="60_83" Name="kbIE300" Display="No" UIString="Internet Explorer 3.0" />
+	<AttVal Id="60_84" Name="kbIE301" Display="No" UIString="Internet Explorer 3.01" />
+	<AttVal Id="60_85" Name="kbIE302" Display="No" UIString="Internet Explorer 3.02" />
+	<AttVal Id="60_86" Name="kbIE400" Display="No" UIString="Internet Explorer 4.0" />
+	<AttVal Id="60_87" Name="kbIE401" Display="No" UIString="Internet Explorer 4.01" />
+	<AttVal Id="60_88" Name="kbIE401sp1" Display="No" UIString="Internet Explorer 4.01 SP1" />
+	<AttVal Id="60_89" Name="kbIE401sp2" Display="No" UIString="Internet Explorer 4.01 SP2" />
+	<AttVal Id="60_90" Name="kbIE500" Display="No" UIString="Internet Explorer 5.0" />
+	<AttVal Id="60_91" Name="kbIE500dp1" Display="No" UIString="Internet Explorer 5.0 DP1" />
+	<AttVal Id="60_294" Name="kbie55" Display="No" UIString="Internet Explorer 5.5" />
+	<AttVal Id="60_92" Name="kbIIS" Display="No" UIString="IIS (Internet Information Svc)" />
+	<AttVal Id="60_323" Name="kbIIS400" Display="No" UIString="IIS 4.0" />
+	<AttVal Id="60_324" Name="kbIIS500" Display="No" UIString="IIS 5.0" />
+	<AttVal Id="60_344" Name="kbImageMastering" Display="No" UIString="ImageMastering" />
+	<AttVal Id="60_93" Name="kbImaging" Display="No" UIString="Imaging" />
+	<AttVal Id="60_238" Name="kbImgColorM" Display="No" UIString="Image Color Matching" />
+	<AttVal Id="60_307" Name="kbindexwiz" Display="No" UIString="Index Tuning Wizard" />
+	<AttVal Id="60_95" Name="kbInMusic" Display="No" UIString="Interactive Music Control" />
+	<AttVal Id="60_96" Name="kbInterOp" Display="No" UIString="Interoperability" />
+	<AttVal Id="60_260" Name="kbIPC" Display="No" UIString="Interprocess Communication" />
+	<AttVal Id="60_97" Name="kbIPHelp" Display="No" UIString="IP Helper Functions" />
+	<AttVal Id="60_299" Name="kbIrDA" Display="No" UIString="IrDA" />
+	<AttVal Id="60_292" Name="kbISA" Display="No" UIString="Internet Server Accelerator" />
+	<AttVal Id="60_98" Name="kbISAPI" Display="No" UIString="ISAPI" />
+	<AttVal Id="60_99" Name="kbISAPI100" Display="No" UIString="ISAPI 1.0" />
+	<AttVal Id="60_100" Name="kbISAPI200" Display="No" UIString="ISAPI 2.0" />
+	<AttVal Id="60_101" Name="kbISAPI300" Display="No" UIString="ISAPI 3.0" />
+	<AttVal Id="60_102" Name="kbISAPI400" Display="No" UIString="ISAPI 4.0" />
+	<AttVal Id="60_103" Name="kbJAFC" Display="No" UIString="Java Appl. Foundation Classes" />
+	<AttVal Id="60_104" Name="kbJavaVM" Display="No" UIString="Java Virtual Machine" />
+	<AttVal Id="60_105" Name="kbJDBC" Display="No" UIString="Java Database Connectivity" />
+	<AttVal Id="60_106" Name="kbJet" Display="No" UIString="Jet (Access) Engine" />
+	<AttVal Id="60_107" Name="kbJRO" Display="No" UIString="Jet + Replication Objects" />
+	<AttVal Id="60_331" Name="kbKerberos" Display="No" UIString="Kerberos" />
+	<AttVal Id="60_284" Name="kbLDAP" Display="No" UIString="LDAP" />
+	<AttVal Id="60_108" Name="kbLiquidMotion" Display="No" UIString="Liquid Motion" />
+	<AttVal Id="60_109" Name="kbLSA" Display="No" UIString="Local Security Authority" />
+	<AttVal Id="60_261" Name="kbMADCAP" Display="No" UIString="MADCAP" />
+	<AttVal Id="60_219" Name="kbManagedC" Display="No" UIString="Managed Extensions for C++" />
+	<AttVal Id="60_289" Name="kbManagedCode" Display="No" UIString="Managed Code" />
+	<AttVal Id="60_110" Name="kbMAPI" Display="No" UIString="MAPI" />
+	<AttVal Id="60_111" Name="kbMAPI000" Display="No" UIString="MAPI (Simple MAPI)" />
+	<AttVal Id="60_112" Name="kbMAPI100" Display="No" UIString="MAPI (Extended MAPI)" />
+	<AttVal Id="60_113" Name="kbMCI" Display="No" UIString="MCI (Media Control Interface)" />
+	<AttVal Id="60_114" Name="kbMDAC" Display="No" UIString="MDAC" />
+	<AttVal Id="60_262" Name="kbMemory" Display="No" UIString="Memory Management" />
+	<AttVal Id="60_115" Name="kbMFC" Display="No" UIString="Microsoft Foundation Classes" />
+	<AttVal Id="60_263" Name="kbMIDL" Display="No" UIString="MIDL" />
+	<AttVal Id="60_246" Name="kbMigrationDLL" Display="No" UIString="Migration DLL" />
+	<AttVal Id="60_116" Name="kbMM" Display="No" UIString="Windows Multimedia" />
+	<AttVal Id="60_117" Name="kbMMC" Display="No" UIString="MMC (Management Console)" />
+	<AttVal Id="60_118" Name="kbMMC100" Display="No" UIString="MMC 1.0" />
+	<AttVal Id="60_119" Name="kbMMC110" Display="No" UIString="MMC 1.1" />
+	<AttVal Id="60_120" Name="kbMMC200" Display="No" UIString="MMC 2.0" />
+	<AttVal Id="60_349" Name="kbMobileDevice" Display="No" UIString="Mobile Device Development" />
+	<AttVal Id="60_295" Name="kbMobileInternetToolkit" Display="No" UIString="MS Mobile Internet Toolkit" />
+	<AttVal Id="60_296" Name="kbMobileInternetToolkit100" Display="No" UIString="MS Mobile Internet Toolkit 1.0" />
+	<AttVal Id="60_249" Name="kbMSAA" Display="No" UIString="Active Accessibility" />
+	<AttVal Id="60_121" Name="kbMSDE" Display="No" UIString="Microsoft Data Engine" />
+	<AttVal Id="60_340" Name="kbMSHTML" Display="No" UIString="MSHTML" />
+	<AttVal Id="60_122" Name="kbMSI" Display="No" UIString="Microsoft Installer" />
+	<AttVal Id="60_123" Name="kbMSMQ" Display="No" UIString="MSMQ (Msg Queueing Services)" />
+	<AttVal Id="60_124" Name="kbMSMQ100" Display="No" UIString="MSMQ 1.0" />
+	<AttVal Id="60_125" Name="kbMSVM" Display="No" UIString="Microsoft Visual Modeler" />
+	<AttVal Id="60_337" Name="kbMSXML" Display="No" UIString="MSXML" />
+	<AttVal Id="60_232" Name="kbMSXML100" Display="No" UIString="MSXML 1.0" />
+	<AttVal Id="60_233" Name="kbMSXML200" Display="No" UIString="MSXML 2.0" />
+	<AttVal Id="60_234" Name="kbMSXML250" Display="No" UIString="MSXML 2.5" />
+	<AttVal Id="60_235" Name="kbMSXML260" Display="No" UIString="MSXML 2.6" />
+	<AttVal Id="60_236" Name="kbMSXML300" Display="No" UIString="MSXML 3.0" />
+	<AttVal Id="60_318" Name="kbMSXML400" Display="No" UIString="MSXML 4.0" />
+	<AttVal Id="60_126" Name="kbMTS" Display="No" UIString="MTS (Transaction Server)" />
+	<AttVal Id="60_127" Name="kbMTS100" Display="No" UIString="MTS 1.0" />
+	<AttVal Id="60_128" Name="kbMTS110" Display="No" UIString="MTS 1.1" />
+	<AttVal Id="60_129" Name="kbMTS200" Display="No" UIString="MTS 2.0" />
+	<AttVal Id="60_130" Name="kbNetBIOS" Display="No" UIString="NetBIOS" />
+	<AttVal Id="60_347" Name="kbNetCompactFramewk" Display="No" UIString=".NET Compact Framework" />
+	<AttVal Id="60_335" Name="kbNetFramewk" Display="No" UIString=".NET Frameworks" />
+	<AttVal Id="60_131" Name="kbNetMan" Display="No" UIString="Network Management" />
+	<AttVal Id="60_132" Name="kbNetMeeting" Display="No" UIString="NetMeeting" />
+	<AttVal Id="60_247" Name="kbNetMon" Display="No" UIString="Network Monitor" />
+	<AttVal Id="60_266" Name="kbNetShell" Display="No" UIString="Network Shell" />
+	<AttVal Id="60_239" Name="kbnetwork" Display="No" UIString="Network API" />
+	<AttVal Id="60_248" Name="kbNLB" Display="No" UIString="Network Load Balancing" />
+	<AttVal Id="60_267" Name="kbNLS" Display="No" UIString="National Language Support" />
+	<AttVal Id="60_133" Name="kbODBC" Display="No" UIString="ODBC" />
+	<AttVal Id="60_134" Name="kbODBC200" Display="No" UIString="ODBC 2.0" />
+	<AttVal Id="60_135" Name="kbODBC210" Display="No" UIString="ODBC  2.1" />
+	<AttVal Id="60_136" Name="kbODBC250" Display="No" UIString="ODBC 2.5" />
+	<AttVal Id="60_137" Name="kbODBC300" Display="No" UIString="ODBC 3.0" />
+	<AttVal Id="60_138" Name="kbODBC350" Display="No" UIString="ODBC 3.5" />
+	<AttVal Id="60_139" Name="kbODBC351" Display="No" UIString="ODBC 3.51" />
+	<AttVal Id="60_140" Name="kbODBC360" Display="No" UIString="ODBC 3.6" />
+	<AttVal Id="60_141" Name="kbOFC" Display="No" UIString="OFC (Open Finance Connectivity" />
+	<AttVal Id="60_142" Name="kbOLAP" Display="No" UIString="OLAP Services" />
+	<AttVal Id="60_143" Name="kbOLE" Display="No" UIString="OLE" />
+	<AttVal Id="60_144" Name="kbOLE100" Display="No" UIString="OLE 1.0" />
+	<AttVal Id="60_145" Name="kbOLE200" Display="No" UIString="OLE 2.0" />
+	<AttVal Id="60_146" Name="kbOLEDB" Display="No" UIString="OLE DB" />
+	<AttVal Id="60_147" Name="kbOLEDB100" Display="No" UIString="OLE DB 1.0" />
+	<AttVal Id="60_148" Name="kbOLEDB110" Display="No" UIString="OLE DB 1.1" />
+	<AttVal Id="60_149" Name="kbOLEDB150" Display="No" UIString="OLE DB 1.5" />
+	<AttVal Id="60_150" Name="kbOLEDB200" Display="No" UIString="OLE DB 2.0" />
+	<AttVal Id="60_151" Name="kbOLEDB210" Display="No" UIString="OLE DB 2.1" />
+	<AttVal Id="60_152" Name="kbOLEDBP" Display="No" UIString="OLE DB Providers" />
+	<AttVal Id="60_153" Name="kbOnNow" Display="No" UIString="OnNow" />
+	<AttVal Id="60_154" Name="kbOpenGL" Display="No" UIString="OpenGL" />
+	<AttVal Id="60_155" Name="kbOSD" Display="No" UIString="Open Software Description" />
+	<AttVal Id="60_156" Name="kbOutlook" Display="No" UIString="Outlook" />
+	<AttVal Id="60_342" Name="kbOWA" Display="No" UIString="Outlook Web Access" />
+	<AttVal Id="60_268" Name="kbPerfMon" Display="No" UIString="Performance Monitoring" />
+	<AttVal Id="60_159" Name="kbPipes" Display="No" UIString="Named pipes" />
+	<AttVal Id="60_160" Name="kbPlugPlay" Display="No" UIString="Plug and Play" />
+	<AttVal Id="60_161" Name="kbPrinting" Display="No" UIString="Printing" />
+	<AttVal Id="60_162" Name="kbProtocols" Display="No" UIString="Predefined Protocols" />
+	<AttVal Id="60_163" Name="kbProxySrv" Display="No" UIString="Proxy Server" />
+	<AttVal Id="60_269" Name="kbQOS" Display="No" UIString="QOS" />
+	<AttVal Id="60_165" Name="kbQuery" Display="No" UIString="English Query" />
+	<AttVal Id="60_306" Name="kbqueryanalyze" Display="No" UIString="Query Analyzer" />
+	<AttVal Id="60_221" Name="kbQueryDesigner" Display="No" UIString="Query Designer" />
+	<AttVal Id="60_305" Name="kbqueryopt" Display="No" UIString="Query Optimizer" />
+	<AttVal Id="60_166" Name="kbRAS" Display="No" UIString="RAS (Remote Access Service)" />
+	<AttVal Id="60_167" Name="kbRatings" Display="No" UIString="Internet Ratings" />
+	<AttVal Id="60_168" Name="kbRDO" Display="No" UIString="RDO (Remote Data Objects)" />
+	<AttVal Id="60_169" Name="kbRDO100" Display="No" UIString="RDO 1.0" />
+	<AttVal Id="60_170" Name="kbRDO200" Display="No" UIString="RDO 2.0" />
+	<AttVal Id="60_171" Name="kbRDS" Display="No" UIString="RDS (Remote Data Service)" />
+	<AttVal Id="60_172" Name="kbRDS100" Display="No" UIString="RDS 1.0" />
+	<AttVal Id="60_173" Name="kbRDS110" Display="No" UIString="RDS 1.1" />
+	<AttVal Id="60_174" Name="kbRDS150" Display="No" UIString="RDS 1.5" />
+	<AttVal Id="60_175" Name="kbRDS200" Display="No" UIString="RDS 2.0" />
+	<AttVal Id="60_176" Name="kbRDS210" Display="No" UIString="RDS 2.1" />
+	<AttVal Id="60_177" Name="kbRegistry" Display="No" UIString="Windows Registry Manipulation" />
+	<AttVal Id="60_178" Name="kbReplicationSrv" Display="No" UIString="Content Replication Server" />
+	<AttVal Id="60_312" Name="kbRepository" Display="No" UIString="Microsoft Repository" />
+	<AttVal Id="60_179" Name="kbRPC" Display="No" UIString="RPC (Remote Procedure Call)" />
+	<AttVal Id="60_180" Name="kbRRAS" Display="No" UIString="RRAS (Routing/RAS)" />
+	<AttVal Id="60_320" Name="kbRTC" Display="No" UIString="RTC" />
+	<AttVal Id="60_327" Name="kbSAX" Display="No" UIString="SAX" />
+	<AttVal Id="60_280" Name="kbSBSCS" Display="No" UIString="Side-by-Side Component Sharing" />
+	<AttVal Id="60_245" Name="kbScheduler" Display="No" UIString="Scheduler" />
+	<AttVal Id="60_243" Name="kbScript" Display="No" UIString="Script" />
+	<AttVal Id="60_181" Name="kbScriptlets" Display="No" UIString="Windows Scripting Component" />
+	<AttVal Id="60_182" Name="kbSDKSpeech" Display="No" UIString="Speech" />
+	<AttVal Id="60_240" Name="kbSDKTools" Display="No" UIString="SDK Tools" />
+	<AttVal Id="60_270" Name="kbSDO" Display="No" UIString="Server Data Objects" />
+	<AttVal Id="60_183" Name="kbSecurity" Display="No" UIString="Security" />
+	<AttVal Id="60_184" Name="kbSetup" Display="No" UIString="Setup" />
+	<AttVal Id="60_185" Name="kbShell" Display="No" UIString="Windows Shell" />
+	<AttVal Id="60_186" Name="kbSiteSrv" Display="No" UIString="Site Server" />
+	<AttVal Id="60_187" Name="kbSmartCard" Display="No" UIString="Smart Card" />
+	<AttVal Id="60_332" Name="kbSMP" Display="No" UIString="SMP" />
+	<AttVal Id="60_241" Name="kbSMS" Display="No" UIString="SMS" />
+	<AttVal Id="60_308" Name="kbsmtp" Display="No" UIString="SMTP" />
+	<AttVal Id="60_188" Name="kbSNMP" Display="No" UIString="SNMP (Simple Net Mgmt Prot)" />
+	<AttVal Id="60_316" Name="kbSOAP" Display="No" UIString="SOAP" />
+	<AttVal Id="60_314" Name="kbSOAPkit10" Display="No" UIString="SOAP Toolkit 1.0" />
+	<AttVal Id="60_231" Name="kbSOAPkit1204" Display="No" UIString="SOAP Toolkit 1.204" />
+	<AttVal Id="60_315" Name="kbSOAPkit20" Display="No" UIString="SOAP Toolkit 2.0" />
+	<AttVal Id="60_348" Name="kbSourceControl" Display="No" UIString="Source Control" />
+	<AttVal Id="60_222" Name="kbSQLEditor" Display="No" UIString="SQL Editor" />
+	<AttVal Id="60_189" Name="kbSQLSrv" Display="No" UIString="SQL Server" />
+	<AttVal Id="60_281" Name="kbSR" Display="No" UIString="System Restore" />
+	<AttVal Id="60_190" Name="kbSSPI" Display="No" UIString="Security Support Provider" />
+	<AttVal Id="60_271" Name="kbSTI" Display="No" UIString="Still Image" />
+	<AttVal Id="60_191" Name="kbSTL" Display="No" UIString="Standard Template Libraries" />
+	<AttVal Id="60_192" Name="kbStoredProc" Display="No" UIString="SQL stored procedures" />
+	<AttVal Id="60_193" Name="kbStreaming" Display="No" UIString="Multimedia Streaming" />
+	<AttVal Id="60_194" Name="kbSynchMan" Display="No" UIString="Synchronization Manager" />
+	<AttVal Id="60_195" Name="kbSysInfo" Display="No" UIString="System Information" />
+	<AttVal Id="60_223" Name="kbTableDesigner" Display="No" UIString="Table Designer" />
+	<AttVal Id="60_196" Name="kbTAPI" Display="No" UIString="TAPI (Telephony API)" />
+	<AttVal Id="60_197" Name="kbTaskSchedule" Display="No" UIString="Task Scheduler" />
+	<AttVal Id="60_343" Name="kbTCPIP" Display="No" UIString="TCP/IP" />
+	<AttVal Id="60_244" Name="kbTermServ" Display="No" UIString="Terminal Server" />
+	<AttVal Id="60_198" Name="kbThread" Display="No" UIString="Multithreading" />
+	<AttVal Id="60_272" Name="kbTPU" Display="No" UIString="TPU" />
+	<AttVal Id="60_282" Name="kbTSF" Display="No" UIString="Text Services Framework" />
+	<AttVal Id="60_338" Name="kbUDDI" Display="No" UIString="UDDI" />
+	<AttVal Id="60_273" Name="kbUPnP" Display="No" UIString="UPnP" />
+	<AttVal Id="60_199" Name="kbURLZones" Display="No" UIString="URL Security Zones" />
+	<AttVal Id="60_200" Name="kbVoiceData" Display="No" UIString="Voice and Data Integration" />
+	<AttVal Id="60_326" Name="kbWAS" Display="No" UIString="WAS" />
+	<AttVal Id="60_242" Name="kbWeb" Display="No" UIString="Web" />
+	<AttVal Id="60_201" Name="kbWebBrowser" Display="No" UIString="Web Browser Control" />
+	<AttVal Id="60_290" Name="kbWebForms" Display="No" UIString="Web Forms" />
+	<AttVal Id="60_287" Name="kbWebServices" Display="No" UIString="Web Services" />
+	<AttVal Id="60_202" Name="kbWebSrv" Display="No" UIString="Personal Web Server" />
+	<AttVal Id="60_203" Name="kbWebTV" Display="No" UIString="WebTV" />
+	<AttVal Id="60_204" Name="kbWFC" Display="No" UIString="WFC" />
+	<AttVal Id="60_321" Name="kbWFP" Display="No" UIString="Windows File Protection" />
+	<AttVal Id="60_274" Name="kbWIA" Display="No" UIString="Windows Image Acquisition" />
+	<AttVal Id="60_205" Name="kbWin32API" Display="No" UIString="Win32 API" />
+	<AttVal Id="60_206" Name="kbWin64API" Display="No" UIString="Win64 API" />
+	<AttVal Id="60_288" Name="kbWindowsForms" Display="No" UIString="Windows Forms" />
+	<AttVal Id="60_207" Name="kbWinInet" Display="No" UIString="Win32 Internet Functions" />
+	<AttVal Id="60_322" Name="kbWinInstaller" Display="No" UIString="Windows Installer" />
+	<AttVal Id="60_208" Name="kbWinMedia" Display="No" UIString="Windows Media Technologies" />
+	<AttVal Id="60_283" Name="kbWinMsgr" Display="No" UIString="Windows Messenger" />
+	<AttVal Id="60_209" Name="kbWinsock" Display="No" UIString="Windows Sockets" />
+	<AttVal Id="60_210" Name="kbWinTrust" Display="No" UIString="WinTrust" />
+	<AttVal Id="60_211" Name="kbWinUI" Display="No" UIString="Windows User Interface" />
+	<AttVal Id="60_212" Name="kbWMI" Display="No" UIString="WMI" />
+	<AttVal Id="60_329" Name="kbWML" Display="No" UIString="WML" />
+	<AttVal Id="60_213" Name="kbWNet" Display="No" UIString="WNet (Windows Networking)" />
+	<AttVal Id="60_300" Name="kbworkflow" Display="No" UIString="Microsoft Workflow Designer" />
+	<AttVal Id="60_325" Name="kbWQL" Display="No" UIString="WQL" />
+	<AttVal Id="60_214" Name="kbWSH100" Display="No" UIString="Windows Scripting Host 1.0" />
+	<AttVal Id="60_237" Name="kbWSH200" Display="No" UIString="Windows Scripting Host 2.0" />
+	<AttVal Id="60_298" Name="kbWSS" Display="No" UIString="Web Storage System" />
+	<AttVal Id="60_275" Name="kbWTE" Display="No" UIString="Web Telephony Engine" />
+	<AttVal Id="60_301" Name="kbxlang" Display="No" UIString="XLANG" />
+	<AttVal Id="60_215" Name="kbXML" Display="No" UIString="XML/XSL" />
+	<AttVal Id="60_339" Name="kbXSLT" Display="No" UIString="XSLT" />
+	<AttVal Id="60_216" Name="kbZaw" Display="No" UIString="Zero Administration Windows" />
+	<AttVal Id="60_217" Name="Ruby" Display="No" UIString="VB Classic Form" />
+	<AttVal Id="60_218" Name="Unicode" Display="No" UIString="Unicode" />
+</AttName>
+<AttName Id="61" Name="MacroItem" Display="No" UIString="Context: Macro Item" AttType="Enum">
+	<AttVal Id="61_3" Name="Command" Display="No" UIString="Command" />
+	<AttVal Id="61_2" Name="Module" Display="No" UIString="Module" />
+	<AttVal Id="61_1" Name="Project" Display="No" UIString="Project" />
+	<AttVal Id="61_4" Name="Root" Display="No" UIString="Root" />
+</AttName>
+<AttName Id="62" Name="ClassItem" Display="No" UIString="Context: Class Item" AttType="Enum">
+	<AttVal Id="62_1" Name="Class" Display="No" UIString="Class" />
+	<AttVal Id="62_6" Name="Enum" Display="No" UIString="Enum" />
+	<AttVal Id="62_3" Name="Macro" Display="No" UIString="Macro" />
+	<AttVal Id="62_2" Name="Method" Display="No" UIString="Method" />
+	<AttVal Id="62_5" Name="MsgMap" Display="No" UIString="Message Map" />
+	<AttVal Id="62_7" Name="Property" Display="No" UIString="Property" />
+	<AttVal Id="62_4" Name="Variable" Display="No" UIString="Variable" />
+</AttName>
+<AttName Id="64" Name="ResItem" Display="No" UIString="Context: Resource Item" AttType="Enum">
+	<AttVal Id="64_2" Name="Accelerator" Display="No" UIString="Accelerator" />
+	<AttVal Id="64_5" Name="Binary" Display="No" UIString="Binary" />
+	<AttVal Id="64_4" Name="Dialog" Display="No" UIString="Dialog" />
+	<AttVal Id="64_1" Name="Image" Display="No" UIString="Image" />
+	<AttVal Id="64_6" Name="Menu" Display="No" UIString="Menu" />
+	<AttVal Id="64_3" Name="String" Display="No" UIString="String" />
+	<AttVal Id="64_7" Name="Toolbar" Display="No" UIString="Toolbar" />
+	<AttVal Id="64_8" Name="Version" Display="No" UIString="Version Information" />
+</AttName>
+<AttName Id="67" Name="Selection" Display="No" UIString="Selection" AttType="Enum">
+	<AttVal Id="67_2" Name="Multiple" Display="No" UIString="Multiple" />
+	<AttVal Id="67_3" Name="None" Display="No" UIString="None" />
+	<AttVal Id="67_1" Name="Single" Display="No" UIString="Single" />
+</AttName>
+<AttName Id="68" Name="CurrentDebugFrameLang" Display="No" UIString="Context: Debug Language" AttType="Enum">
+	<AttVal Id="68_1" Name="ADA" Display="No" UIString="ADA" />
+	<AttVal Id="68_2" Name="C" Display="No" UIString="Basic" />
+	<AttVal Id="68_3" Name="C++" Display="No" UIString="C++" />
+	<AttVal Id="68_4" Name="COBOL" Display="No" UIString="COBOL" />
+	<AttVal Id="68_14" Name="CSharp" Display="No" UIString="CSharp" />
+	<AttVal Id="68_5" Name="Eiffel" Display="No" UIString="Eiffel" />
+	<AttVal Id="68_6" Name="Forth" Display="No" UIString="Forth" />
+	<AttVal Id="68_7" Name="Fortran" Display="No" UIString="Fortran" />
+	<AttVal Id="68_8" Name="Java" Display="No" UIString="Java" />
+	<AttVal Id="68_9" Name="JScript" Display="No" UIString="JScript" />
+	<AttVal Id="68_10" Name="LISP" Display="No" UIString="LISP" />
+	<AttVal Id="68_11" Name="Pascal" Display="No" UIString="Pascal" />
+	<AttVal Id="68_12" Name="Perl" Display="No" UIString="Perl" />
+	<AttVal Id="68_13" Name="PL/SQL" Display="No" UIString="PL/SQL" />
+	<AttVal Id="68_15" Name="Smalltalk" Display="No" UIString="Smalltalk" />
+	<AttVal Id="68_16" Name="SQL" Display="No" UIString="SQL" />
+	<AttVal Id="68_17" Name="TSQL" Display="No" UIString="TSQL" />
+	<AttVal Id="68_18" Name="VBA" Display="No" UIString="VBA" />
+	<AttVal Id="68_19" Name="VBScript" Display="No" UIString="VBScript" />
+	<AttVal Id="68_20" Name="Visual Basic" Display="No" UIString="Visual Basic" />
+	<AttVal Id="68_21" Name="Xbase" Display="No" UIString="Xbase" />
+	<AttVal Id="68_22" Name="XQL" Display="No" UIString="XQL" />
+	<AttVal Id="68_23" Name="XSL" Display="No" UIString="XSL" />
+</AttName>
+<AttName Id="69" Name="MSHWTOCeditorItem" Display="No" UIString="Context: TOC Editor Item" AttType="Enum">
+	<AttVal Id="69_1" Name="MSHWTOCglobal" Display="No" UIString="global" />
+	<AttVal Id="69_2" Name="MSHWTOCNode" Display="No" UIString="node" />
+</AttName>
+<AttName Id="70" Name="ProjType" Display="No" UIString="Context: ProjectType" AttType="Enum">
+	<AttVal Id="70_3" Name="ATLProj" Display="No" UIString="ATL" />
+	<AttVal Id="70_14" Name="AtlPSProj" Display="No" UIString="AtlPSProj" />
+	<AttVal Id="70_4" Name="ATLServerProj" Display="No" UIString="ATLServer" />
+	<AttVal Id="70_5" Name="CustomAppWizProj" Display="No" UIString="CustomAppWiz" />
+	<AttVal Id="70_6" Name="ExtStoredProcProj" Display="No" UIString="ExtStoredProc" />
+	<AttVal Id="70_2" Name="LocalProj" Display="No" UIString="Local" />
+	<AttVal Id="70_7" Name="MakeFileProj" Display="No" UIString="MakeFile" />
+	<AttVal Id="70_8" Name="ManagedCProj" Display="No" UIString="ManagedC" />
+	<AttVal Id="70_11" Name="MFCActiveXProj" Display="No" UIString="MFC ActiveX" />
+	<AttVal Id="70_12" Name="MFCDLLProj" Display="No" UIString="MFC DLL" />
+	<AttVal Id="70_13" Name="MFCISAPIProj" Display="No" UIString="MFC ISAPI" />
+	<AttVal Id="70_9" Name="MFCProj" Display="No" UIString="MFC" />
+	<AttVal Id="70_15" Name="mobilewebforms" Display="No" UIString="Mobile Web Forms" />
+	<AttVal Id="70_1" Name="WebProj" Display="No" UIString="Web" />
+	<AttVal Id="70_10" Name="Win32Proj" Display="No" UIString="Win32" />
+</AttName>
+<AttName Id="71" Name="ActiveXInterop" Display="No" UIString="Context: ActiveXInterop" AttType="Enum">
+	<AttVal Id="71_2" Name="ActiveInteropFalse" Display="No" UIString="False" />
+	<AttVal Id="71_1" Name="ActiveInteropTrue" Display="No" UIString="True" />
+</AttName>
+<AttName Id="72" Name="Subtype" Display="No" UIString="Context: Subtype" AttType="Enum">
+	<AttVal Id="72_5" Name="COM+" Display="No" UIString="COM+" />
+	<AttVal Id="72_6" Name="COM2" Display="No" UIString="COM2" />
+	<AttVal Id="72_7" Name="Component" Display="No" UIString="Component" />
+	<AttVal Id="72_1" Name="Form" Display="No" UIString="Form" />
+	<AttVal Id="72_4" Name="Reference" Display="No" UIString="Reference" />
+	<AttVal Id="72_3" Name="SubtypeWebform" Display="No" UIString="Webform" />
+	<AttVal Id="72_2" Name="UserControl" Display="No" UIString="UserControl" />
+	<AttVal Id="72_8" Name="WebReference" Display="No" UIString="WebReference" />
+</AttName>
+<AttName Id="74" Name="DocSet" Display="Yes" UIString="DocSet" AttType="Enum">
+	<AttVal Id="74_31" Name="ACT" Display="Yes" UIString="Application Center Test" />
+	<AttVal Id="74_1" Name="ADO" Display="Yes" UIString="ADO" />
+	<AttVal Id="74_35" Name="C#" Display="Yes" UIString="C#" />
+	<AttVal Id="74_49" Name="C#Embedded" Display="Yes" UIString="C# Embedded" />
+	<AttVal Id="74_32" Name="CrystalReports" Display="Yes" UIString="Crystal Reports" />
+	<AttVal Id="74_2" Name="DHTML" Display="Yes" UIString="DHTML" />
+	<AttVal Id="74_8" Name="Exchange" Display="Yes" UIString="Exchange" />
+	<AttVal Id="74_37" Name="IIS SDK" Display="Yes" UIString="Internet Info Services SDK" />
+	<AttVal Id="74_43" Name="JScript" Display="Yes" UIString="JScript" />
+	<AttVal Id="74_50" Name="kbmsdn" Display="Yes" UIString="MSDN" />
+	<AttVal Id="74_38" Name="MDAC SDK" Display="Yes" UIString="Data Access Components SDK" />
+	<AttVal Id="74_11" Name="Microsoft BackOffice Suite" Display="Yes" UIString="Microsoft BackOffice Suite" />
+	<AttVal Id="74_12" Name="Microsoft Help Workshop" Display="Yes" UIString="Microsoft Help Workshop" />
+	<AttVal Id="74_13" Name="Microsoft Office Developer" Display="Yes" UIString="Microsoft Office Developer" />
+	<AttVal Id="74_52" Name="MobileInternetToolkit" Display="Yes" UIString="MS Mobile Internet Toolkit" />
+	<AttVal Id="74_53" Name="NETCompactFramework" Display="Yes" UIString=".NET Compact Framework" />
+	<AttVal Id="74_45" Name="NETEnterpriseServers" Display="Yes" UIString=".NET Enterprise Servers" />
+	<AttVal Id="74_34" Name="NETFramework" Display="Yes" UIString=".NET Framework SDK" />
+	<AttVal Id="74_55" Name="NETFrameworkExtender" Display="Yes" UIString=".NET Framework Extender" />
+	<AttVal Id="74_36" Name="PSDK" Display="Yes" UIString="Platform SDK" />
+	<AttVal Id="74_16" Name="SMS Server" Display="Yes" UIString="SMS Server" />
+	<AttVal Id="74_17" Name="SNA Server" Display="Yes" UIString="SNA Server" />
+	<AttVal Id="74_18" Name="SQL Server" Display="Yes" UIString="SQL Server" />
+	<AttVal Id="74_20" Name="VBA" Display="Yes" UIString="VBA" />
+	<AttVal Id="74_42" Name="VBScript" Display="Yes" UIString="VBScript" />
+	<AttVal Id="74_21" Name="Visio" Display="Yes" UIString="Visio" />
+	<AttVal Id="74_22" Name="Visual Basic" Display="Yes" UIString="Visual Basic" />
+	<AttVal Id="74_23" Name="Visual C++" Display="Yes" UIString="Visual C++" />
+	<AttVal Id="74_24" Name="Visual FoxPro" Display="Yes" UIString="Visual FoxPro" />
+	<AttVal Id="74_26" Name="Visual J++" Display="Yes" UIString="Visual J++" />
+	<AttVal Id="74_27" Name="Visual Source Safe" Display="Yes" UIString="Visual Source Safe" />
+	<AttVal Id="74_28" Name="Visual Studio" Display="Yes" UIString="Visual Studio" />
+	<AttVal Id="74_5" Name="Visual Studio SDK" Display="Yes" UIString="Visual Studio SDK" />
+	<AttVal Id="74_48" Name="VisualDatabaseTools" Display="Yes" UIString="Visual Database Tools" />
+	<AttVal Id="74_41" Name="VSA SDK" Display="Yes" UIString="VSA SDK" />
+	<AttVal Id="74_46" Name="VSAnalyzer" Display="Yes" UIString="Visual Studio Analyzer" />
+	<AttVal Id="74_30" Name="VsipSDK" Display="Yes" UIString="VSIP SDK" />
+	<AttVal Id="74_54" Name="VSM" Display="Yes" UIString="Visual Studio Macros" />
+	<AttVal Id="74_39" Name="Win32 API" Display="Yes" UIString="Win32 API" />
+	<AttVal Id="74_44" Name="WSH" Display="Yes" UIString="Windows Script Host" />
+	<AttVal Id="74_3" Name="XML" Display="Yes" UIString="XML" />
+</AttName>
+<AttName Id="75" Name="VSServerMode" Display="No" UIString="Context: VSServer Mode" AttType="Enum">
+	<AttVal Id="75_2" Name="Integrated" Display="No" UIString="Integrated" />
+	<AttVal Id="75_1" Name="Standalone" Display="No" UIString="Standalone" />
+</AttName>
+<AttName Id="76" Name="HelpPriority" Display="No" UIString="HelpPriority" AttType="Enum">
+	<AttVal Id="76_1" Name="1" Display="No" UIString="1" />
+	<AttVal Id="76_2" Name="2" Display="No" UIString="2" />
+	<AttVal Id="76_3" Name="3" Display="No" UIString="3" />
+	<AttVal Id="76_4" Name="4" Display="No" UIString="4" />
+	<AttVal Id="76_5" Name="5" Display="No" UIString="5" />
+</AttName>
+<AttName Id="77" Name="CommandWindowMode" Display="No" UIString="Context: Command Window Mode" AttType="Enum">
+	<AttVal Id="77_1" Name="Command" Display="No" UIString="Command" />
+	<AttVal Id="77_2" Name="Intermediate" Display="No" UIString="Intermediate" />
+</AttName>
+<AttName Id="78" Name="UniqueFiles" Display="No" UIString="Context: UniqueFiles" AttType="Enum">
+	<AttVal Id="78_9" Name="asax" Display="No" UIString="asax" />
+	<AttVal Id="78_29" Name="ascx" Display="No" UIString="ascx" />
+	<AttVal Id="78_8" Name="asmx" Display="No" UIString="asmx" />
+	<AttVal Id="78_12" Name="asp" Display="No" UIString="asp" />
+	<AttVal Id="78_7" Name="aspx" Display="No" UIString="aspx" />
+	<AttVal Id="78_18" Name="bmp" Display="No" UIString="bmp" />
+	<AttVal Id="78_22" Name="config" Display="No" UIString="config" />
+	<AttVal Id="78_1" Name="cs" Display="No" UIString="cs" />
+	<AttVal Id="78_6" Name="css" Display="No" UIString="css" />
+	<AttVal Id="78_25" Name="cur" Display="No" UIString="cur" />
+	<AttVal Id="78_15" Name="htm" Display="No" UIString="htm" />
+	<AttVal Id="78_23" Name="html" Display="No" UIString="html" />
+	<AttVal Id="78_26" Name="ico" Display="No" UIString="ico" />
+	<AttVal Id="78_3" Name="js" Display="No" UIString="js" />
+	<AttVal Id="78_24" Name="licenses" Display="No" UIString="licenses" />
+	<AttVal Id="78_30" Name="licx" Display="No" UIString="licx" />
+	<AttVal Id="78_19" Name="mdx" Display="No" UIString="mdx" />
+	<AttVal Id="78_27" Name="resx" Display="No" UIString="resx" />
+	<AttVal Id="78_20" Name="rpt" Display="No" UIString="rpt" />
+	<AttVal Id="78_21" Name="rptinfo" Display="No" UIString="rptinfo" />
+	<AttVal Id="78_28" Name="snk" Display="No" UIString="snk" />
+	<AttVal Id="78_17" Name="txt" Display="No" UIString="txt" />
+	<AttVal Id="78_2" Name="vb" Display="No" UIString="vb" />
+	<AttVal Id="78_4" Name="vbs" Display="No" UIString="vbs" />
+	<AttVal Id="78_11" Name="vsdisco" Display="No" UIString="vsdisco" />
+	<AttVal Id="78_10" Name="web" Display="No" UIString="web" />
+	<AttVal Id="78_5" Name="wsf" Display="No" UIString="wsf" />
+	<AttVal Id="78_14" Name="xml" Display="No" UIString="xml" />
+	<AttVal Id="78_13" Name="xsd" Display="No" UIString="xsd" />
+	<AttVal Id="78_16" Name="xslt" Display="No" UIString="xslt" />
+</AttName>
+
+</HelpAttributes>

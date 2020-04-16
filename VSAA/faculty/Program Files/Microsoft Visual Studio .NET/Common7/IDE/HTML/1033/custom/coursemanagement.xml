@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabDefinition>
+	<Tab ID="vs_course_management" Name="Course Management" Filterable="false">
+		<Application Title="Course Management" ID="vs_course_management_app">
+			<Pane ID="CourseMgtMainPane" Title="Course Management">
+				<LinkGroupSet ID="CourseMgtList" Layout="list" Priority="500">
+					<LinkGroup ID="MGT" Title="Course Management" Priority="900"/>
+				</LinkGroupSet>
+				<Break/>
+				<HRule/>
+				<TextSpan ID="CourseManagementTextDiv">No courses available.</TextSpan>
+			</Pane>
+			<Data>
+				<Context>
+					<Links>
+						<LItemEx>
+							<LItem LinkGroup="MGT" ID="FacultyWalkthroughButton" URL="ms-help://MS.ACADT/acafaculty/html/vswlkWalkthroughCoursesAssignments.htm">Walkthrough: Creating Courses and Assignments</LItem>
+						</LItemEx>
+						<LItemEx>
+							<LItem LinkGroup="MGT" ID="FacultyAddCourseButton" URL="vs://custom/faculty/addcourse.html">Add Course</LItem>
+						</LItemEx>
+						<LItemEx>
+							<LItem LinkGroup="MGT" ID="FacultyDeleteCourseButton" URL="vs://custom/faculty/deletecourse.html">Delete Course</LItem>
+						</LItemEx>
+					</Links>
+				</Context>
+			</Data>
+		</Application>
+		<Feeds>
+			<Feed Expires="0">
+				<Source RootDir="AppData" URL="/Microsoft/VisualStudio/7.0/Academic/CourseManagementStartPage.xml" LCID="1033"/>
+			</Feed>
+		</Feeds>
+	</Tab>
+</TabDefinition>

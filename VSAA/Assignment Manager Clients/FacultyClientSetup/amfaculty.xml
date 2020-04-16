@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabDefinition>
+	<Tab ID="am_course_management" Name="Assignment Manager Faculty Course List" Filterable="false">
+		<Application Title="Assignment Manager Faculty Course List" ID="am_course_management_app">
+			<Pane ID="AMFacultyPane" Title="Assignment Manager Faculty Course List">
+				<LinkGroupSet ID="AMFacultyList" Layout="list" Priority="500">
+					<LinkGroup ID="MGT" Title="Assignment Manager Faculty Course List" Priority="900"/>
+				</LinkGroupSet>
+				<Break/>
+				<TextSpan ID="AMStudentCoursesAddCourseText">To add or delete a course, use the Assignment Manager Faculty submenu on the Tools menu.</TextSpan>				
+				<Break/>
+				<HRule/>
+				<TextSpan ID="AMFacultyTextDiv">No courses available.</TextSpan>
+			</Pane>
+			<Data>
+				<Context>
+					<Links>
+						<LItemEx>
+							<LItem LinkGroup="MGT" ID="FacultyWalkthroughButton" URL="ms-help://MS.VSCC.2003/MS.acaFacultyAM.1033/dv_acaFacultyAM/html/vswlkWalkthroughUsingAssignmentManager.htm">Walkthrough: Using Assignment Manager</LItem>
+						</LItemEx>
+					</Links>
+				</Context>
+			</Data>
+		</Application>
+		<Feeds>
+			<Feed Expires="0">
+				<Source RootDir="AppData" URL="/Microsoft/VisualStudio/7.1/Academic/AMFacultyStartPage.xml" LCID="1033"/>
+			</Feed>
+		</Feeds>
+	</Tab>
+</TabDefinition>

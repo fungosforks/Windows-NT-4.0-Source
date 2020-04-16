@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta name=vs_targetSchema content="HTML 4.0">
+        <title>Work with Courses</title>
+	<LINK REL="StyleSheet" HREF="apphost.css" type="text/css">
+	<script language="JavaScript" src="student.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" onLoad="RefreshWorkWithCoursesPage()" onunload="UnloadProvidedAttribute()">
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr align="left" valign="top">
+				<td width="419" height="53" align="left" valign="top">
+					<div id="activeTabName" nowrap>
+						Student Course Tools
+					</div>
+					<img src="images/apphost_banner.jpg" width="419" height="53" alt="" border="0" style="z-index:1; position:relative; left:0; top:0;">
+				</td>
+				<td height="53" align="right" valign="middle" nowrap>
+					<div onClick="">
+						&nbsp;
+					</div>
+					<span class="editLinkText" onFocus="studentMOver(this)" onBlur="studentMOut(this)" onmouseOver="studentMOver(this)" onmouseOut="studentMOut(this)" onClick="LoadHomePage()" style="position:relative; left:-40; font-size: .7em;" id="GoBack" tabindex="1" onkeypress="AccKeyPressHandler(this)">
+						Back to Start Page
+					</span>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" >
+			<tr align="left" valign="top">
+				<td width="*" align="left" valign="top" colspan="2" style="position:relative; left:45; top:20;">
+						<table id="contentTable" class="innerTabBar" cellpadding="0" cellspacing="0">
+					<tr class="tabRow">
+    					<td class="activeInnTab" id="innTab0" nowrap align="center" valign="middle" tabindex="1">
+							Work With Courses</td>
+						<td class="inActiveInnTabA" nowrap width="3">&nbsp;</td>		
+    					<td class="inActiveInnTab" id="innTab1" nowrap align="center" valign="middle" onMouseOver="overInnerTabBar(this)" onmouseOut="outInnerTabBar(this)" tabindex="1" onkeypress="AccKeyPressHandler(this)" onClick="LoadAddCourses()">
+							Add Course</td>
+						
+						<td class="inActiveInnTabA" nowrap width="3">&nbsp;</td>		
+    					<td class="inActiveInnTabA" id="innTab2a">
+							</td>
+    					<td class="inActiveInnTab" id="innTab2" nowrap align="center" valign="middle" onMouseOver="overInnerTabBar(this)" onmouseOut="outInnerTabBar(this)" tabindex="1" onkeypress="AccKeyPressHandler(this)" onClick="LoadDeleteCourses()">
+							Delete Course</td>
+
+						<td class="inActiveInnTabA" nowrap width="200" >&nbsp;&nbsp;&nbsp;&nbsp;</td>		
+					</tr>
+							<tr>
+							  <td height="150" colspan="9" align="left" valign="top" style="BORDER-RIGHT: #336699 1px solid; PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; BORDER-LEFT: #336699 1px solid; PADDING-TOP: 15px; BORDER-BOTTOM: #336699 1px solid; BACKGROUND-COLOR: #ffffff" >
+      <div id="WorkWithCoursesTab">
+        No courses available.
+      </div>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

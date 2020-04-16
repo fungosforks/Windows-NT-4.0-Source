@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE HelpIndex>
+<HelpIndex Name = "acad_stuAMNamedUrls"
+	Id = "acad_stuAMNamedUrls"	
+	DTDVersion = "1.0"
+	Merge="Yes"
+	Sort="Yes"
+	Title="NamedUrl Index"
+	Visible="No"
+	LangId="1033"
+	FontSize="10">
+</HelpIndex>

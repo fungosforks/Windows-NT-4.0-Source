@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title></title>
+	<LINK REL="StyleSheet" HREF="dialogs.css" type="text/css">
+</head>
+
+<body leftmargin="0" topmargin="0" onload="OnLoad()">
+<table id="EditFieldTable"  class="tableStyle"  width="100%" cellpadding="8">
+	<tr>
+		<td class="boxStyle1" id='GenericEditTitle'></td>
+	</tr>
+	<tr>
+		<td class="tableItem" id='GenericEditFieldName'>
+	                <span id='GenericEditFieldTitle'></span>
+			<BR>
+			<input tabindex="1" type="text" maxlength="200" size="50" id="editValue" onkeydown="HandleKeyDown()">
+		</td>
+	</tr>
+
+	<tr>
+		<td class="tableItem" align="right"> 
+		  <button tabindex="1" class="webButton" onClick="OnOk()" style="position:relative; top:0;left:0; width: 5em;" id = "OkButton">
+		  OK
+		  </button>
+		  &nbsp;
+		  <button tabindex="1" class="webButton" onClick="OnCancel()" style="position:relative; top:0;left:0; width: 5em;" id="CancelButton">
+		  Cancel
+		  </button>
+		  &nbsp;
+		  <button tabindex="1" class="webButton" onClick="OnHelp()" style="position:relative; top:0;left:0; width: 5em;" id = "HelpButton">
+		  Help
+		  </button>
+		</td>
+	</tr>
+</table>
+
+<script language="JavaScript">
+
+function OnLoad() {
+  var title = window.dialogArguments[2];
+  window.returnValue = null;
+  GenericEditTitle.innerText = title;
+  GenericEditFieldTitle.innerHTML = window.dialogArguments[3];
+  editValue.value = window.dialogArguments[4];
+}
+
+function OnHelp() {
+  try {
+    var help = window.dialogArguments[0].GetObject("Help");
+    help.DisplayTopicFromF1Keyword(window.dialogArguments[1]);
+  } catch(e) {
+    // falling in here simply means that the topic did not exist -- the
+    // VS shell will provide an appropriate error topic to the user.
+  }
+}
+
+function OnOk() {
+  window.returnValue = editValue.value;
+  window.close();
+}
+
+function OnCancel() {
+  window.returnValue = null;
+  window.close();
+}
+
+// Whenever the user hits enter, we want to trigger the OK button on the form;
+// when they hit esc, we want to trigger the cancel button.
+function HandleKeyDown() {
+  var i = window.event.keyCode;
+
+  switch (i) {
+  case 13: // ENTER
+    OkButton.click();
+    break;
+  case 27: // ESC
+    CancelButton.click();
+    break;
+  default:
+    break;
+  }
+}
+
+</script>
+
+</body>
+</html>

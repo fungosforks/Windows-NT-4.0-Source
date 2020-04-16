@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML DIR="LTR"><HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<style>@import url(readme.htm);</style>
+<base target="CONTENTS"></HEAD>
+<BODY>
+
+<H1><A NAME="contents"></A>Microsoft Visual Studio&nbsp;.NET Academic Assignment Manager Source Package</H1>
+
+<H1><A NAME="gettingstarted"></A>1. Getting Started</H1>
+
+<P>This document contains last-minute notes for Microsoft Visual Studio&nbsp;.NET Academic Assignment Manager Source Package that are intended to help users work around known issues in this release. For Visual Studio&nbsp;.NET known issues that emerged after this document's release or for technical support, see <a href="http://support.microsoft.com">http://support.microsoft.com/</A>.</P>
+
+<H1><A NAME="relatedreadmes"></A>1.1. Related Readmes</H1>
+
+<P>In addition to this Visual Studio&nbsp;.NET Academic Assignment Manager Source Package product readme, Visual Studio&nbsp;.NET also includes another readme document that contains information pertinent to specific product areas. The following table contains the name of a related readme document and its location on supplied media.</P>
+<div><table border=1 cellspacing="0" cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=33%>Content name</TH>
+<TH width=19%>File name</TH>
+<TH width=48%>Location</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>Visual Studio&nbsp;.NET 2003</TD>
+<TD width=19%>Readme.htm</TD>
+<TD width=48%>Visual Studio&nbsp;.NET Academic CD1 in the root directory.</TD>
+</TR>
+</table></div>
+
+<H1><A NAME="installation"></A>2. Installation</H1>
+
+<P>Read the following sections for information on installing the Visual Studio&nbsp;.NET Academic Assignment Manager Source Package.</P>
+
+<H1><A NAME="sidebyside"></A>2.1. Visual Studio&nbsp;.NET Academic Assignment Manager Source Package Compatibility</H1>
+
+<P>Visual Studio&nbsp;.NET Academic Assignment Manager Source Package cannot be modified in Visual Studio&nbsp;.NET 2002, nor can modified versions of Visual Studio&nbsp;.NET Academic Assignment Manager be accessed by machines with Visual Studio&nbsp;.NET 2002 installed. Assignment Manager Source is compatible only with Visual Studio&nbsp;.NET 2003.</P>
+
+<H1><A NAME="installingacademic"></A>2.2. Installing Microsoft Visual Studio&nbsp;.NET Academic Assignment Manager Source Package</H1>
+
+<P>Use the following procedure to install Visual Studio&nbsp;.NET Academic Assignment Manager Source Package.</P>
+
+<P class="labelproc"><B>To install Assignment Manager Source Package</B>
+
+<OL type="1"><li>Double-click AssignmentManagerSource.exe.
+<P>A message box appears, with information about the source package.
+</li>
+<li>In the message box, click <B>OK</B>.</li>
+<li>In the next dialog, choose the location where you want the files copied to or accept the default location and click <B>Unzip</B>.
+<P>When the files have been copied, the readme file is displayed.
+</li>
+</OL>
+
+<P>Next, create a virtual directory for the Web application portion of Assignment Manager. To use and customize Assignment Manager, Internet Information Services (IIS) must be installed.</P>
+
+<P class="labelproc"><B>To create a virtual directory for Assignment Manager</B>
+
+<OL type="1"><li>On the <B>Start</B> menu, choose <B>Run</B>.</li>
+<li>Enter <code>inetmgr</code> and then click <B>OK</B>.</li>
+<li>In the <B>Internet Information Services (IIS) Manager</B>, expand &lt;<I>machine name</I>&gt; <B>(local computer)</B> and then expand <B>Web Sites</B>.</li>
+<li>Right-click <B>Default Web Site</B>, select <B>New</B>, and then select <B>Virtual Directory</B>.
+<P>The <B>Virtual Directory Creation Wizard</B> appears.
+</li>
+<li>Click <B>Next</B>.</li>
+<li>In the <B>Alias</B> text box, type AMWebDev and then click <B>Next</B>.
+<BLOCKQUOTE>
+<b>Note</b>&nbsp;&nbsp;&nbsp;Assignment Manager Source Package cannot be installed on a machine that already has a Web application that uses the alias "AMWebDev".</BLOCKQUOTE>
+</li>
+<li>In the <B>Directory</B> box, enter the path to the location where \...\Assignment Manager Server\Web\AMWebDev\ was installed, or click <B>Browse</B> to locate the path and then click <B>Next</B>. By default, this location is c:\AssignmentManagerSource\Assignment Manager Server\Web\AMWeb.</li>
+<li>Choose the level of access permissions for the virtual directory and then click <B>Next</B>.</li>
+<li>Click <B>Finish</B>.</li>
+</OL>
+
+<P>Next, install the Assignment Manager deployment dialog.</P>
+
+<P class="labelproc"><B>To install the deployment dialog</B>
+
+<OL type="1"><li>In the installation directory for the source package, copy the file VsdCustomTextPwd.wid. By default, this location is c:\AssignmentManagerSource\Assignment Manager Server\setup\dialogs\VsdCustomTextPwd.wid.</li>
+<li>Browse to \...\Microsoft Visual Studio&nbsp;.NET 2003\Common7\Tools\Deployment\VsdDialogs\1033 and paste VsdCustomTextPwd.wid in the directory. This path depends on where you chose to install Visual Studio&nbsp;.NET 2003.</li>
+</OL>
+
+<P>If you do not install the deployment dialog, the following error message appears when you attempt to build the Assignment Manager deployment project in Visual Studio:</P>
+
+<P>"ERROR: Unable to build dialog module named 'C:\Program Files\Microsoft Visual Studio .NET 2003\Common7\Tools\Deployment\.\VsdDialogs\1033\VsdCustomTextPwd.wid'"</P>
+
+<H1><A NAME="installinghelp"></A>2.3 Installing Help</H1>
+
+<P>Help for the Assignment Manager Source Package can be downloaded at <a href=" http://www.msdnaa.net/assignmentmanager/">http://www.msdnaa.net/assignmentmanager/</a>. The Source Package documentation includes basic information on the files included in the source package as well as information on editing, deploying, and localizing Assignment Manager.</P>
+
+<H1><A NAME="providingfeedback"></A>3. Providing Feedback</H1>
+
+<P>For Visual Studio&nbsp;.NET Academic, you have an opportunity to provide feedback about the Visual Studio&nbsp;.NET Academic Assignment Manager Source Package documentation. A link to send e-mail to the documentation team is provided at the end of each topic.</P>
+
+<H1><A NAME="license"></A>4. Distributing Modified Versions of Academic Assignment Manager</H1>
+
+<P>You can distribute the source code for Academic Assignment Manager using the Shared Source License agreement for Visual Studio&nbsp;.NET Academic Assignment Manager Source Package. This license agreement can be found in the root folder where you extracted the source package from. By default, this location is c:\assignmentmanager.</P>
+
+<P>If you choose to distribute a custom version of Assignment Manager, Assignment Manager Faculty Client, or Assignment Manager Student Client, your modified version must include a license agreement. The license agreement you provide should exist as an .RTF file and included in the deployment project for the binary files you wish to distribute.</P>
+
+<P class="labelproc"><B>To include a license agreement in your deployment projects</B>
+
+<OL type="1"><li>In <B>Solution Explorer</B>, right-click on the deployment project you want to add the license to, select <B>View</B>, and then select <B>User Interface</B>. 
+<P>For Assignment Manager, the deployment project is AMSetup; for Assignment Manager Faculty Client the deployment project is FacultyClientSetup: and for Assignment Manager Student Client the deployment project is StudentClientSetup.
+</li>
+<li>In the User Interface<B> </B>editor, select <B>License Agreement</B>, found by expanding <B>Install</B> and then expanding <B>Start</B>.</li>
+<li>In the Properties window, select <B>License File</B> and then select <B>Browse</B>.</li>
+<li>In the <B>Select Item in Project</B> dialog box, navigate to the .RTF file that contains your license agreement, and then click <B>OK</B>.</li>
+<li>On the <B>Build</B> menu, choose <B>Build &lt;</B><I>projectname</I><B>&gt;</B>, where projectname is the name of the deployment project you just modified.</li>
+</OL>
+
+<P>The license agreement is now included in your .msi file.</P>
+
+</BODY>
+</HTML>

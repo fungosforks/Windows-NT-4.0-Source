@@ -1,0 +1,122 @@
+--ALTER Users..allow NULL LastUpdatedUserID
+ALTER TABLE Users ALTER COLUMN [LastUpdatedUserID] [int] NULL; 
+GO
+--ALTER Users..allow NULL Email
+ALTER TABLE Users ALTER COLUMN [Email] [nvarchar] (100) NULL;
+GO
+--turn identity insert Users on
+SET IDENTITY_INSERT Users ON
+GO
+--users
+INSERT INTO Users (UserID, LastName, FirstName, MiddleName, Email, UniversityIdentifier, UserName, Password, LastUpdatedDate, LastUpdatedUserID, ChangedPassword) VALUES (1, 'Server', 'Administrator', NULL, 'AssignmentManager', '1', 'amsa', 'BC-EA-93-FB-F1-50-0B-9E-8E-5A-E7-79-2C-38-06-F6-83-9F-DC-C8-78-2F-31-0A-E0-0E-08-24-4F-C6-4F-09-A6-BF-8C-34-B5-C6-28-CB-49-AD-16-3C-02-C1-D3-95-9D-AC-09-36-43-4A-D6-F1-9A-4A-AC-D1-07-B8-2C-FB', GETDATE(), NULL, 0);
+--turn identity insert Users off
+SET IDENTITY_INSERT Users OFF
+GO
+UPDATE Users SET LastUpdatedUserID=1;
+--ALTER Users..reset NULL LastUpdatedUserID
+ALTER TABLE Users ALTER COLUMN [LastUpdatedUserID] [int] NOT NULL; 
+GO
+
+--roles
+INSERT INTO Roles (RoleID, Name, ServerRole) VALUES (1, 'Administrator', 1);
+INSERT INTO Roles (RoleID, Name) VALUES (25, 'Faculty');
+INSERT INTO Roles (RoleID, Name) VALUES (50, 'TA');
+INSERT INTO Roles (RoleID, Name) VALUES (75, 'Grader');
+INSERT INTO Roles (RoleID, Name) VALUES (100, 'Student');
+
+--actions
+INSERT INTO Actions (ActionID, Name) VALUES (1,'navbar_viewadvanced_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (2,'course_view_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (3,'course_add_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (4,'course_edit_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (5,'course_delete_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (6,'assignment_add_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (7,'assignment_view_actionsecurity');
+--INSERT INTO Actions (ActionID, Name) VALUES (8,'assignment_delete_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (9,'assignment_edit_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (10,'user_view_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (11,'user_add_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (12,'user_edit_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (13,'setting_edit_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (14,'setting_view_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (15,'message_view_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (16,'message_add_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (17,'security_view_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (18,'security_add_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (19,'security_edit_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (20,'security_delete_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (21,'userassignment_view_actionsecurity');
+INSERT INTO Actions (ActionID, Name) VALUES (22,'userassignment_edit_actionsecurity');
+--INSERT INTO Actions (ActionID, Name) VALUES (23,'user_delete_actionsecurity');
+
+--roleactions
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,1);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,2);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,3);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,4);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,5);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,6);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,7);
+--INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,8);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,9);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,10);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,11);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,12);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,13);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,14);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,15);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,16);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,17);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,18);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,19);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,20);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,21);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,22);
+--INSERT INTO RoleActions (RoleID, ActionID) VALUES (1,23);
+
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,1);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,2);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,3);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,4);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,5);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,6);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,7);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,9);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,10);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,11);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,12);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,14);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,15);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,16);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,17);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,19);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,21);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (25,22);
+
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,1);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,2);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,4);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,7);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,9);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,10);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,12);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,14);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,15);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,16);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,17);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,21);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (50,22);
+
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (75,1);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (75,2);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (75,7);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (75,10);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (75,14);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (75,21);
+INSERT INTO RoleActions (RoleID, ActionID) VALUES (75,22);
+
+--Add Admin rights for AMSA
+INSERT INTO CourseUsers (CourseID, UserID, RoleID) VALUES (0,1,1);
+--settings
+INSERT INTO Settings (Setting, Value) VALUES ('MaxProcessTime','600000');
+INSERT INTO Settings (Setting, Value) VALUES ('MaxUploadSize','5');

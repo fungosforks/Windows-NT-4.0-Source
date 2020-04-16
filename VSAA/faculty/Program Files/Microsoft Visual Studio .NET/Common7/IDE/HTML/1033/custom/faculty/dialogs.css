@@ -1,0 +1,58 @@
+
+
+body
+{
+	background-color: #EAEAEA;
+	font-family: verdana;
+	font-color: black;
+	margin:8;
+}
+
+.tableStyle
+{
+background-color:transparent;
+FONT-FAMILY: verdana; 
+FONT-SIZE: 0.7em;
+line-height:135%;
+}
+
+.boxStyle1
+{
+	border: 1 solid #818181;
+	background-color: #ffffff;
+	padding-left:10;
+	padding-top: 5;
+	padding-bottom: 5;
+}
+
+.boxStyle2
+{
+	border: 1 solid #818181;
+	background-color: transparent;
+	padding-left:10;
+	padding-top: 5;
+	padding-bottom: 5;
+}
+
+
+.webButton
+{
+	border-left: 2 solid #DEDEDE;
+	border-top: 2 solid #DEDEDE;
+	border-right: 2 solid #818181;
+	border-bottom: 2 solid #818181;
+	background-color: #CCCCCC;
+	color: #00309C;
+	font-family: verdana;
+	font-weight:bold;
+	letter-spacing:0;
+	cursor: default;
+	padding-left:5;
+	padding-right:5;
+}
+
+.softText
+{
+	color: #336699;
+	line-height: 100%;
+}

@@ -1,0 +1,304 @@
+BODY {
+	FONT-FAMILY: verdana; BACKGROUND-COLOR: white;  font-color: black
+}
+#tabMenuTable {
+	Z-INDEX: 9; LEFT: 0px; POSITION: relative; TOP: 20px; BACKGROUND-COLOR: transparent
+}
+.inActiveTab {
+	BORDER-RIGHT: #ffcc99 0px solid; BORDER-TOP: #333366 5px solid; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 0.7em; CURSOR: hand; COLOR: #ffffff; BORDER-BOTTOM: #333366 5px solid; FONT-FAMILY: tahoma; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.activeTab {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #333366 5px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 0.7em; CURSOR: default; COLOR: #333366; BORDER-BOTTOM: #333366 5px solid; FONT-FAMILY: tahoma; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.mOverTab {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #333366 5px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 0.7em; CURSOR: hand; COLOR: #ffffff; BORDER-BOTTOM: #333366 5px solid; FONT-FAMILY: tahoma; BACKGROUND-COLOR: #ff9900; TEXT-DECORATION: none
+}
+.innerTabBar {
+	BORDER-RIGHT: #6699cc 0px solid; BORDER-TOP: #6699cc 0px solid; DISPLAY: none; LEFT: 20px; BORDER-LEFT: #6699cc 0px solid; WIDTH: 300px; BORDER-BOTTOM: #6699cc 0px solid; POSITION: relative; TOP: 25px; BACKGROUND-COLOR: transparent
+}
+.bannerLinks {
+	FONT-WEIGHT: normal; FONT-SIZE: 0.7em; Z-INDEX: 9; LEFT: -40px; CURSOR: hand; COLOR: #336699; LINE-HEIGHT: 1.5em; FONT-FAMILY: verdana; LETTER-SPACING: 0px; POSITION: relative; TEXT-DECORATION: underline
+}
+.activeInnTab {
+	BORDER-RIGHT: #ffcc99 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #ffcc99 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 0.7em; BORDER-LEFT: #000000 0px solid; CURSOR: default; COLOR: #336699; BORDER-BOTTOM: #ffcc99 0px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.activeInnTabA {
+	BACKGROUND-COLOR: #ffffff
+}
+.InnTabRO {
+	BORDER-RIGHT: #aaaaaa 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 0.7em; BORDER-LEFT: #336699 0px solid; CURSOR: hand; COLOR: yellow; BORDER-BOTTOM: #ffcc99 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #6699cc; TEXT-DECORATION: none
+}
+.inActiveInnTabA {
+	BORDER-BOTTOM: #ffcc99 1px solid
+}
+.inActiveInnTab {
+	BORDER-RIGHT: #aaaaaa 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 0.7em; BORDER-LEFT: #336699 0px solid; CURSOR: hand; COLOR: #336699; BORDER-BOTTOM: #ffcc99 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #ebf5f5; TEXT-DECORATION: none
+}
+.courseDiv {
+	DISPLAY: none; LEFT: 0px; LINE-HEIGHT: 200%; FONT-FAMILY: verdana; POSITION: relative; TOP: 0px
+}
+.courseName {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.5em
+}
+.mainBody {
+	left:125px; top:200px; position:absolute; width:600px;
+}
+.bodyBorder
+{
+	border-left: 1 solid #FFCC99; border-right: 1 solid #FFCC99; border-bottom: 1 solid #FFCC99; padding:15; 
+}
+.infoAlternatingTextItemStyle
+{
+	background-color: #f0f1f0;	/*"#ebf5f5"; */
+	text-align:left;
+}
+
+.infoText {
+	FONT-SIZE: 0.7em; LEFT: 0px; COLOR: black; LINE-HEIGHT: 1.9em; FONT-FAMILY: verdana; TOP: 0px; cursor:default;
+}
+.errorText {
+	FONT-SIZE: 0.7em; LEFT: 0px; COLOR: red; LINE-HEIGHT: 1.9em; FONT-FAMILY: verdana; POSITION: relative; TOP: 0px; cursor:default;
+}
+.infoTextDisabled 
+{
+	/* boxStyle2 */
+	border: 1 solid #CCCC99;
+	background-color: #ffffff;
+	FONT-SIZE: 0.7em; COLOR: Gray; LINE-HEIGHT: 1.5em; FONT-FAMILY: verdana; POSITION: relative; TOP: 0px;
+}
+.infoTextDisabledNoBorder
+{
+	background-color: #ffffff;
+	padding-left: 5;
+	FONT-SIZE: 0.7em; LINE-HEIGHT: 1.0em; COLOR: Gray; FONT-FAMILY: verdana;
+}
+.infoTextTitle
+{
+	FONT-WEIGHT: bold; FONT-SIZE: 0.7em; LEFT: 0px; COLOR: black; LINE-HEIGHT: 1.9em; FONT-FAMILY: verdana; POSITION: relative; TOP: 0px
+}
+.infoTextPageTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 0.7em; CURSOR: default; COLOR: #336699; FONT-FAMILY: Tahoma; 
+}
+.infoTextHeaderStyle
+{
+	/* boxStyle1 */
+	background-color: Transparent;
+	/* border: 1 solid #CCCC99; */
+	cursor:default;
+	FONT-SIZE: 0.7em; COLOR: black; LINE-HEIGHT: 1.0em; FONT-FAMILY: verdana; TOP: 0px;
+}
+.infoTableBorderStyle
+{
+	border-bottom: 1 solid #CCCC99; 
+	border-top: 1 solid #CCCC99;	
+	border-left: 1 solid #CCCC99;
+	border-right: 1 solid #CCCC99;
+	background-color: White;
+}
+
+.infoTextTableHeaderStyle
+{
+	height: 25; 
+	background-color: #E0E7CF;
+	color: #000000; 
+	text-decoration: none; 
+	cursor:default;
+	text-align:left;
+	left:20px;
+}
+.infoTextItemStyle
+{
+	text-align:left;
+}
+
+.webButton
+{
+  border: 1 solid #313063;
+  background-color: #635DAD;
+  color: #FFFFFF;
+  font-family: verdana;
+  font-weight:normal;
+  cursor: default;
+  padding-left:5;
+  padding-right:5;
+}
+
+.datalistStyle
+{
+	border: 1 solid #E0E7CF;	
+	/*
+	LEFT: 50px; 
+	POSITION: relative; 
+	TOP: 20px;	
+	*/
+	FONT-SIZE: 1.0em;
+}
+.tableStyle
+{
+	background-color:Transparent;
+	border-left: 1 solid #E0E7CF; 
+	border-right: 1 solid #E0E7CF; 
+	border-top: 1 solid #E0E7CF; 
+	border-bottom: 1 solid #E0E7CF; 
+	FONT-FAMILY: verdana; 
+	FONT-SIZE: .7em;
+}
+.columnHead
+{
+	height: 25;
+	background-color: #E0E7CF;
+	color: #000000; 
+	text-decoration: none; 
+	cursor:default;
+	
+}
+.rowStyleOdd
+{
+	background-color:Transparent	
+	text-align:left;	
+	border-bottom: 1 solid #CCCC99; 
+}
+.rowStyleEven
+{
+	background-color: #f0f1f0;	/*"#ebf5f5"; */
+	text-align:left;	
+	border-bottom: 1 solid #CCCC99; 
+}
+.itemHotStyle
+{
+cursor:hand; text-decoration: underline;color:#666699;	/*FONT-SIZE: 0.9em;*/
+}
+.itemStyle
+{
+cursor:default; text-decoration: none;color:#000000;
+}
+
+.invisible
+{
+	display:none; visibility:hidden;
+}
+.goBack
+{
+	position:relative;left:525px;cursor:hand;FONT-FAMILY: verdana; FONT-SIZE: .8em;
+}
+.goBackLeft
+{
+	position:relative;left:-150px;cursor:hand;FONT-FAMILY: verdana; FONT-SIZE: .8em;
+}
+.numMessagesTextOn
+{
+	color:White;
+}
+.numMessagesTextOff
+{
+	color:#F79200;
+}
+.boxStyle1
+{
+  border: 1 solid #CCCC99;
+  background-color: transparent;
+  padding-left:10;
+  padding-top: 5;
+  padding-bottom: 5;
+}
+.boxStyle2
+{
+  border: 1 solid #CCCC99;
+  background-color: #ffffff;
+  padding-left:10;
+  padding-top: 5;
+  padding-bottom: 5;
+}
+
+/*
+.linkText {
+	text-decoration:underline; cursor:hand; COLOR: #f63817; LINE-HEIGHT: 1.9em; FONT-FAMILY: verdana; POSITION: relative; TOP: 0px;
+}
+.tableNoBorderHeader	
+{
+	background-color: #99CCCC; FONT-FAMILY: verdana; FONT-SIZE: 80%;color:Black; text-decoration: none; font-weight:bold;  cursor:default;
+}
+
+.tableNoBorderItemLabel {FONT-FAMILY: verdana; FONT-SIZE: 75%;color:Black; text-decoration: none;font-weight:bold; cursor:default;
+}
+
+.tableNoBorderItem	{
+	cursor:default; 
+	text-decoration: none;
+	FONT-FAMILY: verdana; FONT-SIZE: 75%;
+	display:inline;
+	font-weight:normal;
+	
+}
+.tableAssignmentsDetailHeader1	{
+	
+	FONT-FAMILY: verdana; FONT-SIZE: 75%;
+	color:Black; 
+	text-decoration: none;
+	font-weight: bold; 
+	cursor:default;
+		
+}
+
+.tableAssignmentsDetailHeader2	{
+	FONT-FAMILY: verdana; FONT-SIZE: 70%;
+	color:Black; 
+	text-decoration: none;
+	font-weight: bold; 
+	font-style:italic;
+	cursor:default;
+			
+}
+.tableAssignmentsDetailItem	{
+	cursor:default; 
+	text-decoration: none;
+	FONT-FAMILY: verdana; FONT-SIZE: 70%;
+	display: inline;
+}
+.tableHeaderText	{
+	position: relative; left:0; top:0;
+	background-color:"#99CCCC";
+	border-color:"#999999";
+	border-width:thin;
+	font-family: verdana;
+	font-size:100%;
+	font-weight:bold;
+	line-height: 130%;
+}
+
+.tableCellText	{
+	position: relative; left:0; top:0;
+	background:white;
+	border-width:thin;
+	border-color:"#999999";
+	font-family: verdana;
+	font-size:80%;
+	font-weight: normal;
+	line-height: 130%;
+}
+.descriptionText	{
+	position: relative; left:0; top:0;
+	font-family: verdana;
+	font-size:90%;
+	font-weight: normal;
+	line-height: 130%;
+}
+*/
+.title
+{
+	z-index:9;
+	position:absolute; left:90; top:15;
+	color:White;
+	width:100%;
+	font-family:Verdana;
+}
+.titleCap
+{
+	font-size: 1.7em;
+	letter-spacing:0;
+}
+.titleBody
+{
+	font-size:1.3em;
+	letter-spacing:0;
+}

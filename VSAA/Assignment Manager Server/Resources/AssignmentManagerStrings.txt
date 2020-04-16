@@ -1,0 +1,713 @@
+
+;default language
+
+;Login.aspx page
+Login_Title1 = Log on to Assignment Manager
+Login_Username1 = User Name:
+Login_Password = Password:
+Login_Login1 = Log On
+Login_InvalidCredentials = Invalid credentials. Please try again.
+Login_ChangePasswordSubTitle = Change your Assignment Manager password by entering the information in the fields below.
+
+;Logoff.aspx page
+LOGOFF_TITLE = Assignment Manager Logoff
+LOGOFF_MESSAGE = You have logged off from Assignment Manager.
+LOGOFF_RETURN_TO_START_PAGE = Return to Start Page
+
+;Default.aspx page
+Default_Title = Assignment Manager
+
+;Security.aspx page
+
+;Upload / Download page
+UploadDownload_AMTitle = Assignment Manager
+UploadDownload_Upload_Starter_Title = Upload Starter Project
+UploadDownload_Download_Student_Title = Download Starter Project
+UploadDownload_Download_Faculty_Title = Download Student Submission
+UploadDownload_StatusBarUploadingText = Uploading - Please Wait...
+
+;RolesList
+
+;Assginments.aspx page
+Assignments_Subtitle = Assignments for
+Assignments_AssignmentHeader = Assignment
+Assignments_DueDateHeader = Due Date
+Assignments_SubmitDateHeader = Date Last Submitted
+Assignments_AutoBuildHeader = Auto Build
+Assignments_AutoGradeHeader = Auto Check
+Assignments_CheatDetectHeader = Cheat Detect
+Assignments_GradeHeader = Grade
+Assignments_GetStarterHeader = Get Starter
+Assignments_SubmitProjectHeader = Submit Project
+Assignments_NoAssignmentError = There are no assignments for you at this time.
+Assignments_CourseIDError = The Course ID is missing or invalid.
+Assignments_AddNewLink1 = Add a new assignment
+Assignments_AddExistingLink1 = Add an existing assignment
+Assignment_UploadedFileNotFound = The file selected to be uploaded was not found in the upload directory.
+Assignment_Pending =  - Pending
+Assignment_Failed =  - Failed
+Assignment_Completed =  - Completed
+
+;CourseInformation.aspx page
+
+;AddCourse.aspx page
+AddCourse_CourseExists = Course %0 already exists.
+
+;AddCourse_CopyCourse = Create a new course copying from this existing course.
+AddCourse_WorkWithCourse = Connect to existing course.
+AddCourse_WhatDoPrompt = To connect to the existing course, use the Connect to Existing Course option on the Add Course page and provide the following URL %0.
+AddCourse_InvalidLink = An invalid link to the course was added to the Course Management page. Delete this link using the Delete Course page before you connect to the existing course.
+AddCourse_DeleteLink = Delete Course
+AddCourse_WrongVSVersion = To connect to this course you must use Visual Studio .NET 2003.
+
+;DeleteCourse.aspx page
+DeleteCourse_FacultyDeleteVerification = Course deleted successfully.
+DeleteCourse_FacultyAlreadyDeleted = The course you are attempting to delete does not exist or has already been deleted. 
+
+;WorkWithCourse.aspx page
+
+;GradeDetail.aspx page
+GradeDetail_Assignment = Assignment
+GradeDetail_DateSubmitted = Date Submitted: 
+GradeDetail_Grade = Grade: 
+GradeDetail_Comments = Comments: 
+GradeDetail_Default = N/A
+GradeDetail_BuildDetails1 = Auto Build Details
+GradeDetail_AutoGradeDetails = Auto Check Details
+GradeDetail_Date = Last Updated: 
+GradeDetail_Result = Result: 
+GradeDetail_Detail = Details: 
+GradeDetail_NoDetailsAvailable = There are no details available at this time.
+AssignmentGrade_AssignmentWebPage = Assignment Web Page: 
+AssignmentGrade_DueDate = DueDate: 
+AssignmentGrade_Description = Description: 
+
+;ChangePassword.aspx page
+ChangePassword_AMTitle = Assignment Manager 2003
+ChangePassword_SubTitle1 = Change my Assignment Manager password.
+ChangePassword_SubTitle2 = Change Assignment Manager password.
+ChangePassword_Title = Change Password
+ChangePassword_Title1 = Password
+ChangePassword_CurrentPwdHeader = Current Password:
+ChangePassword_NewPwdHeader1 = Enter a New Password:
+ChangePassword_ConfirmPwdHeader = Confirm New Password:
+ChangePassword_btnSave = OK
+ChangePassword_btnCancel = Cancel
+ChangePassword_CurrentPassword_RequiredField = Current Password is a required field.
+ChangePassword_NewPassword_RequiredField = New Password is a required field.
+ChangePassword_ConfirmPassword_RequiredField = Confirm Password is a required field.
+ChangePassword_ConfirmationError = Your new password and confirmation do not match.
+ChangePassword_PwdLengthError = Your new password must be between 4-50 characters long.
+ChangePassword_PwdSameAsOld = Your new password cannot be identical to your old password.
+ChangePassword_SuccessfulUpdateMessage = Your password has been updated.
+ChangePassword_CurrentPasswordError = The current password is incorrect.
+ChangePassword_lblUser = User:
+ChangePassword_NewPassword = Assignment Manager New Password
+ChangePassword_NewPassword_Message = Your new password is: 
+ChangePassword_NewPasswordEmailSubject = Your Assignment Manager password has been changed.
+ChangePassword_NewPassword_UsernameMessage = Your username is:
+;ChooseRecipients.aspx page
+
+;ComposeMessage.aspx page
+ComposeMessage_ValidSubject = Subject is required.
+ComposeMessage_ValidCompareDate = You must enter a valid date. (mm/dd/yyyy)
+ComposeMessage_SMTPError = An error has occurred while trying to send your message.  Please verify that SMTP is installed and running.
+
+;SendEmailMessage methods inside Message.cs
+SendEmailMessage_InvalidSectionIds = Invalid SectionIds parameter. 
+SendEmailMessage_InvalidUserIds = Invalid UserIds parameter. 
+SendEmailMessage_InvalidBody = Invalid body parameter. 
+SendEmailMessage_InvalidSubject = Invalid subject parameter.
+
+;Mailbox.aspx Page
+
+;ViewMessage.aspx page
+
+;General - Errors
+General_Errors_NotImplemented_Exception = This function is not implemented.
+General_Error_MissingHttpContext_BaseUrl_Exception = Missing HttpContext. Cannot determine BaseUrl.
+General_Error_Logging_InternalError = INTERNAL ERROR
+General_Error_Logging_ProcedureName = ProcedureName
+General_Error_Logging_Details = Details
+General_Error_Logging_Debug = Debug
+
+;Shared Support
+SharedSupport_Missing_SettingName = Setting Name required.
+SharedSupport_SettingNameField = Setting Name
+SharedSupport_SettingValueField = Setting Value
+SharedSupport_InvalidRootDirectory_Error = Specified root directory did not exist.
+SharedSupport_InvalidFile_Error = The filename was blank in the record for the file you tried to upload.
+SharedSupport_InvalidFileLocation_Error = The file did not exist in the upload directory.  Please make sure that it was copied successfully.
+
+;Navigation Bar
+NavBar_SubTitle1 = Course Information for 
+NavBar_CapA = A
+NavBar_ssignment = ssignment
+NavBar_CapM = M
+NavBar_anager = anager
+
+;Assignments Business Component
+Assignments_INVALID_SHORT_NAME_ERROR = The Short Name cannot be blank.
+Assignments_INVALID_SHORT_NAME_LENGTH_ERROR = The Short Name cannot exceed 100 characters.
+Assignments_INVALID_DESCRIPTION_ERROR = The Description cannot be blank.
+
+;Course Business Component
+
+;CourseOffering Business Class
+
+;AssignmentFile Business Class
+
+;CourseResource Business Class
+
+;Role Business Class
+
+;Message Business Class
+Message_InvalidSubjectLength = Subject must be less than 255 characters.
+Message_InvalidExpirationDate = The expiration date must be later than today.       
+
+;AddDeleteResources.aspx Page
+AddDeleteResources_Title = Course Resources
+AddDeleteResources_Text_String_Name = Name
+AddDeleteResources_Text_String_Value = Value
+AddDeleteResources_Text_String_Title = Assignment Manager
+
+;AddEditAssignment.aspx Page
+AddEditAssignment_Delete = Delete Assignment
+AddEditAssignment_Add = Add Assignment
+AddEditAssignment_Edit = Edit Assignment
+AddEditAssignment_VS = Visual Studio Project
+AddEditAssignment_DateTime_Exception = The Due Date entered was not a valid date.
+AddEditAssignment_DateTime_Invalid = The Due Date must be later than today.
+AddEditAssignment_WriteOverStarterProject = A starter project has already been uploaded for this assignment. Do you want to overwrite the existing project with the project you selected?
+AddEditAssignment_CommandLineArgsLabel = Command Line Arguments:
+AddEditAssignment_CompiledFileNameLabel = Compiled File Name:
+AddEditAssignment_INVALID_ASSIGNMENT_ID_ERROR = Invalid Assignment ID.  Assignment does not exist.
+AddEditAssignment_INSERT_BUTTON_TEXT = Add
+AddEditAssignment_UPDATE_BUTTON_TEXT = Update
+AddEditAssignment_INVALID_COURSEID_ERROR = The Course table does not contain a record for the CourseID specified.
+AddEditAssignment_INVALID_SECTION_ERROR = Invalid Section ID.
+AddEditAssignment_Compare_E_A_output = Compare expected/actual output
+AddEditAssignment_lblGeneralHeader = ASSIGNMENT
+AddEditAssignment_lblGeneralAssignmentName = Name: 
+AddEditAssignment_lblGeneralAssignmentDescription = Description: 
+AddEditAssignment_lblGeneralAssignmentDueDate = Due Date: 
+AddEditAssignment_chkGeneralAssignmentMultiSubmit = Multiple Submits
+AddEditAssignment_lblAutoCheckHeader = AUTO CHECK
+AddEditAssignment_lblGeneralAssignmentStarterProject = Choose Starter Project for Assignment: 
+AddEditAssignment_chkAutoGradeAssignmentAutoGradeOn = Auto Check On
+AddEditAssignment_lblAutoGradeAssignmentInputFile = Input File: 
+AddEditAssignment_lblAutoGradeAssignmentOutputFile = Output File: 
+AddEditAssignment_lblAutoGradeAssignmentGradeType = Check Type: 
+AddEditAssignment_lblAutoBuildHeader = AUTO BUILD
+AddEditAssignment_chkAutoCompileAssignmentAutompileOn = Auto Build On
+AddEditAssignment_lblAutoCompileAssignmentMakeFile = Make File: 
+AddEditAssignment_lblAutoCompileAssignmentCompileType = Build Type: 
+AddEditAssignment_btnUpdate2 = Update
+AddEditAssignment_btnCancel2 = Cancel
+AddEditAssignment_lblGeneralAssignmentHomePageURL = Homepage URL: 
+AddEditAssignment_lblReminderNotice = Send Reminder
+AddEditAssignment_lblReminderDays = days before due
+AddEditAssignment_lblPastDueNotice = Send Past Due Notice
+AddEditAssignment_lblPastDueDays = Days past due 
+AddEditAssignment_lblUpdatedProject = Send New or Updated Starter Project Notice
+AddEditAssignment_SendReminderDayError = You must enter a number in the Day field to send a reminder notiication.
+AddEditAssignment_SendPastDueCheckboxError = You must select Internal or E-mail to send a Past Due notification.
+AddEditAssignment_SendPastDueDayError = You must enter a number in the Day field to send a past due notification.
+AddEditAssignment_AutoCheckNoOutputError = You must specify an output file to for auto check to work correctly.
+AddEditAssignment_NotificationHeader = NOTIFICATIONS
+AddEditAssignment_SubTitle = Administer assignment information for 
+AddEditAssignment_SubTitle_ReadOnly = (read-only)
+AddEditAssignment_btnAddExtraFile = Add File
+AddEditAssignment_DefaultDaysBeforeDue = 5
+AddEditAssignment_DefaultDaysAfterDue = 1
+AddEditAssignment_MissingAssignmentName = The assignment name is missing or invalid.
+
+
+;AddEditCourse.aspx Page
+AddEditCourse_hlAddResources = Add or Delete Course Resources
+AddEditCourse_lblDescription = Description:
+AddEditCourse_lblHomePageURL1 = Course Home Page:
+AddEditCourse_lblShortName = Course Name: 
+AddEditCourse_lblStudentURL = Student URL for Course:
+AddEditCourse_lblAddResource1 = Add Resource
+AddEditCourse_btnUpdate = Insert
+AddEditCourse_UpdateText = Update
+AddEditCourse_UpdateSuccessful = This course has been updated successfully.
+AddEditCourse_MissingCourseID = Invalid or missing CourseID passed on the query string.
+
+
+;AddEditUser.aspx Page
+AddEditUser_EnterCreateUserInfo = Enter the information to create a new user.
+AddEditUser_EnterFindUserInfo = You can enter data into one of the first three (3) fields and then click FIND to populate all the other fields from the student database with a record that best matches your criteria.
+AddEditUser_AddLookUpUsers = Add/Look Up Users
+AddEditUser_Find_Text = Find
+AddEditUser_NO_COURSEID_ERROR = There was no CourseID passed on the query string.
+AddEditUser_INVALID_COURSEID_ERROR = No record was found for the CourseID specified.
+AddEditUser_NO_USER_FOR_USERID_ERROR = No user was found for the user ID specified. Cannot update user.
+AddEditUser_Update = Update
+AddEditUser_Insert = Add
+AddEditUser_NoUserRecord = There was no record with a User Name of 
+AddEditUser_UserUpdated = User has been updated.
+AddEditUser_UserInserted = User has been inserted.
+AddEditUser_UserInsertedEmailSent = A random password will be generated and sent in e-mail to the new user.
+AddEditUser_UserInsertedPasswordIsName = The password for the new user will be the user name.
+AddEditUser_btnCancel = Cancel
+AddEditUser_lblEmailAddress = E-mail Address: 
+AddEditUser_lblFirstName = First Name: 
+AddEditUser_lblLastName = Last Name: 
+AddEditUser_lblMiddleName = Middle Name :
+AddEditUser_lblUniversityIdentifier = ID: 
+AddEditUser_lblUserName = User Name: 
+AddEditUser_lblRole = Role: 
+AddEditUser_ChangePassword = Change Password
+AddEditUser_ImportUsers = Import Users
+AddEditUser_UserDetails = User Details
+AddEditUser_btnDeleteUser = Delete User
+AddEditUser_ErrorRolePermissionDenied = You do not have sufficient priveledges to set the user's role.
+
+;Faculty / Assignments.aspx Page
+FacultyAssignments_INVALID_SECTION_ID_ERROR = There were no Assignments for the given course.
+FacultyAssignments_NO_SECTIONID_ERROR = Cannot load assignments. Specify a valid courseID. 
+FacultyAssignments_INVALID_COURSEID_ERROR = There was no Course record corresponding to the passed CourseID.
+FacultyAssignments_NO_COURSEID_ERROR = There was no CourseID passed on the query string.
+FacultyAssignments_Assignments_Text_String = Assignments
+FacultyAssignments_DueDate_Text_String = Due Date
+FacultyAssignments_NumberSubmitting_Text_String = Number Submitting
+FacultyAssignments_UploadStarter_Text_String = Upload Starter
+
+;Faculty / DeleteUser.aspx Page
+
+;Faculty / GradeSubmission.aspx Page
+FacultyGradeSubmission_Comma = , 
+FacultyGradeSubmission_NoUserIDFound = No UserID found.
+FacultyGradeSubmission_InvalidUserAssignmentID = Invalid UserAssignmentID.  There is no record with a UserAssignmentID of 
+FacultyGradeSubmission_lblAssignmentLabel  = Assignment: 
+FacultyGradeSubmission_lblDateSubmittedLabel = Date Submitted: 
+FacultyGradeSubmission_lblGradeLabel = Grade: 
+FacultyGradeSubmission_lblCommentsLabel = Comments: 
+FacultyGradeSubmission_lblBuildDetailsLabel1 = Auto Build Details
+FacultyGradeSubmission_lblCompileResultLabel = Result: 
+FacultyGradeSubmission_lblBuildDateLabel = Build Date:
+FacultyGradeSubmission_lblCompileDetailLabel = Detail: 
+FacultyGradeSubmission_lblAutoGradeDetailsLabel = Auto Check Details
+FacultyGradeSubmission_lblAutoGradeResultLabel = Result: 
+FacultyGradeSubmission_lblAutoGradeDateLabel = Auto Check Date: 
+FacultyGradeSubmission_lblAutoGradeDetailLabel = Detail: 
+FacultyGradeSubmission_lblStudentLabel = Student Name: 
+FacultyGradeSubmission_InvalidAssignmentID = AssignmentID %0 does not exist.
+FacultyGradeSubmission_btnSaveGrade = Save Grade
+FacultyGradeSubmission_btnCancel = Cancel
+
+;Faculty / Submissions.aspx Page
+Submissions_AMTitle = Assignment Manager
+FacultySubmissions_INVALID_COURSEID_ERROR = There was no record corresponding to the passed CourseID.
+FacultySubmissions_INVALID_ASSIGNMENT_ID_ERROR = No submissions existed for the given assignment.
+Submissions_NoSelectionMade = You must select an assignment.
+FacultySubmissions_btnAutoCompile = Re-run Auto Build
+FacultySubmissions_btnAutoBuild = Re-run Auto Build
+FacultySubmissions_btnAutoGrade = Re-run Auto Check
+FacultySubmissions_Student_Text_String = Student
+FacultySubmissions_Date_Last_Submitted_Text_String = Date Last Submitted
+FacultySubmissions_Auto_Compile_Text_String = Auto-Build
+FacultySubmissions_Auto_Grade_Text_String = Auto-Check
+FacultySubmissions_Grade_Text_String = Grade
+FacultySubmissions_Get_Submission_Text_String = Get Submission
+FacultySubmissions_SubTitle = The information below pertains to assignment 
+FacultySubmissions_lblCompleted =  - Completed
+FacultySubmissions_lblFailed =  - Failed
+FacultySubmissions_lblPending =  - Pending
+FacultySubmissions_BuildSubmitSuccessful = Selected submissions queued for building. 
+FacultySubmissions_CheckSubmitSuccessful = Selected submissions queued for checking.
+FacultySubmissions_lblSubmissions = Assignment Submissions
+FacultySubmissions_n/a = n/a
+
+;Faculty / Users.aspx Page
+Users_Text_String_Name = Name
+Users_Text_String_Email = E-mail
+Users_Text_String_UniversityID = University ID
+Users_Text_String_UserName = User Name
+Users_Text_String_LastUpdated = Last Updated
+Users_Text_String_Title = Assignment Manager
+FacultyUsers_NO_COURSE_ERROR = There were no users for the corresponding CourseID.
+FacultyUsers_NO_COURSEID_ERROR = There was no CourseID passed on the query string.
+FacultyUsers_INVALID_COURSEID_ERROR = There was no course corresponding to the passed CourseID.
+FacultyUsers_AddUser = Add User to Course
+
+;Faculty / AddEditSection.aspx Page
+
+;Faculty / Sections.aspx Page
+
+;Admin / ImportForm.aspx Page
+ImportForm_SubTitle = Use this page to import users.
+AdminImport_Example = Example:
+AdminImport_None = <none>
+AdminImport_Tab = {tab}
+AdminImport_ImportFormPreview_SubTitle = Identify the columns of your .txt file by associating each record with its correct value from the drop-down box.
+AdminImport_ImportedFileLocation = Record File: 
+AdminImport_FirstName = First Name:
+AdminImport_MiddleName = Middle Name:
+AdminImport_LastName = Last Name:
+AdminImport_Email = E-Mail:
+AdminImport_UniversityID = ID:
+AdminImport_UserName = User Name:
+AdminImport_Delimited_Char = Delimiting Character:
+AdminImport_SelectFile = File to Import: 
+AdminImport_ImportRecords = OK
+AdminImport_Preview = OK
+AdminImport_Cancel = Cancel
+AdminImport_Title = Import Users
+AdminImport_ColumnOnce = Please select each column once from the drop-down.
+AdminImport_ChooseUploadFile = Please choose a file to upload.
+AdminImport_ChooseDelimitingChar = Please input a delimiting character.
+AdminImport_MissingLastName = Please select an item for the Last Name field.
+AdminImport_MissingFirstName = Please select an item for the First Name field.
+AdminImport_MissingEmail = Please select an item for the E-mail field.
+AdminImport_MissingID = Please select an item for the ID field.
+AdminImport_MissingUserName = Please select an item for the User Name field.
+AdminImport_GenericError = Import failed. Verify that the correct delimeter is selected and that items in the file are listed in a consistent order.
+
+;Admin / Results.aspx Page
+AdminResults_UsersInsertedEmailSent = A random password will be generated and sent in e-mail to each new user.
+AdminResults_UsersInsertedPasswordIsName = The password for each new user will be the user name.
+AdminResults_Cancel = Cancel Import
+AdminResults_Save = Commit Successful Users
+AdminResults_Total_RecordsToBe = Total Users to be imported:
+AdminResults_Total_RecordsImported = Total Users imported correctly:
+AdminResults_Total_RecordsFailedImported = Total Users failed during import:
+
+;Faculty / WorkWithCourse.aspx Page
+
+;Faculty / Courses.aspx Page
+
+;Faculty / DeleteSection.aspx Page
+
+;Faculty / DeleteUser.aspx Page
+
+;Faculty / DownloadSubmission.aspx Page
+
+;Faculty / GradeSubmission.aspx Page
+
+;Faculty / Sections.aspx Page
+
+;Faculty / Submissions.aspx Page
+
+;Faculty / UploadStarter.aspx Page
+
+;Faculty / Users.aspx Page
+
+;Faculty/SectionsList.aspx page
+
+;Settings
+Settings_SubTitle1 = View and change Assignment Manager server settings.
+Settings_Title1 = Server Administration
+Settings_AMTitle = Assignment Manager 2003
+Setting_btnUpdate = Update
+Setting_btnCancel = Cancel
+Setting_lblAutoGradeOnOff = Auto Build and Auto Check Service and Email Notifications:
+Setting_rbtnAutoGradeOff = Off
+Setting_rbtnAutoGradeOn = On
+Setting_rbtnSMTPenabled = Enabled
+Setting_rbtnSMTPdisabled = Disabled
+Setting_rbtnSSLenabled = Enabled
+Setting_rbtnSSLdisabled = Disabled
+Setting_lblUsingSMTP = Email Notifications:
+Setting_lblUsingSSL = Using SSL:
+Setting_MaxProcessingTime1 = Maximum Auto Build / Auto Check processing time (ms):
+Setting_MaxProjectSize = Maximum Project Upload Size (MB):
+Setting_MaxProcessingTime_Error = The maximum processing time must be a number greater than zero.
+Setting_MaxProjectSize_Error = The maximum project size must be a number greater than zero.
+Setting_MaxProcessingTime_Limit_Error = The maximum processing time entered exceeds the %0 limit.
+Setting_MaxProjectSize_Limit_Error = The maximum project size entered exceeds the %0 limit.
+Setting_UnableToUpdateService_Error = Unable to start / stop the Assignment Manager Actions Service.
+
+;AssignmentsList
+AssignmentsList_AddExisting1 = Add an Existing Assignment
+
+;Course Business Component
+Course_DirectoryDoesNotExist = Courses directory does not exist on this Web site.
+
+;Actions database table
+User_EmailContainsSpace = The email address may not contain a space.
+
+;AddEditRoles
+
+;ManageRights.aspx
+
+;UserSections
+
+;UserRoles.aspx
+UserRole_Administrator = Administrator
+UserRole_Faculty = Faculty
+UserRole_TA = TA
+UserRole_Grader = Grader
+UserRole_Student = Student
+
+;StudentAssignment Class
+StudentAssignment_BlankFileName_Error = The filename was either null or an empty string.
+StudentAssignment_NoRecordForCourseGuid = No record was returned for the CourseGuid loaded.
+StudentAssignment_NoCourseOfferingAssignment_Error = No CourseOfferingAssignment record was returned for the CourseGuid and AssignmentID.
+StudentAssignment_Must_Choose_Action = No actions were chosen. 
+StudentAssignment_NoExpectedOutputFile_Error = The expected output file was not found.
+StudentAssignment_DirectoryNotFound = The source directory was not found at 
+StudentAssignment_NoAutoGradeFlagSet = Check was attempted for an assignment that did not have the auto-check flag set to true.
+StudentAssignment_NoMultipleSubmits = Multiple submissions for this assignments are not allowed.
+StudentAssignment_Killed = ---BUILD STOPPED---
+StudentAssignment_CheckStart = ---CHECK STARTED---
+StudentAssignment_CheckEnd = ---CHECK ENDED---
+StudentAssignment_CheckKilled = ---CHECK STOPPED---
+StudentAssignemtn_CheckExceededProcessTime = Checking exceeded the maximum allowed processing time. The process was halted.
+StudentAssignment_ProjectTooLarge = The sum of all of the uploaded project files exceeded the maximum project size for the server. Your files have been removed and the submission was cancelled. The maximum size is:
+StudentAssignment_UserAssignmentIndividualFilesDeleteFailed = The record with the following ID was not deleted successfully.  ID: 
+StudentAssignment_DeleteFailed = Deletion of the user assignment failed.
+StudentAssignment_InvalidUserAssignmentId = The UserAssignmentID was not found.
+
+;Notification Strings 
+Notification_ReminderSubject = Upcoming %0 due date
+Notification_ReminderBody = Just a reminder:  %0 is due on %1.  Please contact your TA or Professor if you have any questions about this assignment.
+Notification_PastDueSubject = %0 was due %1
+Notification_PastDueBody = Assignment %0 was due %1. You have not submitted a project. Contact your TA or instructor.
+Notification_UpdatedProjectSubject = Updated starter - %0 
+Notification_UpdatedProjectBody = There is an updated starter project for %0.  Please go to the Assignments section of Assignment Manager to download.
+Notification_SendNotification_Begin = SendNotifications Begin
+Notification_SendNotification_End = SendNotifications End
+Notification_SendPastDueNotification_Begin = SendPastDueNotification Begin
+Notification_SendPastDueNotification_End = SendPastDueNotification End
+Notification_SendReminderNotification_Begin = SendReminderNotification Begin
+Notification_SendReminderNotification_End = SendReminderNotification End
+Notification_Controller_Begin = Notification Controller Begin
+Notification_Controller_End = Notification Controller End
+
+;User Object
+User_UploadFileNotFound = Imported file was not found.
+User_ResultsInsertFailed = The insert of the results record for the user import failed.
+User_SaveFailed = Saving the user information resulted in an error.  Please check the database for further error messages.
+User_EmailSubject = Assignment Manager Logon Information
+User_EmailBody = Your new User Name is: %0 \r\n Your new Password is: %1
+User_PasswordEmpty = Password parameter cannot be empty.
+User_PasswordInvalidChar = Password contained an invalid character.
+User_LastUpdatedUserIDEmpty = LastUpdatedUserID parameter cannot be empty.
+User_EmailEmpty = Email parameter cannot be empty.
+User_EmailMoreThan100Char = Email addresses cannot exceed 100 characters.
+User_EmailMustBeUnique = Email addresses must be unique.
+User_UniversityIdentifierTooBig = UniversityIdentifier cannot exceed 50 characters.
+User_UniversityIdentifierEmpty = UniversityIdentifier may not be empty.
+User_UniversityIdentifierMustBeUnique = UniversityIdentifier must be unique.
+User_UserNameEmpty = UserName parameter cannot be empty.
+User_UserNameNotNull = UserName parameter cannot be null.
+User_UserNameFailedBR = Username must be between 4 and 50 characters.
+User_UserNameInvalidChar = Username contained an invalid character.
+User_UserNameMustBeUnique = Username must be unique.
+User_StatusEmpty = Status parameter cannot be empty.
+User_CourseIDEmpty = CourseID parameter cannot be empty.
+User_NoResultRecord = No result record returned.
+User_NoUserRecord = No user record returned.
+User_UserIDEmpty = UserID parameter cannot be empty.
+
+;User Import Results page
+
+;AdminResults Page
+AdminResults_UpdateFailed = Update Failed.
+AdminResults_CancelFailed = Cancel Failed.
+
+;UploadDownload.aspx Page
+UploadDownload_ProjectAlreadyOpenInSolution = The project is already open in the current solution.  Click the refresh button to pick up any changes.
+UploadDownload_PromptToSave = Would you like to save the current solution?
+UploadDownload_CloseCurrentSol = Would you like to close the open solution?
+UploadDownload_comma = ,
+UploadDownload_UploadSubTitle = Upload Starter Project
+UploadDownload_StudentName = Student Name:
+UploadDownload_UploadDescription = Upload a Visual Studio .NET project to be associated with this assignment. The project you want to use must be open in Visual Studio .NET.
+UploadDownload_AssignmentName = Assignment Name: 
+UploadDownload_btnCancel_Text = Cancel
+UploadDownload_err_No_Action = No files were uploaded.  The action query string parameter was null or empty.
+UploadDownload_err_No_Files_Downloaded = No files were downloaded.
+UploadDownload_err_No_Files_Uploaded = No files were uploaded.
+UploadDownload_err_Server_Location_Not_Found = The server upload location may not be empty or null.
+UploadDownload_err_Local_Download_Location_Not_Exist = Download location did not exist on local file system.
+UploadDownload_err_XMLFileList_Load_Failed = XML listing of files did not load correctly.
+UploadDownload_err_File_Does_Not_Exist = Selected file does not exist in location specified.
+UploadDownload_err_Addin_Not_Loaded = Faculty Course Tools or Student Course Tools add-in was not found.
+UploadDownload_err_ProjType_Not_Supported = Project type cannot be used to submit a project.
+UploadDownload_err_Attempt_To_Copy = The attempt to copy 
+UploadDownload_err_Attempt_To_Copy_Failed =  failed.
+UploadDownload_err_Upload_Location_Not_Available = Root upload location not available.
+UploadDownload_err_Download_Location_Not_Available = Root client download folder not available.
+UploadDownload_prob_Opening_Web_Project = The project has been downloaded successfully. However, the project you have downloaded and are trying to open is a web project. You must create a web for this project and then open the project using the URL for that web.
+UploadDownload_err_Select_Proj_To_Upload = Please select a project to upload.
+UploadDownload_err_Terminate_And_Delete = The function will now terminate and delete files already uploaded.
+UploadDownload_err_The_Copy_of = The copy of 
+UploadDownload_err_Failed =  failed.
+UploadDownload_err_Exceeded_Max_Size = You have exceeded the maximum upload size for this project of 
+UploadDownload_err_MB_No_More_Files_Uploaded = MB.  No more files may be uploaded.
+UploadDownload_err_Select_Location = Please select a location to place your files.
+UploadDownload_err_Opening_Project = Cannot open the downloaded project because the project file has been deleted or was not downloaded correctly.
+UploadDownload_err_Upload_Failed = The upload failed with the following error: 
+UploadDownload_err_code_hiding_failed = Starter project could not be uploaded to the Assignment Manager server. Either the code extraction process failed or the project type is not supported.
+UploadDownload_err_No_Starter_Files = There were no starter project files to download for this starter project.
+UploadDownload_err_No_Submitted_Files = There were no files available for download with this submission.
+UploadDownload_msg_File_Copy_Complete = File copy complete.
+UploadDownload_msg_Files_Were_Uploaded =  files were uploaded.
+UploadDownload_dir_Code_Stipping_TempDir = Clean
+UploadDownload_btn_Add_Text = Add Files
+UploadDownload_btn_UploadProject_Text = Upload Project
+UploadDownload_Extra_Files_Text = Extra Files:
+UploadDownload_Location_For_Download_Files_Text = Location to place downloaded files: 
+UploadDownload_Download_Text = Download
+UploadDownload_Download_Colon_Text = Download:
+UploadDownload_RemoveCode_Text = Removed code marked as student code
+UploadDownload_SelectProject = Select Project to Upload:
+UploadDownload_StudentUploadTitle = Upload Submission
+UploadDownload_StudentDownloadTitle = Download Starter Project
+UploadDownload_StudentTitleError = Student is only allowed to upload an assignment submission or download a starter project.
+UploadDownload_AssignmentError = There was no assignment corresponding to the identifier provided. 
+UploadDownload_AssignmentIDCourseIDError = Both an AssignmentID and CourseID must exist on the querystring to retrieve a starter project.
+UploadDownload_BrowseButtonText = Browse...
+UploadDownload_DownloadPrompt = Download Location:
+UploadDownload_NoSolutionOrProject = To upload a project, open the project in the IDE, refresh this Web page, and then select the project from the drop-down list.
+UploadDownload_AlreadyStarterUploaded = There has already been a starter project uploaded for this assignment.  Are you sure you want to upload this starter project and replace the older one?
+UploadDownload_UnableToCopyToServer = An error occurred while attempting to upload the project files to the server.
+
+;Global Strings
+Global_MissingParameter = Invalid or missing parameter. Use the Assignment Manager Faculty or Assignment Manager Student to access this page.
+Global_NotAuthorized = You are not authorized for this operation.
+Global_Unauthorized = You are not authorized for this operation.
+Global_NoSMTP = SMTP is not available.  Your message cannot be sent by email.
+Global_RequiredFieldIndicator =  - Required fields
+
+;System-specific Strings
+
+;Server Actions
+ServerAction_FailedCreateBuildProcess = Unable to start auto build process.
+ServerAction_FailedCreateTestProcess = Unable to start auto check process.
+ServerAction_PeekMessage = Message peeked off queue.
+ServerAction_RemoveMessage = Message removed from queue.
+ServerAction_ActionNotImplemented = Server Action not implemented.
+ServerAction_MissingUserAssignmentElement = Message queue message actions requires userAssignmentID.
+ServerAction_DifferentUserAssignmentIDs = Message queue message actions must use the same userAssignmentID.
+ServerAction_GeneralProcessError = Error Processing Message. Label: 
+ServerAction_MissingLabel = Label missing from message queue message.
+ServerAction_MissingBody = Body missing from message queue message.
+ServerAction_BuildDisabled = Build could not complete because build action is disabled at the server level. Select auto build on the Settings page to enable. 
+ServerAction_CheckDisabled = Check could not complete because check action is disabled at the server level. Select auto check on the Settings page to enable. 
+
+;GoBack User Control
+GoBack_Help = Help
+GoBack_Back = Back
+
+;Faculty Usercontrol
+UserControl_Faculty_LogOff = Log Off
+UserControl_Faculty_BackToStartPage = Back to Start Page
+UserControl_Faculty_CourseManagement = Course Management
+UserControl_Faculty_Server_Administration = Server Administration
+UserControl_Faculty_CourseInfo = Course Info
+UserControl_Faculty_CourseAssignments = Course Assignments
+UserControl_Faculty_CourseUsers = Course Users
+UserControl_Faculty_Settings = Settings
+UserControl_Faculty_Security = Security
+UserControl_Faculty_MyAccount = My Account
+UserControl_Faculty_Read = Read
+UserControl_Faculty_Compose = Compose
+UserControl_Faculty_DotDotDot = ...
+
+;Student User control
+UserControl_Student_BackToStartPage = Back to Start Page
+UserControl_Student_LogOff = Log Off
+UserControl_Student_Course = Course
+UserControl_Student_Password = Password
+UserControl_Student_CourseInfo = Course Info
+UserControl_Student_CourseAssignments = Course Assignments
+UserControl_Student_Read = Read
+UserControl_Student_Password2 = Password
+
+;AddResource page
+AddResource_AddResourcesText = Add Resources
+AddResource_Title = Add Resources
+AddResource_DisplayName = Display Name:
+AddResource_DisplayNameExample = Example: "Don Funk"
+AddResource_LinkInfo = Link Information:
+AddResource_LinkInfoExample = Example: "mailto:someone@microsoft.com"
+AddResource_MailTo = mailto:
+AddResource_Http = http://
+AddResource_News = news://
+AddResource_ftp = ftp://
+AddResource_Gopher = gopher://
+AddResource_Telnet = telnet://
+AddResource_Other = OTHER
+AddResource_OK = OK
+AddResource_Cancel = Cancel
+AddResource_NotEnoughFields = Please enter both a display name and link information for a resource.
+
+;MyAccoutChangePassword.aspx page
+MyAccountChangePassword_SubTitle = Change my Assignment Manager password.
+MyAccountChangePassword_Successful = Password changed successfully.
+MyAccountChangePassword_Title = Server Administration
+
+;MyAccountEdit.aspx page
+MyAccountEdit_SubTitle = Manage my Assignment Manager account.
+
+;MyAccountUserRoles.aspx page
+
+;Results.aspx page
+Results_Title = Import Results
+
+;Security.aspx page
+
+;UnAuthorized.aspx page
+
+;ConfirmRoleDelete
+ConfirmRoleDelete_Yes = Yes
+ConfirmRoleDelete_No = No
+ConfirmRoleDelete_Title = Confirm Delete
+
+;ConfirmResourceDelete
+ConfirmResourceDelete_lblConfirmDelete = Delete the selected resource?
+
+;ConfirmAssignmentDelete
+ConfirmAssignmentDelete_lblDescription = "Deleting an assignment removes the assignment permanently from Assignment Manager.  Once deleted, the assignment cannot be restored."
+ConfirmAssignmentDelete_lblConfirmDelete = Are you sure you want to delete this assignment?
+
+;ConfirmUserDelete
+ConfirmUserDelete_lblConfirmDelete = Are you sure you want to delete this user?
+
+;AM Title
+AM_Title = Assignment Manager 2003
+
+;User.cs 
+User_ImportResultsDoNotBelongToYou = You do not have the permissions to view the selected results.
+
+;Error Page
+ErrorPage_ErrorEncountered = The page you were trying to access encountered an error. 
+ErrorPage_BackToStartPage = Back to Start Page
+
+;ProjectInfo class
+ProjectInfo_DirNotFound = The directory was not found at: 
+ProjectInfo_ProjFileInvalid = The project file loaded was invalid.
+
+Calendar_Time_AM = AM
+Calendar_Time_PM = PM
+
+;Calendar Drop Downs
+Calendar_12:00 = 12:00
+Calendar_1:00 = 1:00
+Calendar_2:00 = 2:00
+Calendar_3:00 = 3:00
+Calendar_4:00 = 4:00
+Calendar_5:00 = 5:00
+Calendar_6:00 = 6:00
+Calendar_7:00 = 7:00
+Calendar_8:00 = 8:00
+Calendar_9:00 = 9:00
+Calendar_10:00 = 10:00
+Calendar_11:00 = 11:00
+Calendar_12:30 = 12:30
+Calendar_1:30 = 1:30
+Calendar_2:30 = 2:30
+Calendar_3:30 = 3:30
+Calendar_4:30 = 4:30
+Calendar_5:30 = 5:30
+Calendar_6:30 = 6:30
+Calendar_7:30 = 7:30
+Calendar_8:30 = 8:30
+Calendar_9:30 = 9:30
+Calendar_10:30 = 10:30
+Calendar_11:30 = 11:30

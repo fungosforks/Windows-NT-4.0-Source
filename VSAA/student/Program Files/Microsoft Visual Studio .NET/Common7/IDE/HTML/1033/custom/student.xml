@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TabDefinition>
+	<Tab ID="vs_student_resources" Name="Student Resources" Filterable="false">
+		<Application Title="Student Resources" ID="id65AD4DA04E6F47EE8065896596D84DB9">
+
+				<Pane ID="NewsPane" Title="Student Resources">
+					<LinkGroupSet ID="NewsList" Layout="list" Priority="500">
+						<LinkGroup ID="StudentNews" Title="Student Resources" Priority="900" />
+					</LinkGroupSet>
+				</Pane>
+
+			<Data>
+				<Context>
+					<Links>
+						<LItemEx>
+							<LItem ID="LItem40" LinkGroup="StudentNews" Priority="600" URL="">This feature requires that you have connected to the internet previously or are currently online</LItem>
+						</LItemEx>
+					</Links>
+				</Context>
+			</Data>
+		</Application>
+		<Feeds>
+			<Feed Expires="6681827931">
+				<Source LCID="1033" URL="http://msdn.microsoft.com/vsdata/vsdata.asp">
+					<Arg Name="tab">vs_student_resources</Arg>
+				</Source>
+			</Feed>
+		</Feeds>
+	</Tab>
+</TabDefinition>
